@@ -1,0 +1,1 @@
+.gitignoreファイルはProgram.csがある場所に保存すること。
