@@ -1,18 +1,44 @@
 ﻿using System;
-
+/// <summary>
+///  C#において、Javaと異なる基本的な点のまとめおよび例
+///  HTMLで記述可能
+/// </summary>
 namespace Example
 {
     class Program
     {
+      
         static void Main(string[] args)
         {
-            
-            // C#において、Javaと異なる基本的な点のまとめメソッド
+
+            // 変数名について
+            // Unicode使用可能（ただし、「_」以外の半角記号を除く）・・・ということは、漢字が使える
+            // 漢字だけに限らず、世界各国の文字が使える
+            // 先頭小文字のキャメルケースが一般的に使われている
+
+            // クラスだけでなく、メソッド名も大文字のキャメルケース
+
+
+            // 真偽型 booleanはbool
+            bool isDiff = true;
 
 
             // stringのsは小文字が推奨
             string name;
             name = "きたむら";
+
+            //[] 演算子は、文字列の各文字への読み取り専用アクセスに使用できます。 
+            //有効なインデックス値は 0 から始まり、文字列の長さ未満である必要があります。
+
+            string str1 = "test";
+            char x = str1[2];  // x = 's';
+
+            for (int i = 0; i < str1.Length; i++)
+            {
+                Console.Write(str1[i] + " ");
+            }
+            // Output: t e s t
+
 
             // 定数はconst
             const int num = 3;
