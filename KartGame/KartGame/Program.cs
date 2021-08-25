@@ -6,7 +6,18 @@ namespace KartGame
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Kart[] karts = new Kart[2];
+
+            karts[0] = new SkyKart();
+            karts[1] = new TurboKart();
+
+            // クラクションを鳴らす
+
+            for(int i = 0; i < karts.Length; i++)
+            {
+                karts[i].Horn();
+            }
+
         }
     }
 }

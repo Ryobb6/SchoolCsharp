@@ -21,7 +21,7 @@ namespace Example
 
             // 真偽型 booleanはbool
             bool isDiff = true;
-
+            Console.WriteLine(isDiff); // true
 
             // stringのsは小文字が推奨
             string name;
@@ -167,9 +167,18 @@ namespace Example
             //グローバル名前空間(global namespace)という
 
 
+            // LINQとラムダ式
+            // ラムダ式とは
+            // 戻り値を返す短いメソッドを、より簡潔に書く方法
+            // n => n + 5; は以下と同じ
+            int Add(int n)
+            {
+                return n + 5;
+            }
 
-
-
+            int n = 5;
+            int b = Add(n);
+            Console.WriteLine(b);
 
         }
 
