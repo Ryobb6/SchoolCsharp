@@ -28,7 +28,7 @@ namespace SampleRPG
             }
             get
             {
-                return this.hp;
+                return this.hp; 
             }
 
         }
