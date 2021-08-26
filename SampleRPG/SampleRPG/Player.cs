@@ -14,6 +14,7 @@ namespace SampleRPG
         {
             this.name = name;
             this.hp = hp;
+
         }
 
         public int Hp
