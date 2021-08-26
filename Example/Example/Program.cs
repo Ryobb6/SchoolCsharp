@@ -125,7 +125,7 @@ namespace Example
 
             // public string Name{set; get;} でプロパティとすることができる
             // この書き方の場合、フィールドの定義も不要となる
-            // その場合、プロパティ名は大文字　
+            // プロパティ名は大文字　
             // public string Name{get;} で読み取り専用などもできる
 
             // コンストラクタについて
