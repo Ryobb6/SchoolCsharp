@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 /// <summary>
 ///  C#において、Javaと異なる基本的な点のまとめおよび例
 ///  HTMLで記述可能
@@ -179,6 +180,17 @@ namespace Example
             int n = 5;
             int b = Add(n);
             Console.WriteLine(b);
+
+            int[] hp = { 10, 20, 30 };
+
+            var newHp = hp.Select(n => n - 10);
+
+            foreach(int num1 in newHp)
+            {
+                Console.WriteLine(num1);
+            }
+            
+            Console.WriteLine(Class1.ReturnNum());
 
         }
 
