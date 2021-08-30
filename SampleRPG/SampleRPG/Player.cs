@@ -9,6 +9,7 @@ namespace SampleRPG
 
         private string name;
         private int hp;
+        private int mp;
 
         public Player(string name, int hp)
         {
@@ -17,6 +18,7 @@ namespace SampleRPG
 
         }
 
+        // プロパティ
         public int Hp
         {
             set
@@ -38,6 +40,26 @@ namespace SampleRPG
         {
             Console.WriteLine(this.name + "は攻撃した");
         }
+
+        static void Recover(Player player)
+        {
+            player.hp = 100;
+        }
+
+        // HP回復(ref演算子利用)
+        
+        static void RecoverHp(ref int hp)
+        {
+            hp = 100;
+        }
+
+        // MP回復(out演算子利用)
+        static void RecoverMp(out int mp)
+        {
+            mp = 100;
+        }
+
+
         public void Defence()
         {
             Console.WriteLine(this.name + "は防御した");

@@ -17,9 +17,14 @@ namespace HelloWorld
             InitializeComponent();
         }
 
+       
+        // クリックされたらClickイベントが発生する
+        // イベントタグにてClickイベントにHelloButtonClickedイベントハンドラを追加している
+        // そうすると、Form1へ自動でイベントハンドラメソッドが追加される
+
         private void HelloButtonClicked(object sender, EventArgs e)
         {
-
+            this.helloLabel.Text = "Hello, world";
         }
     }
 }
