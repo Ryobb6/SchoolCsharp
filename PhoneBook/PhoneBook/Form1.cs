@@ -18,18 +18,31 @@ namespace PhoneBook
         {
             InitializeComponent();
             this.phoneBook = new Dictionary<string, string>();
-            this.phoneBook.Add("山田一郎", "080-0000-1212");
-            this.phoneBook.Add("タケモトピアノ", "0120-307-0000");
-            this.phoneBook.Add("ECL", "080-9339-1030");
 
-            // 実行時点で、ListBox(nameList)にKeyだけ表示させる
-            // nameList.ItemsプロパティでListインスタンスにキーをAddしていく
+            // ファイルからデータを読み込む
+            ReadFromFile();
 
+            // リストに名前を表示する
             foreach (KeyValuePair<string, string> data in phoneBook)
             {
                 this.nameList.Items.Add(data.Key);
             }
 
+            // 実行時点で、ListBox(nameList)にKeyだけ表示させる
+            // nameList.ItemsプロパティでListインスタンスにキーをAddしてい
+        }
+
+        private void ReadFromFile()
+        {
+            using (System.IO.StreamReader file = new System.IO.StreamReader(@"..\..\data.txt"))
+            {
+                while (!file.EndOfStream)
+                {
+                    string line = file.ReadLine();
+                    string[] data = line.Split(',');
+                    this.phoneBook.Add(data[0], data[1]);
+                }
+            }  
         }
 
         private void NameSelected(object sender, EventArgs e)

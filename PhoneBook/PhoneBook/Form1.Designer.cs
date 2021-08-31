@@ -58,7 +58,7 @@ namespace PhoneBook
             this.name.AutoSize = true;
             this.name.Location = new System.Drawing.Point(38, 87);
             this.name.Name = "name";
-            this.name.Size = new System.Drawing.Size(46, 19);
+            this.name.Size = new System.Drawing.Size(37, 15);
             this.name.TabIndex = 2;
             this.name.Text = "名前";
             // 
@@ -67,7 +67,7 @@ namespace PhoneBook
             this.number.AutoSize = true;
             this.number.Location = new System.Drawing.Point(419, 87);
             this.number.Name = "number";
-            this.number.Size = new System.Drawing.Size(84, 19);
+            this.number.Size = new System.Drawing.Size(67, 15);
             this.number.TabIndex = 3;
             this.number.Text = "電話番号";
             // 
@@ -75,7 +75,7 @@ namespace PhoneBook
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(640, 360);
+            this.ClientSize = new System.Drawing.Size(787, 458);
             this.Controls.Add(this.number);
             this.Controls.Add(this.name);
             this.Controls.Add(this.phoneNumber);
