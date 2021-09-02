@@ -24,5 +24,11 @@ namespace WpfApp1
         {
             InitializeComponent();
         }
+
+
+        private void ExitButtunClicked(object sender, RoutedEventArgs e)
+        {
+            Close();
+        }
     }
 }
