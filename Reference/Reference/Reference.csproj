@@ -58,6 +58,24 @@
     <Compile Include="CheckBox.Designer.cs">
       <DependentUpon>CheckBox.cs</DependentUpon>
     </Compile>
+    <Compile Include="CheckedListBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CheckedListBox.Designer.cs">
+      <DependentUpon>CheckedListBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ComboBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ComboBox.Designer.cs">
+      <DependentUpon>ComboBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DateTimePicker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DateTimePicker.Designer.cs">
+      <DependentUpon>DateTimePicker.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -69,6 +87,12 @@
     </Compile>
     <Compile Include="Home.Designer.cs">
       <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Label.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Label.Designer.cs">
+      <DependentUpon>Label.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="ProgressBar.cs">
@@ -84,11 +108,23 @@
     <EmbeddedResource Include="CheckBox.resx">
       <DependentUpon>CheckBox.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="CheckedListBox.resx">
+      <DependentUpon>CheckedListBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ComboBox.resx">
+      <DependentUpon>ComboBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DateTimePicker.resx">
+      <DependentUpon>DateTimePicker.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Label.resx">
+      <DependentUpon>Label.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ProgressBar.resx">
       <DependentUpon>ProgressBar.cs</DependentUpon>

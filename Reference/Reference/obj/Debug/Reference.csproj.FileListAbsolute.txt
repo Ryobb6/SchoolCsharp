@@ -23,3 +23,7 @@ C:\Users\210525AM\Documents\GitHub\SchoolCsharp\Reference\Reference\obj\Debug\Re
 C:\Users\210525AM\Documents\GitHub\SchoolCsharp\Reference\Reference\obj\Debug\Reference.Button.resources
 C:\Users\210525AM\Documents\GitHub\SchoolCsharp\Reference\Reference\obj\Debug\Reference.ProgressBar.resources
 C:\Users\210525AM\Documents\GitHub\SchoolCsharp\Reference\Reference\obj\Debug\Reference.CheckBox.resources
+C:\Users\210525AM\Documents\GitHub\SchoolCsharp\Reference\Reference\obj\Debug\Reference.CheckedListBox.resources
+C:\Users\210525AM\Documents\GitHub\SchoolCsharp\Reference\Reference\obj\Debug\Reference.ComboBox.resources
+C:\Users\210525AM\Documents\GitHub\SchoolCsharp\Reference\Reference\obj\Debug\Reference.DateTimePicker.resources
+C:\Users\210525AM\Documents\GitHub\SchoolCsharp\Reference\Reference\obj\Debug\Reference.Label.resources

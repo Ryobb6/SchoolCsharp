@@ -46,5 +46,12 @@ namespace Reference
         {
             this.FormBorderStyle = FormBorderStyle.FixedSingle;
         }
+
+        private void EcpCheckedListBox(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            CheckedListBox checkedListBox = new CheckedListBox();
+            checkedListBox.Show();
+
+        }
     }
 }
