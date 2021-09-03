@@ -9,3 +9,16 @@ C:\Users\rryyo\Documents\GitHub\SchoolCsharp\Reference\Reference\obj\Debug\Refer
 C:\Users\rryyo\Documents\GitHub\SchoolCsharp\Reference\Reference\obj\Debug\Reference.exe
 C:\Users\rryyo\Documents\GitHub\SchoolCsharp\Reference\Reference\obj\Debug\Reference.pdb
 C:\Users\rryyo\Documents\GitHub\SchoolCsharp\Reference\Reference\obj\Debug\Reference.Home.resources
+C:\Users\210525AM\Documents\GitHub\SchoolCsharp\Reference\Reference\bin\Debug\Reference.exe.config
+C:\Users\210525AM\Documents\GitHub\SchoolCsharp\Reference\Reference\bin\Debug\Reference.exe
+C:\Users\210525AM\Documents\GitHub\SchoolCsharp\Reference\Reference\bin\Debug\Reference.pdb
+C:\Users\210525AM\Documents\GitHub\SchoolCsharp\Reference\Reference\obj\Debug\Reference.csproj.AssemblyReference.cache
+C:\Users\210525AM\Documents\GitHub\SchoolCsharp\Reference\Reference\obj\Debug\Reference.Form1.resources
+C:\Users\210525AM\Documents\GitHub\SchoolCsharp\Reference\Reference\obj\Debug\Reference.Home.resources
+C:\Users\210525AM\Documents\GitHub\SchoolCsharp\Reference\Reference\obj\Debug\Reference.Properties.Resources.resources
+C:\Users\210525AM\Documents\GitHub\SchoolCsharp\Reference\Reference\obj\Debug\Reference.csproj.GenerateResource.cache
+C:\Users\210525AM\Documents\GitHub\SchoolCsharp\Reference\Reference\obj\Debug\Reference.csproj.CoreCompileInputs.cache
+C:\Users\210525AM\Documents\GitHub\SchoolCsharp\Reference\Reference\obj\Debug\Reference.exe
+C:\Users\210525AM\Documents\GitHub\SchoolCsharp\Reference\Reference\obj\Debug\Reference.pdb
+C:\Users\210525AM\Documents\GitHub\SchoolCsharp\Reference\Reference\obj\Debug\Reference.Button.resources
+C:\Users\210525AM\Documents\GitHub\SchoolCsharp\Reference\Reference\obj\Debug\Reference.ProgressBar.resources

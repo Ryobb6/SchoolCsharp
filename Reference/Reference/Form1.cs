@@ -33,10 +33,12 @@ namespace Reference
         {
             // Form1をクリックしたら、Home画面が開きます
             Home.Show();
-            // 自分自身のインスタンスをいれます
+            // 自分自身のインスタンスをHomeへセット
             Home.Form1 = this;
             // 同時にForm1を閉じます(インスタンスは破棄されない。)
             this.Hide();
         }
+
+      
     }
 }

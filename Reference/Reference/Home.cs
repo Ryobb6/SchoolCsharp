@@ -29,5 +29,11 @@ namespace Reference
             Form1.Close();
                            
         }
+
+        private void ButtonLinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Button button = new Button();
+            button.Show();
+        }
     }
 }
