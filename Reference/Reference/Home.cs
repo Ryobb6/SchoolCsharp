@@ -35,5 +35,16 @@ namespace Reference
             Button button = new Button();
             button.Show();
         }
+
+        private void ExpCheckBoxClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            CheckBox checkBox = new CheckBox();
+            checkBox.Show();
+        }
+
+        private void HomeLoaded(object sender, EventArgs e)
+        {
+            this.FormBorderStyle = FormBorderStyle.FixedSingle;
+        }
     }
 }
