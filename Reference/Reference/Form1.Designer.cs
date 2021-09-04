@@ -29,6 +29,7 @@ namespace Reference
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -41,6 +42,7 @@ namespace Reference
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
+            this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
             this.label16 = new System.Windows.Forms.Label();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
@@ -67,7 +69,7 @@ namespace Reference
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(145, 25);
             this.label1.TabIndex = 1;
-            this.label1.Text = "スッキリわかる";
+            this.label1.Text = "スッチリわかる";
             this.label1.Click += new System.EventHandler(this.FormClicked);
             // 
             // label2
@@ -179,7 +181,7 @@ namespace Reference
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(304, 64);
             this.label14.TabIndex = 19;
-            this.label14.Text = "機能が多すぎて、どれがどんな動作をするのか\r\n解っていませんでしたが、このReferenceのおかげで\r\n多分理解ができました。ありがとうスッキリシリーズ!!\r\n" +
+            this.label14.Text = "機能が多すぎて、どれがどんな動作をするのか\r\n解っていませんでしたが、このReferenceのおかげで\r\n多分理解ができました。ありがとうスッチリシリーズ!!\r\n" +
     "- Billさん (経営者 アメリカ 65歳)";
             this.label14.Click += new System.EventHandler(this.FormClicked);
             // 
@@ -195,6 +197,12 @@ namespace Reference
             this.label15.Text = "今まで避けてきたWindowsアプリ開発でしたが、\r\nこのReferenceのおかげで,初学者の私でも\r\n開発ができそうな気がします! 感謝しています!!!\r\n-" +
     " Steveさん (経営者 アメリカ 享年56歳)";
             this.label15.Click += new System.EventHandler(this.FormClicked);
+            // 
+            // notifyIcon1
+            // 
+            this.notifyIcon1.Icon = ((System.Drawing.Icon)(resources.GetObject("notifyIcon1.Icon")));
+            this.notifyIcon1.Text = "notifyIcon1";
+            this.notifyIcon1.Visible = true;
             // 
             // label16
             // 
@@ -391,6 +399,7 @@ namespace Reference
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.NotifyIcon notifyIcon1;
     }
 }
 

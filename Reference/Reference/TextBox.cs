@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Reference
 {
-    public partial class PictureBox : Form
+    public partial class TextBox : Form
     {
-        public PictureBox()
+        public TextBox()
         {
             InitializeComponent();
             // FormBorderStyleの設定でサイズ固定にする

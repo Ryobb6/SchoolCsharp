@@ -1,7 +1,7 @@
 ﻿
 namespace Reference
 {
-    partial class NotifyIcon
+    partial class RadioButton
     {
         /// <summary>
         /// Required designer variable.
@@ -29,18 +29,18 @@ namespace Reference
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(NotifyIcon));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RadioButton));
             this.SuspendLayout();
             // 
-            // NotifyIcon
+            // RadioButton
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.AliceBlue;
             this.ClientSize = new System.Drawing.Size(384, 281);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "NotifyIcon";
-            this.Text = "コモンコントロール/NotifyIcon";
+            this.Name = "RadioButton";
+            this.Text = "コモンコントロール/RadioButton";
             this.ResumeLayout(false);
 
         }

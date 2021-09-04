@@ -124,7 +124,7 @@ namespace Reference
             this.Controls.Add(this.label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "CheckBox";
-            this.Text = "CheckBox";
+            this.Text = "コモンコントロール/CheckBox";
             this.ResumeLayout(false);
             this.PerformLayout();
 

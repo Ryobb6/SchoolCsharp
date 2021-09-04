@@ -51,7 +51,6 @@ namespace Reference
             this.linkLabel4 = new System.Windows.Forms.LinkLabel();
             this.linkLabel3 = new System.Windows.Forms.LinkLabel();
             this.linkLabel2 = new System.Windows.Forms.LinkLabel();
-            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.linkLabel40 = new System.Windows.Forms.LinkLabel();
@@ -60,7 +59,6 @@ namespace Reference
             this.linkLabel5 = new System.Windows.Forms.LinkLabel();
             this.linkLabel6 = new System.Windows.Forms.LinkLabel();
             this.linkLabel7 = new System.Windows.Forms.LinkLabel();
-            this.linkLabel8 = new System.Windows.Forms.LinkLabel();
             this.label2 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.linkLabel42 = new System.Windows.Forms.LinkLabel();
@@ -68,7 +66,6 @@ namespace Reference
             this.linkLabel9 = new System.Windows.Forms.LinkLabel();
             this.linkLabel10 = new System.Windows.Forms.LinkLabel();
             this.linkLabel11 = new System.Windows.Forms.LinkLabel();
-            this.linkLabel12 = new System.Windows.Forms.LinkLabel();
             this.label3 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
             this.linkLabel44 = new System.Windows.Forms.LinkLabel();
@@ -76,14 +73,7 @@ namespace Reference
             this.linkLabel13 = new System.Windows.Forms.LinkLabel();
             this.linkLabel14 = new System.Windows.Forms.LinkLabel();
             this.linkLabel15 = new System.Windows.Forms.LinkLabel();
-            this.linkLabel16 = new System.Windows.Forms.LinkLabel();
             this.label4 = new System.Windows.Forms.Label();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.linkLabel17 = new System.Windows.Forms.LinkLabel();
-            this.linkLabel18 = new System.Windows.Forms.LinkLabel();
-            this.linkLabel19 = new System.Windows.Forms.LinkLabel();
-            this.linkLabel20 = new System.Windows.Forms.LinkLabel();
-            this.label5 = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
             this.linkLabel64 = new System.Windows.Forms.LinkLabel();
             this.linkLabel63 = new System.Windows.Forms.LinkLabel();
@@ -98,7 +88,6 @@ namespace Reference
             this.linkLabel48 = new System.Windows.Forms.LinkLabel();
             this.linkLabel49 = new System.Windows.Forms.LinkLabel();
             this.linkLabel50 = new System.Windows.Forms.LinkLabel();
-            this.linkLabel51 = new System.Windows.Forms.LinkLabel();
             this.label6 = new System.Windows.Forms.Label();
             this.panel7 = new System.Windows.Forms.Panel();
             this.linkLabel52 = new System.Windows.Forms.LinkLabel();
@@ -106,7 +95,6 @@ namespace Reference
             this.linkLabel54 = new System.Windows.Forms.LinkLabel();
             this.linkLabel55 = new System.Windows.Forms.LinkLabel();
             this.linkLabel56 = new System.Windows.Forms.LinkLabel();
-            this.linkLabel57 = new System.Windows.Forms.LinkLabel();
             this.label7 = new System.Windows.Forms.Label();
             this.panel8 = new System.Windows.Forms.Panel();
             this.linkLabel65 = new System.Windows.Forms.LinkLabel();
@@ -114,17 +102,43 @@ namespace Reference
             this.linkLabel67 = new System.Windows.Forms.LinkLabel();
             this.linkLabel68 = new System.Windows.Forms.LinkLabel();
             this.linkLabel69 = new System.Windows.Forms.LinkLabel();
-            this.linkLabel70 = new System.Windows.Forms.LinkLabel();
             this.label8 = new System.Windows.Forms.Label();
             this.colorDialog1 = new System.Windows.Forms.ColorDialog();
             this.panel9 = new System.Windows.Forms.Panel();
             this.linkLabel73 = new System.Windows.Forms.LinkLabel();
-            this.linkLabel74 = new System.Windows.Forms.LinkLabel();
             this.label9 = new System.Windows.Forms.Label();
+            this.panelAllForm = new System.Windows.Forms.Panel();
+            this.linkLabel71 = new System.Windows.Forms.LinkLabel();
+            this.label10 = new System.Windows.Forms.Label();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.ツールボックスToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.コモンコントロールToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ポインタToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.トリガー系ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.buttonToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.linkLabelToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.選択系ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.checkBoxToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.radioButtonToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.listBoxToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.checkedListBoxToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.listViewToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.入力系ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.textBoxToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.maskedTextBoxToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.richTextBoxToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.numericUpDownToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.日付系ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.datetimePickerToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.monthCalenderToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.表示系ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.labelToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.pictureBoxToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolTipToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.その他ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.notifyIconToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.progressBarToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.webBrowserToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.コンテナーToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.メニューとツールバーToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.データToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -138,44 +152,16 @@ namespace Reference
             this.画像を表示したいToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.再生プレイヤーを埋め込みたいToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.動画再生プレイヤーを埋め込みたいToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.トリガー系ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.選択系ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.入力系ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.日付系ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.buttonToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.linkLabelToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.表示系ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.その他ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.checkBoxToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.radioButtonToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.listBoxToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.checkedListBoxToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.listViewToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.datetimePickerToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.labelToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.pictureBoxToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolTipToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.notifyIconToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.progressBarToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.textBoxToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.maskedTextBoxToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.richTextBoxToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.numericUpDownToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.monthCalenderToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.webBrowserToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.panelAllForm = new System.Windows.Forms.Panel();
-            this.linkLabel71 = new System.Windows.Forms.LinkLabel();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
-            this.panel5.SuspendLayout();
             this.panel6.SuspendLayout();
             this.panel7.SuspendLayout();
             this.panel8.SuspendLayout();
             this.panel9.SuspendLayout();
-            this.menuStrip1.SuspendLayout();
             this.panelAllForm.SuspendLayout();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -202,7 +188,6 @@ namespace Reference
             this.panel1.Controls.Add(this.linkLabel4);
             this.panel1.Controls.Add(this.linkLabel3);
             this.panel1.Controls.Add(this.linkLabel2);
-            this.panel1.Controls.Add(this.linkLabel1);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(12, 60);
             this.panel1.Name = "panel1";
@@ -214,148 +199,160 @@ namespace Reference
             this.linkLabel37.AutoSize = true;
             this.linkLabel37.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.linkLabel37.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.linkLabel37.Location = new System.Drawing.Point(12, 493);
+            this.linkLabel37.Location = new System.Drawing.Point(12, 470);
             this.linkLabel37.Name = "linkLabel37";
             this.linkLabel37.Size = new System.Drawing.Size(68, 12);
             this.linkLabel37.TabIndex = 38;
             this.linkLabel37.TabStop = true;
             this.linkLabel37.Text = "WebBrowser";
+            this.linkLabel37.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.ExpWebBrowser);
             // 
             // linkLabel36
             // 
             this.linkLabel36.AutoSize = true;
             this.linkLabel36.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.linkLabel36.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.linkLabel36.Location = new System.Drawing.Point(12, 470);
+            this.linkLabel36.Location = new System.Drawing.Point(12, 447);
             this.linkLabel36.Name = "linkLabel36";
             this.linkLabel36.Size = new System.Drawing.Size(53, 12);
             this.linkLabel36.TabIndex = 37;
             this.linkLabel36.TabStop = true;
             this.linkLabel36.Text = "TreeView";
+            this.linkLabel36.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.ExpTreeView);
             // 
             // linkLabel35
             // 
             this.linkLabel35.AutoSize = true;
             this.linkLabel35.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.linkLabel35.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.linkLabel35.Location = new System.Drawing.Point(12, 424);
+            this.linkLabel35.Location = new System.Drawing.Point(12, 401);
             this.linkLabel35.Name = "linkLabel35";
             this.linkLabel35.Size = new System.Drawing.Size(48, 12);
             this.linkLabel35.TabIndex = 36;
             this.linkLabel35.TabStop = true;
             this.linkLabel35.Text = "TextBox";
+            this.linkLabel35.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.ExpToolBox);
             // 
             // linkLabel34
             // 
             this.linkLabel34.AutoSize = true;
             this.linkLabel34.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.linkLabel34.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.linkLabel34.Location = new System.Drawing.Point(12, 447);
+            this.linkLabel34.Location = new System.Drawing.Point(12, 424);
             this.linkLabel34.Name = "linkLabel34";
             this.linkLabel34.Size = new System.Drawing.Size(43, 12);
             this.linkLabel34.TabIndex = 35;
             this.linkLabel34.TabStop = true;
             this.linkLabel34.Text = "ToolTip";
+            this.linkLabel34.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.ExpToolTip);
             // 
             // linkLabel33
             // 
             this.linkLabel33.AutoSize = true;
             this.linkLabel33.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.linkLabel33.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.linkLabel33.Location = new System.Drawing.Point(12, 401);
+            this.linkLabel33.Location = new System.Drawing.Point(12, 378);
             this.linkLabel33.Name = "linkLabel33";
             this.linkLabel33.Size = new System.Drawing.Size(68, 12);
             this.linkLabel33.TabIndex = 34;
             this.linkLabel33.TabStop = true;
             this.linkLabel33.Text = "RadioButton";
+            this.linkLabel33.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.ExpRadioButton);
             // 
             // linkLabel32
             // 
             this.linkLabel32.AutoSize = true;
             this.linkLabel32.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.linkLabel32.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.linkLabel32.Location = new System.Drawing.Point(12, 378);
+            this.linkLabel32.Location = new System.Drawing.Point(12, 355);
             this.linkLabel32.Name = "linkLabel32";
             this.linkLabel32.Size = new System.Drawing.Size(68, 12);
             this.linkLabel32.TabIndex = 33;
             this.linkLabel32.TabStop = true;
             this.linkLabel32.Text = "ProgressBar";
+            this.linkLabel32.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.ExpProgressBar);
             // 
             // linkLabel31
             // 
             this.linkLabel31.AutoSize = true;
             this.linkLabel31.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.linkLabel31.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.linkLabel31.Location = new System.Drawing.Point(12, 355);
+            this.linkLabel31.Location = new System.Drawing.Point(12, 332);
             this.linkLabel31.Name = "linkLabel31";
             this.linkLabel31.Size = new System.Drawing.Size(61, 12);
             this.linkLabel31.TabIndex = 32;
             this.linkLabel31.TabStop = true;
             this.linkLabel31.Text = "PictureBox";
+            this.linkLabel31.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.ExpPictureBox);
             // 
             // linkLabel30
             // 
             this.linkLabel30.AutoSize = true;
             this.linkLabel30.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.linkLabel30.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.linkLabel30.Location = new System.Drawing.Point(12, 332);
+            this.linkLabel30.Location = new System.Drawing.Point(12, 309);
             this.linkLabel30.Name = "linkLabel30";
             this.linkLabel30.Size = new System.Drawing.Size(89, 12);
             this.linkLabel30.TabIndex = 31;
             this.linkLabel30.TabStop = true;
             this.linkLabel30.Text = "NumericUpDown";
+            this.linkLabel30.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.ExpNumericUpDown);
             // 
             // linkLabel29
             // 
             this.linkLabel29.AutoSize = true;
             this.linkLabel29.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.linkLabel29.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.linkLabel29.Location = new System.Drawing.Point(12, 309);
+            this.linkLabel29.Location = new System.Drawing.Point(12, 286);
             this.linkLabel29.Name = "linkLabel29";
             this.linkLabel29.Size = new System.Drawing.Size(57, 12);
             this.linkLabel29.TabIndex = 30;
             this.linkLabel29.TabStop = true;
             this.linkLabel29.Text = "NotifyIcon";
+            this.linkLabel29.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.NotifyIcon);
             // 
             // linkLabel28
             // 
             this.linkLabel28.AutoSize = true;
             this.linkLabel28.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.linkLabel28.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.linkLabel28.Location = new System.Drawing.Point(12, 286);
+            this.linkLabel28.Location = new System.Drawing.Point(12, 263);
             this.linkLabel28.Name = "linkLabel28";
             this.linkLabel28.Size = new System.Drawing.Size(81, 12);
             this.linkLabel28.TabIndex = 29;
             this.linkLabel28.TabStop = true;
             this.linkLabel28.Text = "MonthCalender";
+            this.linkLabel28.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.ExpMonthCalender);
             // 
             // linkLabel27
             // 
             this.linkLabel27.AutoSize = true;
             this.linkLabel27.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.linkLabel27.Location = new System.Drawing.Point(12, 263);
+            this.linkLabel27.Location = new System.Drawing.Point(12, 240);
             this.linkLabel27.Name = "linkLabel27";
             this.linkLabel27.Size = new System.Drawing.Size(87, 12);
             this.linkLabel27.TabIndex = 28;
             this.linkLabel27.TabStop = true;
             this.linkLabel27.Text = "MaskedTextBox";
+            this.linkLabel27.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.ExpMaskedTextBox);
             // 
             // linkLabel26
             // 
             this.linkLabel26.AutoSize = true;
             this.linkLabel26.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.linkLabel26.Location = new System.Drawing.Point(12, 240);
+            this.linkLabel26.Location = new System.Drawing.Point(12, 217);
             this.linkLabel26.Name = "linkLabel26";
             this.linkLabel26.Size = new System.Drawing.Size(49, 12);
             this.linkLabel26.TabIndex = 27;
             this.linkLabel26.TabStop = true;
             this.linkLabel26.Text = "ListView";
+            this.linkLabel26.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.ExpListView);
             // 
             // linkLabel25
             // 
             this.linkLabel25.AutoSize = true;
             this.linkLabel25.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.linkLabel25.Location = new System.Drawing.Point(12, 217);
+            this.linkLabel25.Location = new System.Drawing.Point(12, 194);
             this.linkLabel25.Name = "linkLabel25";
             this.linkLabel25.Size = new System.Drawing.Size(44, 12);
             this.linkLabel25.TabIndex = 26;
@@ -367,7 +364,7 @@ namespace Reference
             // 
             this.linkLabel24.AutoSize = true;
             this.linkLabel24.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.linkLabel24.Location = new System.Drawing.Point(12, 194);
+            this.linkLabel24.Location = new System.Drawing.Point(12, 171);
             this.linkLabel24.Name = "linkLabel24";
             this.linkLabel24.Size = new System.Drawing.Size(53, 12);
             this.linkLabel24.TabIndex = 25;
@@ -379,7 +376,7 @@ namespace Reference
             // 
             this.linkLabel23.AutoSize = true;
             this.linkLabel23.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.linkLabel23.Location = new System.Drawing.Point(12, 171);
+            this.linkLabel23.Location = new System.Drawing.Point(12, 148);
             this.linkLabel23.Name = "linkLabel23";
             this.linkLabel23.Size = new System.Drawing.Size(32, 12);
             this.linkLabel23.TabIndex = 24;
@@ -391,7 +388,7 @@ namespace Reference
             // 
             this.linkLabel22.AutoSize = true;
             this.linkLabel22.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.linkLabel22.Location = new System.Drawing.Point(12, 148);
+            this.linkLabel22.Location = new System.Drawing.Point(12, 125);
             this.linkLabel22.Name = "linkLabel22";
             this.linkLabel22.Size = new System.Drawing.Size(86, 12);
             this.linkLabel22.TabIndex = 23;
@@ -403,7 +400,7 @@ namespace Reference
             // 
             this.linkLabel21.AutoSize = true;
             this.linkLabel21.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.linkLabel21.Location = new System.Drawing.Point(12, 125);
+            this.linkLabel21.Location = new System.Drawing.Point(12, 102);
             this.linkLabel21.Name = "linkLabel21";
             this.linkLabel21.Size = new System.Drawing.Size(57, 12);
             this.linkLabel21.TabIndex = 22;
@@ -415,7 +412,7 @@ namespace Reference
             // 
             this.linkLabel4.AutoSize = true;
             this.linkLabel4.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.linkLabel4.Location = new System.Drawing.Point(12, 102);
+            this.linkLabel4.Location = new System.Drawing.Point(12, 79);
             this.linkLabel4.Name = "linkLabel4";
             this.linkLabel4.Size = new System.Drawing.Size(88, 12);
             this.linkLabel4.TabIndex = 21;
@@ -427,7 +424,7 @@ namespace Reference
             // 
             this.linkLabel3.AutoSize = true;
             this.linkLabel3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.linkLabel3.Location = new System.Drawing.Point(12, 79);
+            this.linkLabel3.Location = new System.Drawing.Point(12, 56);
             this.linkLabel3.Name = "linkLabel3";
             this.linkLabel3.Size = new System.Drawing.Size(57, 12);
             this.linkLabel3.TabIndex = 20;
@@ -439,24 +436,13 @@ namespace Reference
             // 
             this.linkLabel2.AutoSize = true;
             this.linkLabel2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.linkLabel2.Location = new System.Drawing.Point(12, 56);
+            this.linkLabel2.Location = new System.Drawing.Point(12, 33);
             this.linkLabel2.Name = "linkLabel2";
             this.linkLabel2.Size = new System.Drawing.Size(39, 12);
             this.linkLabel2.TabIndex = 19;
             this.linkLabel2.TabStop = true;
             this.linkLabel2.Text = "Button";
             this.linkLabel2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.ButtonLinkClicked);
-            // 
-            // linkLabel1
-            // 
-            this.linkLabel1.AutoSize = true;
-            this.linkLabel1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.linkLabel1.Location = new System.Drawing.Point(12, 33);
-            this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(51, 12);
-            this.linkLabel1.TabIndex = 18;
-            this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "ポインター";
             // 
             // label1
             // 
@@ -478,7 +464,6 @@ namespace Reference
             this.panel2.Controls.Add(this.linkLabel5);
             this.panel2.Controls.Add(this.linkLabel6);
             this.panel2.Controls.Add(this.linkLabel7);
-            this.panel2.Controls.Add(this.linkLabel8);
             this.panel2.Controls.Add(this.label2);
             this.panel2.Location = new System.Drawing.Point(166, 60);
             this.panel2.Name = "panel2";
@@ -489,7 +474,7 @@ namespace Reference
             // 
             this.linkLabel40.AutoSize = true;
             this.linkLabel40.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.linkLabel40.Location = new System.Drawing.Point(12, 171);
+            this.linkLabel40.Location = new System.Drawing.Point(12, 147);
             this.linkLabel40.Name = "linkLabel40";
             this.linkLabel40.Size = new System.Drawing.Size(86, 12);
             this.linkLabel40.TabIndex = 24;
@@ -500,7 +485,7 @@ namespace Reference
             // 
             this.linkLabel39.AutoSize = true;
             this.linkLabel39.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.linkLabel39.Location = new System.Drawing.Point(12, 148);
+            this.linkLabel39.Location = new System.Drawing.Point(12, 124);
             this.linkLabel39.Name = "linkLabel39";
             this.linkLabel39.Size = new System.Drawing.Size(61, 12);
             this.linkLabel39.TabIndex = 23;
@@ -511,7 +496,7 @@ namespace Reference
             // 
             this.linkLabel38.AutoSize = true;
             this.linkLabel38.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.linkLabel38.Location = new System.Drawing.Point(12, 125);
+            this.linkLabel38.Location = new System.Drawing.Point(12, 101);
             this.linkLabel38.Name = "linkLabel38";
             this.linkLabel38.Size = new System.Drawing.Size(77, 12);
             this.linkLabel38.TabIndex = 22;
@@ -522,7 +507,7 @@ namespace Reference
             // 
             this.linkLabel5.AutoSize = true;
             this.linkLabel5.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.linkLabel5.Location = new System.Drawing.Point(12, 102);
+            this.linkLabel5.Location = new System.Drawing.Point(12, 78);
             this.linkLabel5.Name = "linkLabel5";
             this.linkLabel5.Size = new System.Drawing.Size(33, 12);
             this.linkLabel5.TabIndex = 21;
@@ -533,7 +518,7 @@ namespace Reference
             // 
             this.linkLabel6.AutoSize = true;
             this.linkLabel6.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.linkLabel6.Location = new System.Drawing.Point(12, 79);
+            this.linkLabel6.Location = new System.Drawing.Point(12, 55);
             this.linkLabel6.Name = "linkLabel6";
             this.linkLabel6.Size = new System.Drawing.Size(55, 12);
             this.linkLabel6.TabIndex = 20;
@@ -544,23 +529,12 @@ namespace Reference
             // 
             this.linkLabel7.AutoSize = true;
             this.linkLabel7.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.linkLabel7.Location = new System.Drawing.Point(12, 56);
+            this.linkLabel7.Location = new System.Drawing.Point(12, 32);
             this.linkLabel7.Name = "linkLabel7";
             this.linkLabel7.Size = new System.Drawing.Size(91, 12);
             this.linkLabel7.TabIndex = 19;
             this.linkLabel7.TabStop = true;
             this.linkLabel7.Text = "FlowLayoutPanel";
-            // 
-            // linkLabel8
-            // 
-            this.linkLabel8.AutoSize = true;
-            this.linkLabel8.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.linkLabel8.Location = new System.Drawing.Point(12, 33);
-            this.linkLabel8.Name = "linkLabel8";
-            this.linkLabel8.Size = new System.Drawing.Size(51, 12);
-            this.linkLabel8.TabIndex = 18;
-            this.linkLabel8.TabStop = true;
-            this.linkLabel8.Text = "ポインター";
             // 
             // label2
             // 
@@ -581,7 +555,6 @@ namespace Reference
             this.panel3.Controls.Add(this.linkLabel9);
             this.panel3.Controls.Add(this.linkLabel10);
             this.panel3.Controls.Add(this.linkLabel11);
-            this.panel3.Controls.Add(this.linkLabel12);
             this.panel3.Controls.Add(this.label3);
             this.panel3.Location = new System.Drawing.Point(320, 60);
             this.panel3.Name = "panel3";
@@ -592,7 +565,7 @@ namespace Reference
             // 
             this.linkLabel42.AutoSize = true;
             this.linkLabel42.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.linkLabel42.Location = new System.Drawing.Point(12, 148);
+            this.linkLabel42.Location = new System.Drawing.Point(12, 123);
             this.linkLabel42.Name = "linkLabel42";
             this.linkLabel42.Size = new System.Drawing.Size(100, 12);
             this.linkLabel42.TabIndex = 23;
@@ -603,7 +576,7 @@ namespace Reference
             // 
             this.linkLabel41.AutoSize = true;
             this.linkLabel41.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.linkLabel41.Location = new System.Drawing.Point(12, 125);
+            this.linkLabel41.Location = new System.Drawing.Point(12, 100);
             this.linkLabel41.Name = "linkLabel41";
             this.linkLabel41.Size = new System.Drawing.Size(51, 12);
             this.linkLabel41.TabIndex = 22;
@@ -614,7 +587,7 @@ namespace Reference
             // 
             this.linkLabel9.AutoSize = true;
             this.linkLabel9.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.linkLabel9.Location = new System.Drawing.Point(12, 102);
+            this.linkLabel9.Location = new System.Drawing.Point(12, 77);
             this.linkLabel9.Name = "linkLabel9";
             this.linkLabel9.Size = new System.Drawing.Size(62, 12);
             this.linkLabel9.TabIndex = 21;
@@ -625,7 +598,7 @@ namespace Reference
             // 
             this.linkLabel10.AutoSize = true;
             this.linkLabel10.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.linkLabel10.Location = new System.Drawing.Point(12, 79);
+            this.linkLabel10.Location = new System.Drawing.Point(12, 54);
             this.linkLabel10.Name = "linkLabel10";
             this.linkLabel10.Size = new System.Drawing.Size(56, 12);
             this.linkLabel10.TabIndex = 20;
@@ -636,23 +609,12 @@ namespace Reference
             // 
             this.linkLabel11.AutoSize = true;
             this.linkLabel11.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.linkLabel11.Location = new System.Drawing.Point(12, 56);
+            this.linkLabel11.Location = new System.Drawing.Point(12, 31);
             this.linkLabel11.Name = "linkLabel11";
             this.linkLabel11.Size = new System.Drawing.Size(96, 12);
             this.linkLabel11.TabIndex = 19;
             this.linkLabel11.TabStop = true;
             this.linkLabel11.Text = "ContextMenuStrip";
-            // 
-            // linkLabel12
-            // 
-            this.linkLabel12.AutoSize = true;
-            this.linkLabel12.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.linkLabel12.Location = new System.Drawing.Point(12, 33);
-            this.linkLabel12.Name = "linkLabel12";
-            this.linkLabel12.Size = new System.Drawing.Size(51, 12);
-            this.linkLabel12.TabIndex = 18;
-            this.linkLabel12.TabStop = true;
-            this.linkLabel12.Text = "ポインター";
             // 
             // label3
             // 
@@ -673,7 +635,6 @@ namespace Reference
             this.panel4.Controls.Add(this.linkLabel13);
             this.panel4.Controls.Add(this.linkLabel14);
             this.panel4.Controls.Add(this.linkLabel15);
-            this.panel4.Controls.Add(this.linkLabel16);
             this.panel4.Controls.Add(this.label4);
             this.panel4.Location = new System.Drawing.Point(474, 60);
             this.panel4.Name = "panel4";
@@ -684,7 +645,7 @@ namespace Reference
             // 
             this.linkLabel44.AutoSize = true;
             this.linkLabel44.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.linkLabel44.Location = new System.Drawing.Point(12, 148);
+            this.linkLabel44.Location = new System.Drawing.Point(12, 123);
             this.linkLabel44.Name = "linkLabel44";
             this.linkLabel44.Size = new System.Drawing.Size(46, 12);
             this.linkLabel44.TabIndex = 23;
@@ -695,7 +656,7 @@ namespace Reference
             // 
             this.linkLabel43.AutoSize = true;
             this.linkLabel43.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.linkLabel43.Location = new System.Drawing.Point(12, 125);
+            this.linkLabel43.Location = new System.Drawing.Point(12, 100);
             this.linkLabel43.Name = "linkLabel43";
             this.linkLabel43.Size = new System.Drawing.Size(75, 12);
             this.linkLabel43.TabIndex = 22;
@@ -706,7 +667,7 @@ namespace Reference
             // 
             this.linkLabel13.AutoSize = true;
             this.linkLabel13.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.linkLabel13.Location = new System.Drawing.Point(12, 102);
+            this.linkLabel13.Location = new System.Drawing.Point(12, 77);
             this.linkLabel13.Name = "linkLabel13";
             this.linkLabel13.Size = new System.Drawing.Size(78, 12);
             this.linkLabel13.TabIndex = 21;
@@ -717,7 +678,7 @@ namespace Reference
             // 
             this.linkLabel14.AutoSize = true;
             this.linkLabel14.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.linkLabel14.Location = new System.Drawing.Point(12, 79);
+            this.linkLabel14.Location = new System.Drawing.Point(12, 54);
             this.linkLabel14.Name = "linkLabel14";
             this.linkLabel14.Size = new System.Drawing.Size(92, 12);
             this.linkLabel14.TabIndex = 20;
@@ -728,23 +689,12 @@ namespace Reference
             // 
             this.linkLabel15.AutoSize = true;
             this.linkLabel15.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.linkLabel15.Location = new System.Drawing.Point(12, 56);
+            this.linkLabel15.Location = new System.Drawing.Point(12, 31);
             this.linkLabel15.Name = "linkLabel15";
             this.linkLabel15.Size = new System.Drawing.Size(33, 12);
             this.linkLabel15.TabIndex = 19;
             this.linkLabel15.TabStop = true;
             this.linkLabel15.Text = "Chart";
-            // 
-            // linkLabel16
-            // 
-            this.linkLabel16.AutoSize = true;
-            this.linkLabel16.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.linkLabel16.Location = new System.Drawing.Point(12, 33);
-            this.linkLabel16.Name = "linkLabel16";
-            this.linkLabel16.Size = new System.Drawing.Size(51, 12);
-            this.linkLabel16.TabIndex = 18;
-            this.linkLabel16.TabStop = true;
-            this.linkLabel16.Text = "ポインター";
             // 
             // label4
             // 
@@ -755,74 +705,6 @@ namespace Reference
             this.label4.Size = new System.Drawing.Size(33, 12);
             this.label4.TabIndex = 1;
             this.label4.Text = "データ";
-            // 
-            // panel5
-            // 
-            this.panel5.BackColor = System.Drawing.Color.LightCyan;
-            this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel5.Controls.Add(this.linkLabel17);
-            this.panel5.Controls.Add(this.linkLabel18);
-            this.panel5.Controls.Add(this.linkLabel19);
-            this.panel5.Controls.Add(this.linkLabel20);
-            this.panel5.Controls.Add(this.label5);
-            this.panel5.Location = new System.Drawing.Point(320, 444);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(136, 127);
-            this.panel5.TabIndex = 25;
-            // 
-            // linkLabel17
-            // 
-            this.linkLabel17.AutoSize = true;
-            this.linkLabel17.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.linkLabel17.Location = new System.Drawing.Point(12, 99);
-            this.linkLabel17.Name = "linkLabel17";
-            this.linkLabel17.Size = new System.Drawing.Size(88, 12);
-            this.linkLabel17.TabIndex = 21;
-            this.linkLabel17.TabStop = true;
-            this.linkLabel17.Text = "CheckedListBox";
-            // 
-            // linkLabel18
-            // 
-            this.linkLabel18.AutoSize = true;
-            this.linkLabel18.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.linkLabel18.Location = new System.Drawing.Point(12, 77);
-            this.linkLabel18.Name = "linkLabel18";
-            this.linkLabel18.Size = new System.Drawing.Size(57, 12);
-            this.linkLabel18.TabIndex = 20;
-            this.linkLabel18.TabStop = true;
-            this.linkLabel18.Text = "CheckBox";
-            // 
-            // linkLabel19
-            // 
-            this.linkLabel19.AutoSize = true;
-            this.linkLabel19.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.linkLabel19.Location = new System.Drawing.Point(12, 54);
-            this.linkLabel19.Name = "linkLabel19";
-            this.linkLabel19.Size = new System.Drawing.Size(39, 12);
-            this.linkLabel19.TabIndex = 19;
-            this.linkLabel19.TabStop = true;
-            this.linkLabel19.Text = "Button";
-            // 
-            // linkLabel20
-            // 
-            this.linkLabel20.AutoSize = true;
-            this.linkLabel20.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.linkLabel20.Location = new System.Drawing.Point(12, 33);
-            this.linkLabel20.Name = "linkLabel20";
-            this.linkLabel20.Size = new System.Drawing.Size(51, 12);
-            this.linkLabel20.TabIndex = 18;
-            this.linkLabel20.TabStop = true;
-            this.linkLabel20.Text = "ポインター";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label5.Location = new System.Drawing.Point(12, 11);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(85, 12);
-            this.label5.TabIndex = 1;
-            this.label5.Text = "コモンコントロール";
             // 
             // panel6
             // 
@@ -841,7 +723,6 @@ namespace Reference
             this.panel6.Controls.Add(this.linkLabel48);
             this.panel6.Controls.Add(this.linkLabel49);
             this.panel6.Controls.Add(this.linkLabel50);
-            this.panel6.Controls.Add(this.linkLabel51);
             this.panel6.Controls.Add(this.label6);
             this.panel6.Location = new System.Drawing.Point(166, 261);
             this.panel6.Name = "panel6";
@@ -852,7 +733,7 @@ namespace Reference
             // 
             this.linkLabel64.AutoSize = true;
             this.linkLabel64.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.linkLabel64.Location = new System.Drawing.Point(12, 319);
+            this.linkLabel64.Location = new System.Drawing.Point(12, 296);
             this.linkLabel64.Name = "linkLabel64";
             this.linkLabel64.Size = new System.Drawing.Size(34, 12);
             this.linkLabel64.TabIndex = 31;
@@ -863,7 +744,7 @@ namespace Reference
             // 
             this.linkLabel63.AutoSize = true;
             this.linkLabel63.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.linkLabel63.Location = new System.Drawing.Point(12, 297);
+            this.linkLabel63.Location = new System.Drawing.Point(12, 274);
             this.linkLabel63.Name = "linkLabel63";
             this.linkLabel63.Size = new System.Drawing.Size(93, 12);
             this.linkLabel63.TabIndex = 30;
@@ -874,7 +755,7 @@ namespace Reference
             // 
             this.linkLabel62.AutoSize = true;
             this.linkLabel62.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.linkLabel62.Location = new System.Drawing.Point(12, 275);
+            this.linkLabel62.Location = new System.Drawing.Point(12, 252);
             this.linkLabel62.Name = "linkLabel62";
             this.linkLabel62.Size = new System.Drawing.Size(55, 12);
             this.linkLabel62.TabIndex = 29;
@@ -885,7 +766,7 @@ namespace Reference
             // 
             this.linkLabel61.AutoSize = true;
             this.linkLabel61.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.linkLabel61.Location = new System.Drawing.Point(12, 253);
+            this.linkLabel61.Location = new System.Drawing.Point(12, 230);
             this.linkLabel61.Name = "linkLabel61";
             this.linkLabel61.Size = new System.Drawing.Size(46, 12);
             this.linkLabel61.TabIndex = 28;
@@ -896,7 +777,7 @@ namespace Reference
             // 
             this.linkLabel60.AutoSize = true;
             this.linkLabel60.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.linkLabel60.Location = new System.Drawing.Point(12, 231);
+            this.linkLabel60.Location = new System.Drawing.Point(12, 208);
             this.linkLabel60.Name = "linkLabel60";
             this.linkLabel60.Size = new System.Drawing.Size(109, 12);
             this.linkLabel60.TabIndex = 27;
@@ -907,7 +788,7 @@ namespace Reference
             // 
             this.linkLabel59.AutoSize = true;
             this.linkLabel59.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.linkLabel59.Location = new System.Drawing.Point(12, 209);
+            this.linkLabel59.Location = new System.Drawing.Point(12, 186);
             this.linkLabel59.Name = "linkLabel59";
             this.linkLabel59.Size = new System.Drawing.Size(82, 12);
             this.linkLabel59.TabIndex = 26;
@@ -918,7 +799,7 @@ namespace Reference
             // 
             this.linkLabel58.AutoSize = true;
             this.linkLabel58.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.linkLabel58.Location = new System.Drawing.Point(12, 187);
+            this.linkLabel58.Location = new System.Drawing.Point(12, 164);
             this.linkLabel58.Name = "linkLabel58";
             this.linkLabel58.Size = new System.Drawing.Size(54, 12);
             this.linkLabel58.TabIndex = 25;
@@ -929,7 +810,7 @@ namespace Reference
             // 
             this.linkLabel45.AutoSize = true;
             this.linkLabel45.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.linkLabel45.Location = new System.Drawing.Point(12, 165);
+            this.linkLabel45.Location = new System.Drawing.Point(12, 142);
             this.linkLabel45.Name = "linkLabel45";
             this.linkLabel45.Size = new System.Drawing.Size(103, 12);
             this.linkLabel45.TabIndex = 24;
@@ -940,7 +821,7 @@ namespace Reference
             // 
             this.linkLabel46.AutoSize = true;
             this.linkLabel46.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.linkLabel46.Location = new System.Drawing.Point(12, 143);
+            this.linkLabel46.Location = new System.Drawing.Point(12, 120);
             this.linkLabel46.Name = "linkLabel46";
             this.linkLabel46.Size = new System.Drawing.Size(52, 12);
             this.linkLabel46.TabIndex = 23;
@@ -951,7 +832,7 @@ namespace Reference
             // 
             this.linkLabel47.AutoSize = true;
             this.linkLabel47.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.linkLabel47.Location = new System.Drawing.Point(12, 121);
+            this.linkLabel47.Location = new System.Drawing.Point(12, 98);
             this.linkLabel47.Name = "linkLabel47";
             this.linkLabel47.Size = new System.Drawing.Size(72, 12);
             this.linkLabel47.TabIndex = 22;
@@ -962,7 +843,7 @@ namespace Reference
             // 
             this.linkLabel48.AutoSize = true;
             this.linkLabel48.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.linkLabel48.Location = new System.Drawing.Point(12, 99);
+            this.linkLabel48.Location = new System.Drawing.Point(12, 76);
             this.linkLabel48.Name = "linkLabel48";
             this.linkLabel48.Size = new System.Drawing.Size(97, 12);
             this.linkLabel48.TabIndex = 21;
@@ -973,7 +854,7 @@ namespace Reference
             // 
             this.linkLabel49.AutoSize = true;
             this.linkLabel49.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.linkLabel49.Location = new System.Drawing.Point(12, 77);
+            this.linkLabel49.Location = new System.Drawing.Point(12, 54);
             this.linkLabel49.Name = "linkLabel49";
             this.linkLabel49.Size = new System.Drawing.Size(79, 12);
             this.linkLabel49.TabIndex = 20;
@@ -984,23 +865,12 @@ namespace Reference
             // 
             this.linkLabel50.AutoSize = true;
             this.linkLabel50.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.linkLabel50.Location = new System.Drawing.Point(12, 55);
+            this.linkLabel50.Location = new System.Drawing.Point(12, 32);
             this.linkLabel50.Name = "linkLabel50";
             this.linkLabel50.Size = new System.Drawing.Size(102, 12);
             this.linkLabel50.TabIndex = 19;
             this.linkLabel50.TabStop = true;
             this.linkLabel50.Text = "BackGroundWorker";
-            // 
-            // linkLabel51
-            // 
-            this.linkLabel51.AutoSize = true;
-            this.linkLabel51.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.linkLabel51.Location = new System.Drawing.Point(12, 33);
-            this.linkLabel51.Name = "linkLabel51";
-            this.linkLabel51.Size = new System.Drawing.Size(51, 12);
-            this.linkLabel51.TabIndex = 18;
-            this.linkLabel51.TabStop = true;
-            this.linkLabel51.Text = "ポインター";
             // 
             // label6
             // 
@@ -1021,7 +891,6 @@ namespace Reference
             this.panel7.Controls.Add(this.linkLabel54);
             this.panel7.Controls.Add(this.linkLabel55);
             this.panel7.Controls.Add(this.linkLabel56);
-            this.panel7.Controls.Add(this.linkLabel57);
             this.panel7.Controls.Add(this.label7);
             this.panel7.Location = new System.Drawing.Point(320, 261);
             this.panel7.Name = "panel7";
@@ -1032,7 +901,7 @@ namespace Reference
             // 
             this.linkLabel52.AutoSize = true;
             this.linkLabel52.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.linkLabel52.Location = new System.Drawing.Point(12, 148);
+            this.linkLabel52.Location = new System.Drawing.Point(12, 124);
             this.linkLabel52.Name = "linkLabel52";
             this.linkLabel52.Size = new System.Drawing.Size(101, 12);
             this.linkLabel52.TabIndex = 23;
@@ -1043,7 +912,7 @@ namespace Reference
             // 
             this.linkLabel53.AutoSize = true;
             this.linkLabel53.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.linkLabel53.Location = new System.Drawing.Point(12, 125);
+            this.linkLabel53.Location = new System.Drawing.Point(12, 101);
             this.linkLabel53.Name = "linkLabel53";
             this.linkLabel53.Size = new System.Drawing.Size(106, 12);
             this.linkLabel53.TabIndex = 22;
@@ -1054,7 +923,7 @@ namespace Reference
             // 
             this.linkLabel54.AutoSize = true;
             this.linkLabel54.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.linkLabel54.Location = new System.Drawing.Point(12, 102);
+            this.linkLabel54.Location = new System.Drawing.Point(12, 78);
             this.linkLabel54.Name = "linkLabel54";
             this.linkLabel54.Size = new System.Drawing.Size(80, 12);
             this.linkLabel54.TabIndex = 21;
@@ -1065,7 +934,7 @@ namespace Reference
             // 
             this.linkLabel55.AutoSize = true;
             this.linkLabel55.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.linkLabel55.Location = new System.Drawing.Point(12, 79);
+            this.linkLabel55.Location = new System.Drawing.Point(12, 55);
             this.linkLabel55.Name = "linkLabel55";
             this.linkLabel55.Size = new System.Drawing.Size(61, 12);
             this.linkLabel55.TabIndex = 20;
@@ -1076,23 +945,12 @@ namespace Reference
             // 
             this.linkLabel56.AutoSize = true;
             this.linkLabel56.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.linkLabel56.Location = new System.Drawing.Point(12, 56);
+            this.linkLabel56.Location = new System.Drawing.Point(12, 32);
             this.linkLabel56.Name = "linkLabel56";
             this.linkLabel56.Size = new System.Drawing.Size(91, 12);
             this.linkLabel56.TabIndex = 19;
             this.linkLabel56.TabStop = true;
             this.linkLabel56.Text = "PageSetupDialog";
-            // 
-            // linkLabel57
-            // 
-            this.linkLabel57.AutoSize = true;
-            this.linkLabel57.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.linkLabel57.Location = new System.Drawing.Point(12, 33);
-            this.linkLabel57.Name = "linkLabel57";
-            this.linkLabel57.Size = new System.Drawing.Size(51, 12);
-            this.linkLabel57.TabIndex = 18;
-            this.linkLabel57.TabStop = true;
-            this.linkLabel57.Text = "ポインター";
             // 
             // label7
             // 
@@ -1113,7 +971,6 @@ namespace Reference
             this.panel8.Controls.Add(this.linkLabel67);
             this.panel8.Controls.Add(this.linkLabel68);
             this.panel8.Controls.Add(this.linkLabel69);
-            this.panel8.Controls.Add(this.linkLabel70);
             this.panel8.Controls.Add(this.label8);
             this.panel8.Location = new System.Drawing.Point(474, 261);
             this.panel8.Name = "panel8";
@@ -1124,7 +981,7 @@ namespace Reference
             // 
             this.linkLabel65.AutoSize = true;
             this.linkLabel65.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.linkLabel65.Location = new System.Drawing.Point(12, 148);
+            this.linkLabel65.Location = new System.Drawing.Point(12, 123);
             this.linkLabel65.Name = "linkLabel65";
             this.linkLabel65.Size = new System.Drawing.Size(81, 12);
             this.linkLabel65.TabIndex = 23;
@@ -1135,7 +992,7 @@ namespace Reference
             // 
             this.linkLabel66.AutoSize = true;
             this.linkLabel66.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.linkLabel66.Location = new System.Drawing.Point(12, 125);
+            this.linkLabel66.Location = new System.Drawing.Point(12, 100);
             this.linkLabel66.Name = "linkLabel66";
             this.linkLabel66.Size = new System.Drawing.Size(82, 12);
             this.linkLabel66.TabIndex = 22;
@@ -1146,7 +1003,7 @@ namespace Reference
             // 
             this.linkLabel67.AutoSize = true;
             this.linkLabel67.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.linkLabel67.Location = new System.Drawing.Point(12, 102);
+            this.linkLabel67.Location = new System.Drawing.Point(12, 77);
             this.linkLabel67.Name = "linkLabel67";
             this.linkLabel67.Size = new System.Drawing.Size(60, 12);
             this.linkLabel67.TabIndex = 21;
@@ -1157,7 +1014,7 @@ namespace Reference
             // 
             this.linkLabel68.AutoSize = true;
             this.linkLabel68.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.linkLabel68.Location = new System.Drawing.Point(12, 79);
+            this.linkLabel68.Location = new System.Drawing.Point(12, 54);
             this.linkLabel68.Name = "linkLabel68";
             this.linkLabel68.Size = new System.Drawing.Size(111, 12);
             this.linkLabel68.TabIndex = 20;
@@ -1168,23 +1025,12 @@ namespace Reference
             // 
             this.linkLabel69.AutoSize = true;
             this.linkLabel69.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.linkLabel69.Location = new System.Drawing.Point(12, 56);
+            this.linkLabel69.Location = new System.Drawing.Point(12, 31);
             this.linkLabel69.Name = "linkLabel69";
             this.linkLabel69.Size = new System.Drawing.Size(64, 12);
             this.linkLabel69.TabIndex = 19;
             this.linkLabel69.TabStop = true;
             this.linkLabel69.Text = "ColorDialog";
-            // 
-            // linkLabel70
-            // 
-            this.linkLabel70.AutoSize = true;
-            this.linkLabel70.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.linkLabel70.Location = new System.Drawing.Point(12, 33);
-            this.linkLabel70.Name = "linkLabel70";
-            this.linkLabel70.Size = new System.Drawing.Size(51, 12);
-            this.linkLabel70.TabIndex = 18;
-            this.linkLabel70.TabStop = true;
-            this.linkLabel70.Text = "ポインター";
             // 
             // label8
             // 
@@ -1198,37 +1044,25 @@ namespace Reference
             // 
             // panel9
             // 
-            this.panel9.BackColor = System.Drawing.Color.Lavender;
+            this.panel9.BackColor = System.Drawing.Color.LightCyan;
             this.panel9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel9.Controls.Add(this.linkLabel73);
-            this.panel9.Controls.Add(this.linkLabel74);
             this.panel9.Controls.Add(this.label9);
-            this.panel9.Location = new System.Drawing.Point(474, 444);
+            this.panel9.Location = new System.Drawing.Point(320, 444);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(136, 127);
+            this.panel9.Size = new System.Drawing.Size(136, 60);
             this.panel9.TabIndex = 26;
             // 
             // linkLabel73
             // 
             this.linkLabel73.AutoSize = true;
             this.linkLabel73.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.linkLabel73.Location = new System.Drawing.Point(12, 54);
+            this.linkLabel73.Location = new System.Drawing.Point(12, 29);
             this.linkLabel73.Name = "linkLabel73";
             this.linkLabel73.Size = new System.Drawing.Size(70, 12);
             this.linkLabel73.TabIndex = 19;
             this.linkLabel73.TabStop = true;
             this.linkLabel73.Text = "ElementHost";
-            // 
-            // linkLabel74
-            // 
-            this.linkLabel74.AutoSize = true;
-            this.linkLabel74.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.linkLabel74.Location = new System.Drawing.Point(12, 33);
-            this.linkLabel74.Name = "linkLabel74";
-            this.linkLabel74.Size = new System.Drawing.Size(51, 12);
-            this.linkLabel74.TabIndex = 18;
-            this.linkLabel74.TabStop = true;
-            this.linkLabel74.Text = "ポインター";
             // 
             // label9
             // 
@@ -1239,6 +1073,34 @@ namespace Reference
             this.label9.Size = new System.Drawing.Size(100, 12);
             this.label9.TabIndex = 1;
             this.label9.Text = "WPF相互運用機能";
+            // 
+            // panelAllForm
+            // 
+            this.panelAllForm.Controls.Add(this.label10);
+            this.panelAllForm.Controls.Add(this.linkLabel71);
+            this.panelAllForm.Location = new System.Drawing.Point(0, 24);
+            this.panelAllForm.Name = "panelAllForm";
+            this.panelAllForm.Size = new System.Drawing.Size(629, 582);
+            this.panelAllForm.TabIndex = 27;
+            // 
+            // linkLabel71
+            // 
+            this.linkLabel71.AutoSize = true;
+            this.linkLabel71.Location = new System.Drawing.Point(148, 10);
+            this.linkLabel71.Name = "linkLabel71";
+            this.linkLabel71.Size = new System.Drawing.Size(41, 12);
+            this.linkLabel71.TabIndex = 0;
+            this.linkLabel71.TabStop = true;
+            this.linkLabel71.Text = "イベント";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(16, 10);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(116, 12);
+            this.label10.TabIndex = 1;
+            this.label10.Text = "全てのWindowsフォーム";
             // 
             // menuStrip1
             // 
@@ -1281,55 +1143,230 @@ namespace Reference
             this.表示系ToolStripMenuItem,
             this.その他ToolStripMenuItem});
             this.コモンコントロールToolStripMenuItem.Name = "コモンコントロールToolStripMenuItem";
-            this.コモンコントロールToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.コモンコントロールToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
             this.コモンコントロールToolStripMenuItem.Text = "コモンコントロール";
             // 
             // ポインタToolStripMenuItem
             // 
             this.ポインタToolStripMenuItem.Name = "ポインタToolStripMenuItem";
-            this.ポインタToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.ポインタToolStripMenuItem.Size = new System.Drawing.Size(120, 22);
             this.ポインタToolStripMenuItem.Text = "ポインタ";
+            // 
+            // トリガー系ToolStripMenuItem
+            // 
+            this.トリガー系ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.buttonToolStripMenuItem1,
+            this.linkLabelToolStripMenuItem1});
+            this.トリガー系ToolStripMenuItem.Name = "トリガー系ToolStripMenuItem";
+            this.トリガー系ToolStripMenuItem.Size = new System.Drawing.Size(120, 22);
+            this.トリガー系ToolStripMenuItem.Text = "トリガー系";
+            // 
+            // buttonToolStripMenuItem1
+            // 
+            this.buttonToolStripMenuItem1.Name = "buttonToolStripMenuItem1";
+            this.buttonToolStripMenuItem1.Size = new System.Drawing.Size(124, 22);
+            this.buttonToolStripMenuItem1.Text = "Button";
+            // 
+            // linkLabelToolStripMenuItem1
+            // 
+            this.linkLabelToolStripMenuItem1.Name = "linkLabelToolStripMenuItem1";
+            this.linkLabelToolStripMenuItem1.Size = new System.Drawing.Size(124, 22);
+            this.linkLabelToolStripMenuItem1.Text = "LinkLabel";
+            // 
+            // 選択系ToolStripMenuItem
+            // 
+            this.選択系ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.checkBoxToolStripMenuItem1,
+            this.radioButtonToolStripMenuItem2,
+            this.listBoxToolStripMenuItem2,
+            this.checkedListBoxToolStripMenuItem2,
+            this.listViewToolStripMenuItem1});
+            this.選択系ToolStripMenuItem.Name = "選択系ToolStripMenuItem";
+            this.選択系ToolStripMenuItem.Size = new System.Drawing.Size(120, 22);
+            this.選択系ToolStripMenuItem.Text = "選択系";
+            // 
+            // checkBoxToolStripMenuItem1
+            // 
+            this.checkBoxToolStripMenuItem1.Name = "checkBoxToolStripMenuItem1";
+            this.checkBoxToolStripMenuItem1.Size = new System.Drawing.Size(157, 22);
+            this.checkBoxToolStripMenuItem1.Text = "CheckBox";
+            // 
+            // radioButtonToolStripMenuItem2
+            // 
+            this.radioButtonToolStripMenuItem2.Name = "radioButtonToolStripMenuItem2";
+            this.radioButtonToolStripMenuItem2.Size = new System.Drawing.Size(157, 22);
+            this.radioButtonToolStripMenuItem2.Text = "RadioButton";
+            // 
+            // listBoxToolStripMenuItem2
+            // 
+            this.listBoxToolStripMenuItem2.Name = "listBoxToolStripMenuItem2";
+            this.listBoxToolStripMenuItem2.Size = new System.Drawing.Size(157, 22);
+            this.listBoxToolStripMenuItem2.Text = "ListBox";
+            // 
+            // checkedListBoxToolStripMenuItem2
+            // 
+            this.checkedListBoxToolStripMenuItem2.Name = "checkedListBoxToolStripMenuItem2";
+            this.checkedListBoxToolStripMenuItem2.Size = new System.Drawing.Size(157, 22);
+            this.checkedListBoxToolStripMenuItem2.Text = "CheckedListBox";
+            // 
+            // listViewToolStripMenuItem1
+            // 
+            this.listViewToolStripMenuItem1.Name = "listViewToolStripMenuItem1";
+            this.listViewToolStripMenuItem1.Size = new System.Drawing.Size(157, 22);
+            this.listViewToolStripMenuItem1.Text = "ListView";
+            // 
+            // 入力系ToolStripMenuItem
+            // 
+            this.入力系ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.textBoxToolStripMenuItem1,
+            this.maskedTextBoxToolStripMenuItem1,
+            this.richTextBoxToolStripMenuItem1,
+            this.numericUpDownToolStripMenuItem1});
+            this.入力系ToolStripMenuItem.Name = "入力系ToolStripMenuItem";
+            this.入力系ToolStripMenuItem.Size = new System.Drawing.Size(120, 22);
+            this.入力系ToolStripMenuItem.Text = "入力系";
+            // 
+            // textBoxToolStripMenuItem1
+            // 
+            this.textBoxToolStripMenuItem1.Name = "textBoxToolStripMenuItem1";
+            this.textBoxToolStripMenuItem1.Size = new System.Drawing.Size(165, 22);
+            this.textBoxToolStripMenuItem1.Text = "TextBox";
+            // 
+            // maskedTextBoxToolStripMenuItem1
+            // 
+            this.maskedTextBoxToolStripMenuItem1.Name = "maskedTextBoxToolStripMenuItem1";
+            this.maskedTextBoxToolStripMenuItem1.Size = new System.Drawing.Size(165, 22);
+            this.maskedTextBoxToolStripMenuItem1.Text = "MaskedTextBox";
+            // 
+            // richTextBoxToolStripMenuItem1
+            // 
+            this.richTextBoxToolStripMenuItem1.Name = "richTextBoxToolStripMenuItem1";
+            this.richTextBoxToolStripMenuItem1.Size = new System.Drawing.Size(165, 22);
+            this.richTextBoxToolStripMenuItem1.Text = "RichTextBox";
+            // 
+            // numericUpDownToolStripMenuItem1
+            // 
+            this.numericUpDownToolStripMenuItem1.Name = "numericUpDownToolStripMenuItem1";
+            this.numericUpDownToolStripMenuItem1.Size = new System.Drawing.Size(165, 22);
+            this.numericUpDownToolStripMenuItem1.Text = "NumericUpDown";
+            // 
+            // 日付系ToolStripMenuItem
+            // 
+            this.日付系ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.datetimePickerToolStripMenuItem1,
+            this.monthCalenderToolStripMenuItem1});
+            this.日付系ToolStripMenuItem.Name = "日付系ToolStripMenuItem";
+            this.日付系ToolStripMenuItem.Size = new System.Drawing.Size(120, 22);
+            this.日付系ToolStripMenuItem.Text = "日付系";
+            // 
+            // datetimePickerToolStripMenuItem1
+            // 
+            this.datetimePickerToolStripMenuItem1.Name = "datetimePickerToolStripMenuItem1";
+            this.datetimePickerToolStripMenuItem1.Size = new System.Drawing.Size(156, 22);
+            this.datetimePickerToolStripMenuItem1.Text = "DatetimePicker";
+            // 
+            // monthCalenderToolStripMenuItem1
+            // 
+            this.monthCalenderToolStripMenuItem1.Name = "monthCalenderToolStripMenuItem1";
+            this.monthCalenderToolStripMenuItem1.Size = new System.Drawing.Size(156, 22);
+            this.monthCalenderToolStripMenuItem1.Text = "MonthCalender";
+            // 
+            // 表示系ToolStripMenuItem
+            // 
+            this.表示系ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.labelToolStripMenuItem1,
+            this.pictureBoxToolStripMenuItem1,
+            this.toolTipToolStripMenuItem1});
+            this.表示系ToolStripMenuItem.Name = "表示系ToolStripMenuItem";
+            this.表示系ToolStripMenuItem.Size = new System.Drawing.Size(120, 22);
+            this.表示系ToolStripMenuItem.Text = "表示系";
+            // 
+            // labelToolStripMenuItem1
+            // 
+            this.labelToolStripMenuItem1.Name = "labelToolStripMenuItem1";
+            this.labelToolStripMenuItem1.Size = new System.Drawing.Size(131, 22);
+            this.labelToolStripMenuItem1.Text = "Label";
+            // 
+            // pictureBoxToolStripMenuItem1
+            // 
+            this.pictureBoxToolStripMenuItem1.Name = "pictureBoxToolStripMenuItem1";
+            this.pictureBoxToolStripMenuItem1.Size = new System.Drawing.Size(131, 22);
+            this.pictureBoxToolStripMenuItem1.Text = "PictureBox";
+            // 
+            // toolTipToolStripMenuItem1
+            // 
+            this.toolTipToolStripMenuItem1.Name = "toolTipToolStripMenuItem1";
+            this.toolTipToolStripMenuItem1.Size = new System.Drawing.Size(131, 22);
+            this.toolTipToolStripMenuItem1.Text = "ToolTip";
+            // 
+            // その他ToolStripMenuItem
+            // 
+            this.その他ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.notifyIconToolStripMenuItem1,
+            this.progressBarToolStripMenuItem1,
+            this.webBrowserToolStripMenuItem1});
+            this.その他ToolStripMenuItem.Name = "その他ToolStripMenuItem";
+            this.その他ToolStripMenuItem.Size = new System.Drawing.Size(120, 22);
+            this.その他ToolStripMenuItem.Text = "その他";
+            // 
+            // notifyIconToolStripMenuItem1
+            // 
+            this.notifyIconToolStripMenuItem1.Name = "notifyIconToolStripMenuItem1";
+            this.notifyIconToolStripMenuItem1.Size = new System.Drawing.Size(140, 22);
+            this.notifyIconToolStripMenuItem1.Text = "NotifyIcon";
+            // 
+            // progressBarToolStripMenuItem1
+            // 
+            this.progressBarToolStripMenuItem1.Name = "progressBarToolStripMenuItem1";
+            this.progressBarToolStripMenuItem1.Size = new System.Drawing.Size(140, 22);
+            this.progressBarToolStripMenuItem1.Text = "ProgressBar";
+            // 
+            // webBrowserToolStripMenuItem1
+            // 
+            this.webBrowserToolStripMenuItem1.Name = "webBrowserToolStripMenuItem1";
+            this.webBrowserToolStripMenuItem1.Size = new System.Drawing.Size(140, 22);
+            this.webBrowserToolStripMenuItem1.Text = "WebBrowser";
             // 
             // コンテナーToolStripMenuItem
             // 
             this.コンテナーToolStripMenuItem.Name = "コンテナーToolStripMenuItem";
-            this.コンテナーToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.コンテナーToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
             this.コンテナーToolStripMenuItem.Text = "コンテナー";
             // 
             // メニューとツールバーToolStripMenuItem
             // 
             this.メニューとツールバーToolStripMenuItem.Name = "メニューとツールバーToolStripMenuItem";
-            this.メニューとツールバーToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.メニューとツールバーToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
             this.メニューとツールバーToolStripMenuItem.Text = "メニューとツールバー";
             // 
             // データToolStripMenuItem
             // 
             this.データToolStripMenuItem.Name = "データToolStripMenuItem";
-            this.データToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.データToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
             this.データToolStripMenuItem.Text = "データ";
             // 
             // コンポーネントToolStripMenuItem
             // 
             this.コンポーネントToolStripMenuItem.Name = "コンポーネントToolStripMenuItem";
-            this.コンポーネントToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.コンポーネントToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
             this.コンポーネントToolStripMenuItem.Text = "コンポーネント";
             // 
             // 印刷ToolStripMenuItem
             // 
             this.印刷ToolStripMenuItem.Name = "印刷ToolStripMenuItem";
-            this.印刷ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.印刷ToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
             this.印刷ToolStripMenuItem.Text = "印刷";
             // 
             // ダイアログToolStripMenuItem
             // 
             this.ダイアログToolStripMenuItem.Name = "ダイアログToolStripMenuItem";
-            this.ダイアログToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.ダイアログToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
             this.ダイアログToolStripMenuItem.Text = "ダイアログ";
             // 
             // wPF相互運用機能ToolStripMenuItem
             // 
             this.wPF相互運用機能ToolStripMenuItem.Name = "wPF相互運用機能ToolStripMenuItem";
-            this.wPF相互運用機能ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.wPF相互運用機能ToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
             this.wPF相互運用機能ToolStripMenuItem.Text = "WPF相互運用機能";
             // 
             // プロパティToolStripMenuItem
@@ -1372,199 +1409,6 @@ namespace Reference
             this.動画再生プレイヤーを埋め込みたいToolStripMenuItem.Size = new System.Drawing.Size(240, 22);
             this.動画再生プレイヤーを埋め込みたいToolStripMenuItem.Text = "動画再生プレイヤーを埋め込みたい";
             // 
-            // トリガー系ToolStripMenuItem
-            // 
-            this.トリガー系ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.buttonToolStripMenuItem1,
-            this.linkLabelToolStripMenuItem1});
-            this.トリガー系ToolStripMenuItem.Name = "トリガー系ToolStripMenuItem";
-            this.トリガー系ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.トリガー系ToolStripMenuItem.Text = "トリガー系";
-            // 
-            // 選択系ToolStripMenuItem
-            // 
-            this.選択系ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.checkBoxToolStripMenuItem1,
-            this.radioButtonToolStripMenuItem2,
-            this.listBoxToolStripMenuItem2,
-            this.checkedListBoxToolStripMenuItem2,
-            this.listViewToolStripMenuItem1});
-            this.選択系ToolStripMenuItem.Name = "選択系ToolStripMenuItem";
-            this.選択系ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.選択系ToolStripMenuItem.Text = "選択系";
-            // 
-            // 入力系ToolStripMenuItem
-            // 
-            this.入力系ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.textBoxToolStripMenuItem1,
-            this.maskedTextBoxToolStripMenuItem1,
-            this.richTextBoxToolStripMenuItem1,
-            this.numericUpDownToolStripMenuItem1});
-            this.入力系ToolStripMenuItem.Name = "入力系ToolStripMenuItem";
-            this.入力系ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.入力系ToolStripMenuItem.Text = "入力系";
-            // 
-            // 日付系ToolStripMenuItem
-            // 
-            this.日付系ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.datetimePickerToolStripMenuItem1,
-            this.monthCalenderToolStripMenuItem1});
-            this.日付系ToolStripMenuItem.Name = "日付系ToolStripMenuItem";
-            this.日付系ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.日付系ToolStripMenuItem.Text = "日付系";
-            // 
-            // buttonToolStripMenuItem1
-            // 
-            this.buttonToolStripMenuItem1.Name = "buttonToolStripMenuItem1";
-            this.buttonToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.buttonToolStripMenuItem1.Text = "Button";
-            // 
-            // linkLabelToolStripMenuItem1
-            // 
-            this.linkLabelToolStripMenuItem1.Name = "linkLabelToolStripMenuItem1";
-            this.linkLabelToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.linkLabelToolStripMenuItem1.Text = "LinkLabel";
-            // 
-            // 表示系ToolStripMenuItem
-            // 
-            this.表示系ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.labelToolStripMenuItem1,
-            this.pictureBoxToolStripMenuItem1,
-            this.toolTipToolStripMenuItem1});
-            this.表示系ToolStripMenuItem.Name = "表示系ToolStripMenuItem";
-            this.表示系ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.表示系ToolStripMenuItem.Text = "表示系";
-            // 
-            // その他ToolStripMenuItem
-            // 
-            this.その他ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.notifyIconToolStripMenuItem1,
-            this.progressBarToolStripMenuItem1,
-            this.webBrowserToolStripMenuItem1});
-            this.その他ToolStripMenuItem.Name = "その他ToolStripMenuItem";
-            this.その他ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.その他ToolStripMenuItem.Text = "その他";
-            // 
-            // checkBoxToolStripMenuItem1
-            // 
-            this.checkBoxToolStripMenuItem1.Name = "checkBoxToolStripMenuItem1";
-            this.checkBoxToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.checkBoxToolStripMenuItem1.Text = "CheckBox";
-            // 
-            // radioButtonToolStripMenuItem2
-            // 
-            this.radioButtonToolStripMenuItem2.Name = "radioButtonToolStripMenuItem2";
-            this.radioButtonToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
-            this.radioButtonToolStripMenuItem2.Text = "RadioButton";
-            // 
-            // listBoxToolStripMenuItem2
-            // 
-            this.listBoxToolStripMenuItem2.Name = "listBoxToolStripMenuItem2";
-            this.listBoxToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
-            this.listBoxToolStripMenuItem2.Text = "ListBox";
-            // 
-            // checkedListBoxToolStripMenuItem2
-            // 
-            this.checkedListBoxToolStripMenuItem2.Name = "checkedListBoxToolStripMenuItem2";
-            this.checkedListBoxToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
-            this.checkedListBoxToolStripMenuItem2.Text = "CheckedListBox";
-            // 
-            // listViewToolStripMenuItem1
-            // 
-            this.listViewToolStripMenuItem1.Name = "listViewToolStripMenuItem1";
-            this.listViewToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.listViewToolStripMenuItem1.Text = "ListView";
-            // 
-            // datetimePickerToolStripMenuItem1
-            // 
-            this.datetimePickerToolStripMenuItem1.Name = "datetimePickerToolStripMenuItem1";
-            this.datetimePickerToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.datetimePickerToolStripMenuItem1.Text = "DatetimePicker";
-            // 
-            // labelToolStripMenuItem1
-            // 
-            this.labelToolStripMenuItem1.Name = "labelToolStripMenuItem1";
-            this.labelToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.labelToolStripMenuItem1.Text = "Label";
-            // 
-            // pictureBoxToolStripMenuItem1
-            // 
-            this.pictureBoxToolStripMenuItem1.Name = "pictureBoxToolStripMenuItem1";
-            this.pictureBoxToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.pictureBoxToolStripMenuItem1.Text = "PictureBox";
-            // 
-            // toolTipToolStripMenuItem1
-            // 
-            this.toolTipToolStripMenuItem1.Name = "toolTipToolStripMenuItem1";
-            this.toolTipToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.toolTipToolStripMenuItem1.Text = "ToolTip";
-            // 
-            // notifyIconToolStripMenuItem1
-            // 
-            this.notifyIconToolStripMenuItem1.Name = "notifyIconToolStripMenuItem1";
-            this.notifyIconToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.notifyIconToolStripMenuItem1.Text = "NotifyIcon";
-            // 
-            // progressBarToolStripMenuItem1
-            // 
-            this.progressBarToolStripMenuItem1.Name = "progressBarToolStripMenuItem1";
-            this.progressBarToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.progressBarToolStripMenuItem1.Text = "ProgressBar";
-            // 
-            // textBoxToolStripMenuItem1
-            // 
-            this.textBoxToolStripMenuItem1.Name = "textBoxToolStripMenuItem1";
-            this.textBoxToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.textBoxToolStripMenuItem1.Text = "TextBox";
-            // 
-            // maskedTextBoxToolStripMenuItem1
-            // 
-            this.maskedTextBoxToolStripMenuItem1.Name = "maskedTextBoxToolStripMenuItem1";
-            this.maskedTextBoxToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.maskedTextBoxToolStripMenuItem1.Text = "MaskedTextBox";
-            // 
-            // richTextBoxToolStripMenuItem1
-            // 
-            this.richTextBoxToolStripMenuItem1.Name = "richTextBoxToolStripMenuItem1";
-            this.richTextBoxToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.richTextBoxToolStripMenuItem1.Text = "RichTextBox";
-            // 
-            // numericUpDownToolStripMenuItem1
-            // 
-            this.numericUpDownToolStripMenuItem1.Name = "numericUpDownToolStripMenuItem1";
-            this.numericUpDownToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.numericUpDownToolStripMenuItem1.Text = "NumericUpDown";
-            // 
-            // monthCalenderToolStripMenuItem1
-            // 
-            this.monthCalenderToolStripMenuItem1.Name = "monthCalenderToolStripMenuItem1";
-            this.monthCalenderToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.monthCalenderToolStripMenuItem1.Text = "MonthCalender";
-            // 
-            // webBrowserToolStripMenuItem1
-            // 
-            this.webBrowserToolStripMenuItem1.Name = "webBrowserToolStripMenuItem1";
-            this.webBrowserToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.webBrowserToolStripMenuItem1.Text = "WebBrowser";
-            // 
-            // panelAllForm
-            // 
-            this.panelAllForm.Controls.Add(this.linkLabel71);
-            this.panelAllForm.Location = new System.Drawing.Point(0, 27);
-            this.panelAllForm.Name = "panelAllForm";
-            this.panelAllForm.Size = new System.Drawing.Size(629, 582);
-            this.panelAllForm.TabIndex = 27;
-            // 
-            // linkLabel71
-            // 
-            this.linkLabel71.AutoSize = true;
-            this.linkLabel71.Location = new System.Drawing.Point(13, 10);
-            this.linkLabel71.Name = "linkLabel71";
-            this.linkLabel71.Size = new System.Drawing.Size(124, 12);
-            this.linkLabel71.TabIndex = 0;
-            this.linkLabel71.TabStop = true;
-            this.linkLabel71.Text = "すべてのWindowsフォーム";
-            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -1577,7 +1421,6 @@ namespace Reference
             this.Controls.Add(this.panel8);
             this.Controls.Add(this.panel7);
             this.Controls.Add(this.panel6);
-            this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
@@ -1586,7 +1429,6 @@ namespace Reference
             this.Controls.Add(this.panelAllForm);
             this.Cursor = System.Windows.Forms.Cursors.Default;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.MainMenuStrip = this.menuStrip1;
             this.MaximizeBox = false;
             this.Name = "Home";
@@ -1601,8 +1443,6 @@ namespace Reference
             this.panel3.PerformLayout();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
-            this.panel5.ResumeLayout(false);
-            this.panel5.PerformLayout();
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
             this.panel7.ResumeLayout(false);
@@ -1611,10 +1451,10 @@ namespace Reference
             this.panel8.PerformLayout();
             this.panel9.ResumeLayout(false);
             this.panel9.PerformLayout();
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
             this.panelAllForm.ResumeLayout(false);
             this.panelAllForm.PerformLayout();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1640,7 +1480,6 @@ namespace Reference
         private System.Windows.Forms.ToolStripMenuItem 動画再生プレイヤーを埋め込みたいToolStripMenuItem;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.LinkLabel linkLabel2;
         private System.Windows.Forms.LinkLabel linkLabel4;
         private System.Windows.Forms.LinkLabel linkLabel3;
@@ -1651,26 +1490,17 @@ namespace Reference
         private System.Windows.Forms.LinkLabel linkLabel5;
         private System.Windows.Forms.LinkLabel linkLabel6;
         private System.Windows.Forms.LinkLabel linkLabel7;
-        private System.Windows.Forms.LinkLabel linkLabel8;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.LinkLabel linkLabel9;
         private System.Windows.Forms.LinkLabel linkLabel10;
         private System.Windows.Forms.LinkLabel linkLabel11;
-        private System.Windows.Forms.LinkLabel linkLabel12;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.LinkLabel linkLabel13;
         private System.Windows.Forms.LinkLabel linkLabel14;
         private System.Windows.Forms.LinkLabel linkLabel15;
-        private System.Windows.Forms.LinkLabel linkLabel16;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.LinkLabel linkLabel17;
-        private System.Windows.Forms.LinkLabel linkLabel18;
-        private System.Windows.Forms.LinkLabel linkLabel19;
-        private System.Windows.Forms.LinkLabel linkLabel20;
-        private System.Windows.Forms.Label label5;
         private System.Windows.Forms.LinkLabel linkLabel35;
         private System.Windows.Forms.LinkLabel linkLabel34;
         private System.Windows.Forms.LinkLabel linkLabel33;
@@ -1706,7 +1536,6 @@ namespace Reference
         private System.Windows.Forms.LinkLabel linkLabel48;
         private System.Windows.Forms.LinkLabel linkLabel49;
         private System.Windows.Forms.LinkLabel linkLabel50;
-        private System.Windows.Forms.LinkLabel linkLabel51;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.LinkLabel linkLabel52;
@@ -1714,7 +1543,6 @@ namespace Reference
         private System.Windows.Forms.LinkLabel linkLabel54;
         private System.Windows.Forms.LinkLabel linkLabel55;
         private System.Windows.Forms.LinkLabel linkLabel56;
-        private System.Windows.Forms.LinkLabel linkLabel57;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Panel panel8;
         private System.Windows.Forms.LinkLabel linkLabel65;
@@ -1722,12 +1550,10 @@ namespace Reference
         private System.Windows.Forms.LinkLabel linkLabel67;
         private System.Windows.Forms.LinkLabel linkLabel68;
         private System.Windows.Forms.LinkLabel linkLabel69;
-        private System.Windows.Forms.LinkLabel linkLabel70;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.ColorDialog colorDialog1;
         private System.Windows.Forms.Panel panel9;
         private System.Windows.Forms.LinkLabel linkLabel73;
-        private System.Windows.Forms.LinkLabel linkLabel74;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.ToolStripMenuItem トリガー系ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem buttonToolStripMenuItem1;
@@ -1756,5 +1582,6 @@ namespace Reference
         private System.Windows.Forms.ToolStripMenuItem webBrowserToolStripMenuItem1;
         private System.Windows.Forms.Panel panelAllForm;
         private System.Windows.Forms.LinkLabel linkLabel71;
+        private System.Windows.Forms.Label label10;
     }
 }
