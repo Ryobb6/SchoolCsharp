@@ -29,41 +29,30 @@ namespace Reference
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CheckBox));
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.checkBoxRgt = new System.Windows.Forms.CheckBox();
             this.register = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.eventText = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.button1 = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // label4
-            // 
-            this.label4.BackColor = System.Drawing.Color.AliceBlue;
-            this.label4.Font = new System.Drawing.Font("游明朝", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label4.Location = new System.Drawing.Point(35, 163);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(323, 23);
-            this.label4.TabIndex = 28;
-            this.label4.Text = "System.Windows.Forms.ButtonBase.CheckBox";
-            // 
-            // label3
-            // 
-            this.label3.BackColor = System.Drawing.Color.AliceBlue;
-            this.label3.Font = new System.Drawing.Font("游明朝", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label3.Location = new System.Drawing.Point(12, 142);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(82, 21);
-            this.label3.TabIndex = 27;
-            this.label3.Text = "クラス定義: ";
             // 
             // label2
             // 
             this.label2.BackColor = System.Drawing.Color.AliceBlue;
             this.label2.Font = new System.Drawing.Font("游明朝", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label2.Location = new System.Drawing.Point(13, 186);
+            this.label2.Location = new System.Drawing.Point(18, 50);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(41, 21);
             this.label2.TabIndex = 26;
@@ -73,11 +62,11 @@ namespace Reference
             // 
             this.label14.BackColor = System.Drawing.Color.AliceBlue;
             this.label14.Font = new System.Drawing.Font("游明朝", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label14.Location = new System.Drawing.Point(35, 207);
+            this.label14.Location = new System.Drawing.Point(60, 50);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(337, 64);
+            this.label14.Size = new System.Drawing.Size(300, 44);
             this.label14.TabIndex = 25;
-            this.label14.Text = "条件変数として使用可能なトグルボタンとなるチェックボックス。Button、RadioButtonと並んで使用頻度が高い。";
+            this.label14.Text = "テキストに対応するチェック ボックスとラベルを表示します。 一般に、オプションの設定に使用されます。";
             // 
             // label1
             // 
@@ -89,55 +78,156 @@ namespace Reference
             this.label1.TabIndex = 24;
             this.label1.Text = "CheckBox";
             // 
-            // checkBox1
+            // checkBoxRgt
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(219, 80);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(67, 16);
-            this.checkBox1.TabIndex = 29;
-            this.checkBox1.Text = "登録する";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            this.checkBox1.CheckedChanged += new System.EventHandler(this.BoxChecked);
+            this.checkBoxRgt.AutoSize = true;
+            this.checkBoxRgt.Location = new System.Drawing.Point(220, 139);
+            this.checkBoxRgt.Name = "checkBoxRgt";
+            this.checkBoxRgt.Size = new System.Drawing.Size(67, 16);
+            this.checkBoxRgt.TabIndex = 29;
+            this.checkBoxRgt.Text = "登録する";
+            this.checkBoxRgt.UseVisualStyleBackColor = true;
+            this.checkBoxRgt.CheckedChanged += new System.EventHandler(this.BoxChecked);
             // 
             // register
             // 
             this.register.AutoSize = true;
-            this.register.Location = new System.Drawing.Point(76, 81);
+            this.register.Location = new System.Drawing.Point(61, 139);
             this.register.Name = "register";
             this.register.Size = new System.Drawing.Size(121, 12);
             this.register.TabIndex = 30;
             this.register.Text = "チェックボックスを押すと？";
             // 
+            // label3
+            // 
+            this.label3.BackColor = System.Drawing.Color.AliceBlue;
+            this.label3.Font = new System.Drawing.Font("游明朝", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label3.Location = new System.Drawing.Point(18, 100);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(59, 21);
+            this.label3.TabIndex = 37;
+            this.label3.Text = "実行例: ";
+            // 
+            // label5
+            // 
+            this.label5.BackColor = System.Drawing.Color.AliceBlue;
+            this.label5.Font = new System.Drawing.Font("游明朝", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label5.Location = new System.Drawing.Point(18, 181);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(157, 21);
+            this.label5.TabIndex = 39;
+            this.label5.Text = "イベントハンドラの処理 : ";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Silver;
+            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox1.Image = global::Reference.Properties.Resources._1757;
+            this.pictureBox1.Location = new System.Drawing.Point(328, -63);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(19, 21);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 46;
+            this.pictureBox1.TabStop = false;
+            // 
+            // label7
+            // 
+            this.label7.BackColor = System.Drawing.Color.AliceBlue;
+            this.label7.Font = new System.Drawing.Font("メイリオ", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label7.Location = new System.Drawing.Point(25, 325);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(324, 23);
+            this.label7.TabIndex = 45;
+            this.label7.Text = "        }\r\n";
+            // 
+            // label6
+            // 
+            this.label6.BackColor = System.Drawing.Color.AliceBlue;
+            this.label6.Font = new System.Drawing.Font("メイリオ", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label6.Location = new System.Drawing.Point(24, -105);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(324, 36);
+            this.label6.TabIndex = 44;
+            this.label6.Text = "private void EventName(object sender, EventArgs e)\r\n        {\r\n";
+            // 
+            // eventText
+            // 
+            this.eventText.Font = new System.Drawing.Font("メイリオ", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.eventText.Location = new System.Drawing.Point(25, 237);
+            this.eventText.Multiline = true;
+            this.eventText.Name = "eventText";
+            this.eventText.ReadOnly = true;
+            this.eventText.Size = new System.Drawing.Size(330, 85);
+            this.eventText.TabIndex = 43;
+            this.eventText.Text = "   \r\n            this.register.Text = \"有料会員に登録されました\";\r\n　　　　// このチェックボックスを使用不可にします" +
+    "\r\n            this.checkBoxRgt.Enabled = false;";
+            // 
+            // label4
+            // 
+            this.label4.BackColor = System.Drawing.Color.AliceBlue;
+            this.label4.Font = new System.Drawing.Font("メイリオ", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label4.Location = new System.Drawing.Point(25, 200);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(324, 36);
+            this.label4.TabIndex = 47;
+            this.label4.Text = "private void EventName(object sender, EventArgs e)\r\n        {\r\n";
+            // 
+            // button1
+            // 
+            this.button1.BackgroundImage = global::Reference.Properties.Resources._1757;
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.Location = new System.Drawing.Point(335, 237);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(20, 21);
+            this.button1.TabIndex = 49;
+            this.toolTip1.SetToolTip(this.button1, "クリップボードにコピー");
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.CopyClicked);
+            // 
             // CheckBox
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.AliceBlue;
             this.ClientSize = new System.Drawing.Size(384, 281);
-            this.Controls.Add(this.register);
-            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label4);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.eventText);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.label3);
+            this.Controls.Add(this.register);
+            this.Controls.Add(this.checkBoxRgt);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "CheckBox";
             this.Text = "コモンコントロール/CheckBox";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.CheckBox checkBoxRgt;
         private System.Windows.Forms.Label register;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox eventText;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.ToolTip toolTip1;
+        private System.Windows.Forms.Button button1;
     }
 }

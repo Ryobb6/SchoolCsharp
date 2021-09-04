@@ -1,7 +1,7 @@
 ﻿
 namespace Reference
 {
-    partial class MonthCalender
+    partial class TabControl
     {
         /// <summary>
         /// Required designer variable.
@@ -29,18 +29,20 @@ namespace Reference
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MonthCalender));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TabControl));
             this.SuspendLayout();
             // 
-            // MonthCalender
+            // TabControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScroll = true;
+            this.AutoScrollMargin = new System.Drawing.Size(0, 10);
             this.BackColor = System.Drawing.Color.AliceBlue;
             this.ClientSize = new System.Drawing.Size(384, 281);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "MonthCalender";
-            this.Text = "コモンコントロール/MonthCalender";
+            this.Name = "TabControl";
+            this.Text = "コンテナー/TabControl";
             this.ResumeLayout(false);
 
         }

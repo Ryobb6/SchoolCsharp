@@ -13,22 +13,23 @@ namespace Reference
 
     public partial class Home : Form
     {
-        
+
         public Home()
         {
             InitializeComponent();
-            
+
         }
 
-        public Form1 Form1{ get; set; }
+        public Form1 Form1 { get; set; }
 
         private void HomeClosing(object sender, FormClosingEventArgs e)
         {
-            
+
             // 新しくForm1インスタンスは破棄していないので、プロパティでインスタンスを参照し、Form1もClose
             Form1.Close();
-                           
+
         }
+
         /// <summary>
         /// Home画面が表示された際に、大きさの固定と、最大化をfalseへ設定します。
         /// </summary>
@@ -38,8 +39,9 @@ namespace Reference
         {
             this.FormBorderStyle = FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
-           
+
         }
+
         /// <summary>
         /// Buttonの説明フォームインスタンスを初期化し、表示します
         /// </summary>
@@ -50,6 +52,7 @@ namespace Reference
             Button button = new Button();
             button.Show();
         }
+
         /// <summary>
         /// CheckBoxの説明フォームインスタンスを初期化し、表示します
         /// </summary>
@@ -60,6 +63,7 @@ namespace Reference
             CheckBox checkBox = new CheckBox();
             checkBox.Show();
         }
+
         /// <summary>
         /// CheckedListBoxの説明フォームインスタンスを初期化し、表示します
         /// </summary>
@@ -69,8 +73,8 @@ namespace Reference
         {
             CheckedListBox checkedListBox = new CheckedListBox();
             checkedListBox.Show();
-
         }
+
         /// <summary>
         /// ConboBoxの説明フォームインスタンスを初期化し、表示します
         /// </summary>
@@ -82,6 +86,7 @@ namespace Reference
             comboBox.Show();
 
         }
+
         /// <summary>
         /// DateTimePickerの説明フォームインスタンスを初期化し、表示します
         /// </summary>
@@ -91,8 +96,8 @@ namespace Reference
         {
             DateTimePicker dateTimePicker = new DateTimePicker();
             dateTimePicker.Show();
-
         }
+
         /// <summary>
         /// Label(LinkLabelの説明も記載している)の説明フォームインスタンスを初期化し、表示します
         /// </summary>
@@ -102,7 +107,6 @@ namespace Reference
         {// LinkedLabelの説明もまとめた
             Label label = new Label();
             label.Show();
-
         }
 
         /// <summary>
@@ -115,6 +119,7 @@ namespace Reference
             ListBox listBox = new ListBox();
             listBox.Show();
         }
+
         /// <summary>
         /// ListViewの説明フォームをインスタンス化を初期化し、表示します
         /// </summary>
@@ -125,6 +130,7 @@ namespace Reference
             ListView listView = new ListView();
             listView.Show();
         }
+
         /// <summary>
         /// MaskedTextBoxの説明フォームをインスタンス化を初期化し、表示します
         /// 
@@ -136,16 +142,19 @@ namespace Reference
             MaskedTextBox maskedTextBox = new MaskedTextBox();
             maskedTextBox.Show();
         }
+
         /// <summary>
-        /// MonthCalenderの説明フォームをインスタンス化を初期化し、表示します
+        /// MonthCalendarの説明フォームをインスタンス化を初期化し、表示します
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void ExpMonthCalender(object sender, LinkLabelLinkClickedEventArgs e)
+        private void ExpMonthCalendar(object sender, LinkLabelLinkClickedEventArgs e)
         {
             MonthCalendar monthCalendar = new MonthCalendar();
             monthCalendar.Show();
         }
+
+
         /// <summary>
         /// NotifyIconの説明フォームをインスタンス化を初期化し、表示します
         /// </summary>
@@ -156,6 +165,7 @@ namespace Reference
             NotifyIcon notifyIcon = new NotifyIcon();
             notifyIcon.Show();
         }
+
         /// <summary>
         /// NumericUpDownの説明フォームをインスタンス化を初期化し、表示します
         /// </summary>
@@ -166,6 +176,7 @@ namespace Reference
             NumericUpDown numericUpDown = new NumericUpDown();
             numericUpDown.Show();
         }
+
         /// <summary>
         /// NumericUpDownの説明フォームをインスタンス化を初期化し、表示します
         /// </summary>
@@ -173,8 +184,10 @@ namespace Reference
         /// <param name="e"></param>
         private void ExpPictureBox(object sender, LinkLabelLinkClickedEventArgs e)
         {
-
+            PictureBox pictureBox = new PictureBox();
+            pictureBox.Show();
         }
+
         /// <summary>
         /// ProgressBarの説明フォームをインスタンス化を初期化し、表示します
         /// </summary>
@@ -182,8 +195,10 @@ namespace Reference
         /// <param name="e"></param>
         private void ExpProgressBar(object sender, LinkLabelLinkClickedEventArgs e)
         {
-
+            ProgressBar progressBar = new ProgressBar();
+            progressBar.Show();
         }
+
         /// <summary>
         /// RadioButtonの説明フォームをインスタンス化を初期化し、表示します
         /// </summary>
@@ -191,17 +206,21 @@ namespace Reference
         /// <param name="e"></param>
         private void ExpRadioButton(object sender, LinkLabelLinkClickedEventArgs e)
         {
-
+            RadioButton radioButton = new RadioButton();
+            radioButton.Show();
         }
+
         /// <summary>
-        /// ToolBoxの説明フォームをインスタンス化を初期化し、表示します
+        /// TextBoxの説明フォームをインスタンス化を初期化し、表示します
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void ExpToolBox(object sender, LinkLabelLinkClickedEventArgs e)
+        private void ExpTextBox(object sender, LinkLabelLinkClickedEventArgs e)
         {
-
+            TextBox textBox = new TextBox();
+            textBox.Show();
         }
+
         /// <summary>
         /// ToolTipの説明フォームをインスタンス化を初期化し、表示します
         /// </summary>
@@ -209,8 +228,10 @@ namespace Reference
         /// <param name="e"></param>
         private void ExpToolTip(object sender, LinkLabelLinkClickedEventArgs e)
         {
-
+            ToolTip toolTip = new ToolTip();
+            toolTip.Show();
         }
+
         /// <summary>
         /// TreeViewの説明フォームをインスタンス化を初期化し、表示します
         /// </summary>
@@ -218,7 +239,8 @@ namespace Reference
         /// <param name="e"></param>
         private void ExpTreeView(object sender, LinkLabelLinkClickedEventArgs e)
         {
-
+            TreeView treeView = new TreeView();
+            treeView.Show();
         }
         /// <summary>
         /// WebBrowserの説明フォームをインスタンス化を初期化し、表示します
@@ -227,7 +249,8 @@ namespace Reference
         /// <param name="e"></param>
         private void ExpWebBrowser(object sender, LinkLabelLinkClickedEventArgs e)
         {
-
+            WebBrowser webBrowser = new WebBrowser();
+            webBrowser.Show();
         }
-    }
+    }   
 }

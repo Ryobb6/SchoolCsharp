@@ -63,6 +63,16 @@ namespace Reference.Properties {
         /// <summary>
         ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
         /// </summary>
+        internal static System.Drawing.Bitmap _1757 {
+            get {
+                object obj = ResourceManager.GetObject("1757", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
         internal static System.Drawing.Bitmap backgraound {
             get {
                 object obj = ResourceManager.GetObject("backgraound", resourceCulture);

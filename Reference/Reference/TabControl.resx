@@ -117,34 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="eventText.Text" xml:space="preserve">
-    <value>            string str = this.button1.Text;
-
-            switch (str)
-            {// C#のswitch文ではbreak文の省略
-             //(フォロースルー)は禁止です
-                case "答えをみる":
-                    // changeLabelはこのラベルの
-                    //  インスタンス変数名です
-                    this.changeLabel.Text = 
-                           "ロムスカ・パロ・ウル・ラピュタです";
-                    // button1はボタンのインスタンス変数名です
-                    this.button1.Text = "バルス";
-                    break;
-                case "バルス":
-                    this.changeLabel.Text = "目がーーーッ!!!";
-                    this.button1.Text = "戻る";
-                    break;
-                case "戻る":
-                    this.changeLabel.Text = "ムスカ大佐の本名は何でしょう？";
-                    this.button1.Text = "答えをみる";
-                    break;
-                    //defaultは省略可能
-            }  </value>
-  </data>
-  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

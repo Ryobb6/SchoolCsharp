@@ -121,13 +121,16 @@
   <data name="backgraound" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>img\backgraound.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Jobs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>img\Jobs.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="HIshiGata" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>img\HIshiGata.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Purple" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>img\Purple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Jobs" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>img\Jobs.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="1757" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>img\1757.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

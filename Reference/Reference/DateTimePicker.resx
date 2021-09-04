@@ -117,6 +117,35 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="eventText.Text" xml:space="preserve">
+    <value>// 誕生日として選んだ日付から、年齢を計算します
+
+            // 今日の日付の取得
+            DateTime date = DateTime.Today;
+            // DateTimeの日時をフォーマットを指定して文字列に変換するには、
+            // ToStringメソッドの引数にフォーマットを指定
+            string result = date.ToString("yyyyMMdd");
+            // 数値へ変換
+            int dateToday = int.Parse(result);
+
+            // DateTimePickerで選んだ日付をフォーマット指定
+            result = this.birthDayPicker.Value.ToString("yyyyMMdd");
+            // 数値へ変換
+            int dateSelectedDay = int.Parse(result);
+
+            //yyyymmdd形式で表記した今日の日付から、
+            //同じくyyyymmdd形式で表記した誕生日を
+            //そのまま引き算し、10,000で割った解の
+            //整数部分を現時点での年齢とすることができる
+            int age = (dateToday - dateSelectedDay) / 10000;
+            this.ageCalced.Text = age.ToString();</value>
+  </data>
+  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

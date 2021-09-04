@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Reference
 {
-    public partial class MonthCalender : Form
+    public partial class MonthCalendar : Form
     {
-        public MonthCalender()
+        public MonthCalendar()
         {
             InitializeComponent();
             // FormBorderStyleの設定でサイズ固定にする
