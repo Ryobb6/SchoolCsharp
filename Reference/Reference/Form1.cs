@@ -25,8 +25,10 @@ namespace Reference
         private void From1Load(object sender, EventArgs e)
         {
             // FormBorderStyleの設定でサイズ固定にする
+            // FormBorderStyleは列挙型
             this.FormBorderStyle = FormBorderStyle.FixedSingle;
-
+            // 最大化の無効
+            this.MaximizeBox = false;
         }
 
         private void FormClicked(object sender, EventArgs e)

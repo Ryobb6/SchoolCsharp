@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace Reference
 {
-    public partial class Button : Form
+    public partial class MonthCalender : Form
     {
-        public Button()
+        public MonthCalender()
         {
             InitializeComponent();
-        }
-
-       
-
-        private void Button1Clicked(object sender, EventArgs e)
-        {
-            this.Text = "クリックされました";
         }
     }
 }

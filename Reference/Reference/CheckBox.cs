@@ -15,6 +15,11 @@ namespace Reference
         public CheckBox()
         {
             InitializeComponent();
+            // FormBorderStyleの設定でサイズ固定にする
+            // FormBorderStyleは列挙型
+            this.FormBorderStyle = FormBorderStyle.FixedSingle;
+            // 最大化の無効
+            this.MaximizeBox = false;
         }
 
         private void BoxChecked(object sender, EventArgs e)

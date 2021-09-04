@@ -94,6 +94,42 @@
     <Compile Include="Label.Designer.cs">
       <DependentUpon>Label.cs</DependentUpon>
     </Compile>
+    <Compile Include="ListView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListView.Designer.cs">
+      <DependentUpon>ListView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MaskedTextBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MaskedTextBox.Designer.cs">
+      <DependentUpon>MaskedTextBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MonthCalender.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MonthCalender.Designer.cs">
+      <DependentUpon>MonthCalender.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NotifyIcon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NotifyIcon.Designer.cs">
+      <DependentUpon>NotifyIcon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NumericUpDown.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NumericUpDown.Designer.cs">
+      <DependentUpon>NumericUpDown.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PictureBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PictureBox.Designer.cs">
+      <DependentUpon>PictureBox.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="ProgressBar.cs">
       <SubType>Form</SubType>
@@ -125,6 +161,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Label.resx">
       <DependentUpon>Label.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListView.resx">
+      <DependentUpon>ListView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MaskedTextBox.resx">
+      <DependentUpon>MaskedTextBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NumericUpDown.resx">
+      <DependentUpon>NumericUpDown.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ProgressBar.resx">
       <DependentUpon>ProgressBar.cs</DependentUpon>

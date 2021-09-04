@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace Reference
 {
-    public partial class Button : Form
+    public partial class NumericUpDown : Form
     {
-        public Button()
+        public NumericUpDown()
         {
             InitializeComponent();
-        }
-
-       
-
-        private void Button1Clicked(object sender, EventArgs e)
-        {
-            this.Text = "クリックされました";
         }
     }
 }

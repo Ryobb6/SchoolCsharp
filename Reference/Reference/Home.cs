@@ -29,6 +29,12 @@ namespace Reference
             Form1.Close();
                            
         }
+        private void HomeLoaded(object sender, EventArgs e)
+        {
+            this.FormBorderStyle = FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+        }
 
         private void ButtonLinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
@@ -42,16 +48,38 @@ namespace Reference
             checkBox.Show();
         }
 
-        private void HomeLoaded(object sender, EventArgs e)
-        {
-            this.FormBorderStyle = FormBorderStyle.FixedSingle;
-        }
-
         private void EcpCheckedListBox(object sender, LinkLabelLinkClickedEventArgs e)
         {
             CheckedListBox checkedListBox = new CheckedListBox();
             checkedListBox.Show();
 
+        }
+
+        private void ExpConboBoxClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            ComboBox comboBox = new ComboBox();
+            comboBox.Show();
+
+        }
+
+        private void ExpDateTimePickerClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            DateTimePicker dateTimePicker = new DateTimePicker();
+            dateTimePicker.Show();
+
+        }
+
+        private void ExpLabelClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {// LinkedLabelの説明もまとめた
+            Label label = new Label();
+            label.Show();
+
+        }
+
+        private void ExpListBox(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            ListBox listBox = new ListBox();
+            listBox.Show();
         }
     }
 }

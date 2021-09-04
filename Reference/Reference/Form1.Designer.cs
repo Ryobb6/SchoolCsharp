@@ -355,7 +355,7 @@ namespace Reference
             this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.Name = "Form1";
-            this.Text = ".NET アプリ開発 Reference";
+            this.Text = "スッキリわかる Windowsアプリ開発 Reference編";
             this.Load += new System.EventHandler(this.From1Load);
             this.Click += new System.EventHandler(this.FormClicked);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
