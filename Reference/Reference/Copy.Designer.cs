@@ -1,7 +1,7 @@
 ﻿
 namespace Reference
 {
-    partial class 印刷
+    partial class Copy
     {
         /// <summary>
         /// Required designer variable.
@@ -29,10 +29,22 @@ namespace Reference
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Copy));
+            this.SuspendLayout();
+            // 
+            // 印刷
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.AutoScroll = true;
+            this.AutoScrollMargin = new System.Drawing.Size(0, 10);
+            this.BackColor = System.Drawing.Color.AliceBlue;
+            this.ClientSize = new System.Drawing.Size(384, 281);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "印刷";
             this.Text = "印刷";
+            this.ResumeLayout(false);
+
         }
 
         #endregion

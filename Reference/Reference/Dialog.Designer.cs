@@ -1,7 +1,7 @@
 ﻿
 namespace Reference
 {
-    partial class ダイアログ
+    partial class Dialog
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace Reference
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ダイアログ));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Dialog));
             this.SuspendLayout();
             // 
             // ダイアログ

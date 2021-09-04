@@ -1,7 +1,7 @@
 ﻿
 namespace Reference
 {
-    partial class メニューとツールバー
+    partial class MenuAndToolBar
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace Reference
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(メニューとツールバー));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MenuAndToolBar));
             this.SuspendLayout();
             // 
             // メニューとツールバー

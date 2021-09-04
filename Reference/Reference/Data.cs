@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Reference
 {
-    public partial class データ : Form
+    public partial class Data : Form
     {
-        public データ()
+        public Data()
         {
             InitializeComponent();
         }

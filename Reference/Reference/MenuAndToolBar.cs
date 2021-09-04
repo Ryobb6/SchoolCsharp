@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Reference
 {
-    public partial class メニューとツールバー : Form
+    public partial class MenuAndToolBar : Form
     {
-        public メニューとツールバー()
+        public MenuAndToolBar()
         {
             InitializeComponent();
         }

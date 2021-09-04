@@ -51,3 +51,11 @@ C:\Users\rryyo\Documents\GitHub\SchoolCsharp\Reference\Reference\obj\Debug\Refer
 C:\Users\rryyo\Documents\GitHub\SchoolCsharp\Reference\Reference\obj\Debug\Reference.Panel.resources
 C:\Users\rryyo\Documents\GitHub\SchoolCsharp\Reference\Reference\obj\Debug\Reference.SplitContainer.resources
 C:\Users\rryyo\Documents\GitHub\SchoolCsharp\Reference\Reference\obj\Debug\Reference.TabControl.resources
+C:\Users\rryyo\Documents\GitHub\SchoolCsharp\Reference\Reference\obj\Debug\Reference.TabLayoutPanel.resources
+C:\Users\rryyo\Documents\GitHub\SchoolCsharp\Reference\Reference\obj\Debug\Reference.Component.resources
+C:\Users\rryyo\Documents\GitHub\SchoolCsharp\Reference\Reference\obj\Debug\Reference.Dialog.resources
+C:\Users\rryyo\Documents\GitHub\SchoolCsharp\Reference\Reference\obj\Debug\Reference.Data.resources
+C:\Users\rryyo\Documents\GitHub\SchoolCsharp\Reference\Reference\obj\Debug\Reference.MenuAndToolBar.resources
+C:\Users\rryyo\Documents\GitHub\SchoolCsharp\Reference\Reference\obj\Debug\Reference.Copy.resources
+C:\Users\rryyo\Documents\GitHub\SchoolCsharp\Reference\Reference\obj\Debug\Reference.BackGroundWorker.resources
+C:\Users\rryyo\Documents\GitHub\SchoolCsharp\Reference\Reference\obj\Debug\Reference.DirectoryEntry.resources

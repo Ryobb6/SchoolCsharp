@@ -1,7 +1,7 @@
 ﻿
 namespace Reference
 {
-    partial class データ
+    partial class Data
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace Reference
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(データ));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Data));
             this.SuspendLayout();
             // 
             // データ

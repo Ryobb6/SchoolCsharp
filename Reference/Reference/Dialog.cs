@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Reference
 {
-    public partial class ダイアログ : Form
+    public partial class Dialog : Form
     {
-        public ダイアログ()
+        public Dialog()
         {
             InitializeComponent();
         }

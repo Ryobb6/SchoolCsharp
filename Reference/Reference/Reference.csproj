@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BackGroundWorker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BackGroundWorker.Designer.cs">
+      <DependentUpon>BackGroundWorker.cs</DependentUpon>
+    </Compile>
     <Compile Include="BaseExpForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -81,6 +87,12 @@
     </Compile>
     <Compile Include="DateTimePicker.Designer.cs">
       <DependentUpon>DateTimePicker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DirectoryEntry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DirectoryEntry.Designer.cs">
+      <DependentUpon>DirectoryEntry.cs</DependentUpon>
     </Compile>
     <Compile Include="FlowLayoutPanel.cs">
       <SubType>Form</SubType>
@@ -180,6 +192,12 @@
     <Compile Include="TabControl.Designer.cs">
       <DependentUpon>TabControl.cs</DependentUpon>
     </Compile>
+    <Compile Include="TabLayoutPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TabLayoutPanel.Designer.cs">
+      <DependentUpon>TabLayoutPanel.cs</DependentUpon>
+    </Compile>
     <Compile Include="TextBox.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -204,6 +222,39 @@
     <Compile Include="WebBrowser.Designer.cs">
       <DependentUpon>WebBrowser.cs</DependentUpon>
     </Compile>
+    <Compile Include="Component.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Component.Designer.cs">
+      <DependentUpon>Component.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog.Designer.cs">
+      <DependentUpon>Dialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Data.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Data.Designer.cs">
+      <DependentUpon>Data.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuAndToolBar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuAndToolBar.Designer.cs">
+      <DependentUpon>MenuAndToolBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Copy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Copy.Designer.cs">
+      <DependentUpon>Copy.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="BackGroundWorker.resx">
+      <DependentUpon>BackGroundWorker.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="BaseExpForm.resx">
       <DependentUpon>BaseExpForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -221,6 +272,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="DateTimePicker.resx">
       <DependentUpon>DateTimePicker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DirectoryEntry.resx">
+      <DependentUpon>DirectoryEntry.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FlowLayoutPanel.resx">
       <DependentUpon>FlowLayoutPanel.cs</DependentUpon>
@@ -280,6 +334,9 @@
     <EmbeddedResource Include="TabControl.resx">
       <DependentUpon>TabControl.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="TabLayoutPanel.resx">
+      <DependentUpon>TabLayoutPanel.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="TextBox.resx">
       <DependentUpon>TextBox.cs</DependentUpon>
     </EmbeddedResource>
@@ -291,6 +348,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="WebBrowser.resx">
       <DependentUpon>WebBrowser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component.resx">
+      <DependentUpon>Component.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog.resx">
+      <DependentUpon>Dialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Data.resx">
+      <DependentUpon>Data.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuAndToolBar.resx">
+      <DependentUpon>MenuAndToolBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Copy.resx">
+      <DependentUpon>Copy.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
