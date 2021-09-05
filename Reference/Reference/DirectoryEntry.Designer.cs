@@ -31,13 +31,19 @@ namespace Reference
         {
             this.SuspendLayout();
             // 
+            // label1
+            // 
+            this.label1.Size = new System.Drawing.Size(119, 21);
+            this.label1.Text = "DirectoryEntry";
+            // 
             // DirectoryEntry
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
-            this.ClientSize = new System.Drawing.Size(384, 281);
+            this.ClientSize = new System.Drawing.Size(384, 356);
             this.Name = "DirectoryEntry";
             this.Text = "コンポーネント/DirectoryEntry";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
