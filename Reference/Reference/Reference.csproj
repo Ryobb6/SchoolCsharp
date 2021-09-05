@@ -222,6 +222,18 @@
     <Compile Include="ToolTip.Designer.cs">
       <DependentUpon>ToolTip.cs</DependentUpon>
     </Compile>
+    <Compile Include="TreeView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TreeView.Designer.cs">
+      <DependentUpon>TreeView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebBrowser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WebBrowser.Designer.cs">
+      <DependentUpon>WebBrowser.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="BaseCommonControle.resx">
       <DependentUpon>BaseCommonControle.cs</DependentUpon>
     </EmbeddedResource>
@@ -318,6 +330,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ToolTip.resx">
       <DependentUpon>ToolTip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TreeView.resx">
+      <DependentUpon>TreeView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebBrowser.resx">
+      <DependentUpon>WebBrowser.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
