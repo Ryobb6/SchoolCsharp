@@ -1,7 +1,7 @@
 ﻿
 namespace Reference
 {
-    partial class MaskedTextBox
+    partial class BaseCommonControle
     {
         /// <summary>
         /// 必要なデザイナー変数です。
@@ -31,21 +31,12 @@ namespace Reference
         {
             this.SuspendLayout();
             // 
-            // label14
-            // 
-            this.label14.Text = "ユーザー入力の形式を制限します";
-            // 
-            // label1
-            // 
-            this.label1.Size = new System.Drawing.Size(128, 21);
-            this.label1.Text = "MaskedTextBox";
-            // 
-            // MaskedTextBox
+            // BaseCommonControle
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.ClientSize = new System.Drawing.Size(384, 461);
-            this.Name = "MaskedTextBox";
-            this.Text = "コモンコントロール/MaskedTextBox";
+            this.Name = "BaseCommonControle";
+            this.Text = "コモンコントロール/";
             this.ResumeLayout(false);
             this.PerformLayout();
 

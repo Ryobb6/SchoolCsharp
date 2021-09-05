@@ -36,6 +36,10 @@ namespace Reference
             this.label14 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.eventText = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label5
@@ -103,12 +107,58 @@ namespace Reference
             this.comboBox1.TabIndex = 45;
             this.comboBox1.Text = "得意科目は?";
             // 
+            // button1
+            // 
+            this.button1.BackgroundImage = global::Reference.Properties.Resources._1757;
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.Location = new System.Drawing.Point(335, 235);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(20, 21);
+            this.button1.TabIndex = 53;
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // label4
+            // 
+            this.label4.BackColor = System.Drawing.Color.AliceBlue;
+            this.label4.Font = new System.Drawing.Font("メイリオ", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label4.Location = new System.Drawing.Point(25, 198);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(324, 36);
+            this.label4.TabIndex = 52;
+            this.label4.Text = "private void EventName(object sender, EventArgs e)\r\n        {\r\n";
+            // 
+            // label7
+            // 
+            this.label7.BackColor = System.Drawing.Color.AliceBlue;
+            this.label7.Font = new System.Drawing.Font("メイリオ", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label7.Location = new System.Drawing.Point(25, 323);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(324, 23);
+            this.label7.TabIndex = 51;
+            this.label7.Text = "        }\r\n";
+            // 
+            // eventText
+            // 
+            this.eventText.Font = new System.Drawing.Font("メイリオ", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.eventText.Location = new System.Drawing.Point(25, 235);
+            this.eventText.Multiline = true;
+            this.eventText.Name = "eventText";
+            this.eventText.ReadOnly = true;
+            this.eventText.Size = new System.Drawing.Size(330, 85);
+            this.eventText.TabIndex = 50;
+            this.eventText.Text = "   \r\n           ";
+            // 
             // ComboBox
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.AliceBlue;
-            this.ClientSize = new System.Drawing.Size(384, 281);
+            this.ClientSize = new System.Drawing.Size(384, 361);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.eventText);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label3);
@@ -131,5 +181,9 @@ namespace Reference
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.TextBox eventText;
     }
 }

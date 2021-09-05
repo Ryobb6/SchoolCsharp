@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace Reference
 {
-    public partial class MaskedTextBox : Reference.BaseCommonControle
+    public partial class BaseData : Reference.BaseExpAllContorolForm
     {
-        public MaskedTextBox()
+        public BaseData()
         {
             InitializeComponent();
         }

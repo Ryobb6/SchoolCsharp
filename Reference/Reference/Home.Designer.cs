@@ -108,12 +108,11 @@ namespace Reference
             this.linkLabel73 = new System.Windows.Forms.LinkLabel();
             this.label9 = new System.Windows.Forms.Label();
             this.panelAllForm = new System.Windows.Forms.Panel();
-            this.linkLabel71 = new System.Windows.Forms.LinkLabel();
             this.label10 = new System.Windows.Forms.Label();
+            this.linkLabel71 = new System.Windows.Forms.LinkLabel();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.ツールボックスToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.コモンコントロールToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ポインタToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.トリガー系ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.buttonToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.linkLabelToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
@@ -152,6 +151,7 @@ namespace Reference
             this.画像を表示したいToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.再生プレイヤーを埋め込みたいToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.動画再生プレイヤーを埋め込みたいToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -205,7 +205,6 @@ namespace Reference
             this.linkLabel37.TabIndex = 38;
             this.linkLabel37.TabStop = true;
             this.linkLabel37.Text = "WebBrowser";
-            this.linkLabel37.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.ExpWebBrowser);
             // 
             // linkLabel36
             // 
@@ -218,7 +217,6 @@ namespace Reference
             this.linkLabel36.TabIndex = 37;
             this.linkLabel36.TabStop = true;
             this.linkLabel36.Text = "TreeView";
-            this.linkLabel36.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.ExpTreeView);
             // 
             // linkLabel35
             // 
@@ -231,7 +229,6 @@ namespace Reference
             this.linkLabel35.TabIndex = 36;
             this.linkLabel35.TabStop = true;
             this.linkLabel35.Text = "TextBox";
-            this.linkLabel35.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.ExpTextBox);
             // 
             // linkLabel34
             // 
@@ -244,7 +241,6 @@ namespace Reference
             this.linkLabel34.TabIndex = 35;
             this.linkLabel34.TabStop = true;
             this.linkLabel34.Text = "ToolTip";
-            this.linkLabel34.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.ExpToolTip);
             // 
             // linkLabel33
             // 
@@ -257,7 +253,6 @@ namespace Reference
             this.linkLabel33.TabIndex = 34;
             this.linkLabel33.TabStop = true;
             this.linkLabel33.Text = "RadioButton";
-            this.linkLabel33.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.ExpRadioButton);
             // 
             // linkLabel32
             // 
@@ -270,7 +265,6 @@ namespace Reference
             this.linkLabel32.TabIndex = 33;
             this.linkLabel32.TabStop = true;
             this.linkLabel32.Text = "ProgressBar";
-            this.linkLabel32.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.ExpProgressBar);
             // 
             // linkLabel31
             // 
@@ -283,7 +277,6 @@ namespace Reference
             this.linkLabel31.TabIndex = 32;
             this.linkLabel31.TabStop = true;
             this.linkLabel31.Text = "PictureBox";
-            this.linkLabel31.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.ExpPictureBox);
             // 
             // linkLabel30
             // 
@@ -296,7 +289,6 @@ namespace Reference
             this.linkLabel30.TabIndex = 31;
             this.linkLabel30.TabStop = true;
             this.linkLabel30.Text = "NumericUpDown";
-            this.linkLabel30.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.ExpNumericUpDown);
             // 
             // linkLabel29
             // 
@@ -309,7 +301,6 @@ namespace Reference
             this.linkLabel29.TabIndex = 30;
             this.linkLabel29.TabStop = true;
             this.linkLabel29.Text = "NotifyIcon";
-            this.linkLabel29.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.NotifyIcon);
             // 
             // linkLabel28
             // 
@@ -322,7 +313,7 @@ namespace Reference
             this.linkLabel28.TabIndex = 29;
             this.linkLabel28.TabStop = true;
             this.linkLabel28.Text = "MonthCalendar";
-            this.linkLabel28.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.ExpMonthCalendar);
+            this.linkLabel28.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.ExpMonthCalendarBox);
             // 
             // linkLabel27
             // 
@@ -402,10 +393,10 @@ namespace Reference
             this.linkLabel21.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.linkLabel21.Location = new System.Drawing.Point(12, 102);
             this.linkLabel21.Name = "linkLabel21";
-            this.linkLabel21.Size = new System.Drawing.Size(57, 12);
+            this.linkLabel21.Size = new System.Drawing.Size(60, 12);
             this.linkLabel21.TabIndex = 22;
             this.linkLabel21.TabStop = true;
-            this.linkLabel21.Text = "ConboBox";
+            this.linkLabel21.Text = "ComboBox";
             this.linkLabel21.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.ExpConboBoxClicked);
             // 
             // linkLabel4
@@ -1083,6 +1074,15 @@ namespace Reference
             this.panelAllForm.Size = new System.Drawing.Size(629, 582);
             this.panelAllForm.TabIndex = 27;
             // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(16, 10);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(116, 12);
+            this.label10.TabIndex = 1;
+            this.label10.Text = "全てのWindowsフォーム";
+            // 
             // linkLabel71
             // 
             this.linkLabel71.AutoSize = true;
@@ -1093,15 +1093,6 @@ namespace Reference
             this.linkLabel71.TabStop = true;
             this.linkLabel71.Text = "イベント";
             // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(16, 10);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(116, 12);
-            this.label10.TabIndex = 1;
-            this.label10.Text = "全てのWindowsフォーム";
-            // 
             // menuStrip1
             // 
             this.menuStrip1.BackColor = System.Drawing.Color.MediumSlateBlue;
@@ -1110,7 +1101,8 @@ namespace Reference
             this.ツールボックスToolStripMenuItem,
             this.プロパティToolStripMenuItem,
             this.イベントToolStripMenuItem,
-            this.よくある質問ToolStripMenuItem});
+            this.よくある質問ToolStripMenuItem,
+            this.toolStripMenuItem1});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(629, 24);
@@ -1135,7 +1127,6 @@ namespace Reference
             // コモンコントロールToolStripMenuItem
             // 
             this.コモンコントロールToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.ポインタToolStripMenuItem,
             this.トリガー系ToolStripMenuItem,
             this.選択系ToolStripMenuItem,
             this.入力系ToolStripMenuItem,
@@ -1145,12 +1136,6 @@ namespace Reference
             this.コモンコントロールToolStripMenuItem.Name = "コモンコントロールToolStripMenuItem";
             this.コモンコントロールToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.コモンコントロールToolStripMenuItem.Text = "コモンコントロール";
-            // 
-            // ポインタToolStripMenuItem
-            // 
-            this.ポインタToolStripMenuItem.Name = "ポインタToolStripMenuItem";
-            this.ポインタToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.ポインタToolStripMenuItem.Text = "ポインタ";
             // 
             // トリガー系ToolStripMenuItem
             // 
@@ -1188,31 +1173,31 @@ namespace Reference
             // checkBoxToolStripMenuItem1
             // 
             this.checkBoxToolStripMenuItem1.Name = "checkBoxToolStripMenuItem1";
-            this.checkBoxToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.checkBoxToolStripMenuItem1.Size = new System.Drawing.Size(157, 22);
             this.checkBoxToolStripMenuItem1.Text = "CheckBox";
             // 
             // radioButtonToolStripMenuItem2
             // 
             this.radioButtonToolStripMenuItem2.Name = "radioButtonToolStripMenuItem2";
-            this.radioButtonToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
+            this.radioButtonToolStripMenuItem2.Size = new System.Drawing.Size(157, 22);
             this.radioButtonToolStripMenuItem2.Text = "RadioButton";
             // 
             // listBoxToolStripMenuItem2
             // 
             this.listBoxToolStripMenuItem2.Name = "listBoxToolStripMenuItem2";
-            this.listBoxToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
+            this.listBoxToolStripMenuItem2.Size = new System.Drawing.Size(157, 22);
             this.listBoxToolStripMenuItem2.Text = "ListBox";
             // 
             // checkedListBoxToolStripMenuItem2
             // 
             this.checkedListBoxToolStripMenuItem2.Name = "checkedListBoxToolStripMenuItem2";
-            this.checkedListBoxToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
+            this.checkedListBoxToolStripMenuItem2.Size = new System.Drawing.Size(157, 22);
             this.checkedListBoxToolStripMenuItem2.Text = "CheckedListBox";
             // 
             // listViewToolStripMenuItem1
             // 
             this.listViewToolStripMenuItem1.Name = "listViewToolStripMenuItem1";
-            this.listViewToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.listViewToolStripMenuItem1.Size = new System.Drawing.Size(157, 22);
             this.listViewToolStripMenuItem1.Text = "ListView";
             // 
             // 入力系ToolStripMenuItem
@@ -1229,25 +1214,25 @@ namespace Reference
             // textBoxToolStripMenuItem1
             // 
             this.textBoxToolStripMenuItem1.Name = "textBoxToolStripMenuItem1";
-            this.textBoxToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.textBoxToolStripMenuItem1.Size = new System.Drawing.Size(165, 22);
             this.textBoxToolStripMenuItem1.Text = "TextBox";
             // 
             // maskedTextBoxToolStripMenuItem1
             // 
             this.maskedTextBoxToolStripMenuItem1.Name = "maskedTextBoxToolStripMenuItem1";
-            this.maskedTextBoxToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.maskedTextBoxToolStripMenuItem1.Size = new System.Drawing.Size(165, 22);
             this.maskedTextBoxToolStripMenuItem1.Text = "MaskedTextBox";
             // 
             // richTextBoxToolStripMenuItem1
             // 
             this.richTextBoxToolStripMenuItem1.Name = "richTextBoxToolStripMenuItem1";
-            this.richTextBoxToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.richTextBoxToolStripMenuItem1.Size = new System.Drawing.Size(165, 22);
             this.richTextBoxToolStripMenuItem1.Text = "RichTextBox";
             // 
             // numericUpDownToolStripMenuItem1
             // 
             this.numericUpDownToolStripMenuItem1.Name = "numericUpDownToolStripMenuItem1";
-            this.numericUpDownToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.numericUpDownToolStripMenuItem1.Size = new System.Drawing.Size(165, 22);
             this.numericUpDownToolStripMenuItem1.Text = "NumericUpDown";
             // 
             // 日付系ToolStripMenuItem
@@ -1262,13 +1247,13 @@ namespace Reference
             // datetimePickerToolStripMenuItem1
             // 
             this.datetimePickerToolStripMenuItem1.Name = "datetimePickerToolStripMenuItem1";
-            this.datetimePickerToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.datetimePickerToolStripMenuItem1.Size = new System.Drawing.Size(156, 22);
             this.datetimePickerToolStripMenuItem1.Text = "DatetimePicker";
             // 
             // monthCalenderToolStripMenuItem1
             // 
             this.monthCalenderToolStripMenuItem1.Name = "monthCalenderToolStripMenuItem1";
-            this.monthCalenderToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.monthCalenderToolStripMenuItem1.Size = new System.Drawing.Size(156, 22);
             this.monthCalenderToolStripMenuItem1.Text = "MonthCalender";
             // 
             // 表示系ToolStripMenuItem
@@ -1284,19 +1269,19 @@ namespace Reference
             // labelToolStripMenuItem1
             // 
             this.labelToolStripMenuItem1.Name = "labelToolStripMenuItem1";
-            this.labelToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.labelToolStripMenuItem1.Size = new System.Drawing.Size(131, 22);
             this.labelToolStripMenuItem1.Text = "Label";
             // 
             // pictureBoxToolStripMenuItem1
             // 
             this.pictureBoxToolStripMenuItem1.Name = "pictureBoxToolStripMenuItem1";
-            this.pictureBoxToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.pictureBoxToolStripMenuItem1.Size = new System.Drawing.Size(131, 22);
             this.pictureBoxToolStripMenuItem1.Text = "PictureBox";
             // 
             // toolTipToolStripMenuItem1
             // 
             this.toolTipToolStripMenuItem1.Name = "toolTipToolStripMenuItem1";
-            this.toolTipToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.toolTipToolStripMenuItem1.Size = new System.Drawing.Size(131, 22);
             this.toolTipToolStripMenuItem1.Text = "ToolTip";
             // 
             // その他ToolStripMenuItem
@@ -1312,19 +1297,19 @@ namespace Reference
             // notifyIconToolStripMenuItem1
             // 
             this.notifyIconToolStripMenuItem1.Name = "notifyIconToolStripMenuItem1";
-            this.notifyIconToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.notifyIconToolStripMenuItem1.Size = new System.Drawing.Size(140, 22);
             this.notifyIconToolStripMenuItem1.Text = "NotifyIcon";
             // 
             // progressBarToolStripMenuItem1
             // 
             this.progressBarToolStripMenuItem1.Name = "progressBarToolStripMenuItem1";
-            this.progressBarToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.progressBarToolStripMenuItem1.Size = new System.Drawing.Size(140, 22);
             this.progressBarToolStripMenuItem1.Text = "ProgressBar";
             // 
             // webBrowserToolStripMenuItem1
             // 
             this.webBrowserToolStripMenuItem1.Name = "webBrowserToolStripMenuItem1";
-            this.webBrowserToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.webBrowserToolStripMenuItem1.Size = new System.Drawing.Size(140, 22);
             this.webBrowserToolStripMenuItem1.Text = "WebBrowser";
             // 
             // コンテナーToolStripMenuItem
@@ -1388,8 +1373,8 @@ namespace Reference
             this.再生プレイヤーを埋め込みたいToolStripMenuItem,
             this.動画再生プレイヤーを埋め込みたいToolStripMenuItem});
             this.よくある質問ToolStripMenuItem.Name = "よくある質問ToolStripMenuItem";
-            this.よくある質問ToolStripMenuItem.Size = new System.Drawing.Size(78, 20);
-            this.よくある質問ToolStripMenuItem.Text = "よくある質問";
+            this.よくある質問ToolStripMenuItem.Size = new System.Drawing.Size(87, 20);
+            this.よくある質問ToolStripMenuItem.Text = "よくあるご質問";
             // 
             // 画像を表示したいToolStripMenuItem
             // 
@@ -1408,6 +1393,12 @@ namespace Reference
             this.動画再生プレイヤーを埋め込みたいToolStripMenuItem.Name = "動画再生プレイヤーを埋め込みたいToolStripMenuItem";
             this.動画再生プレイヤーを埋め込みたいToolStripMenuItem.Size = new System.Drawing.Size(240, 22);
             this.動画再生プレイヤーを埋め込みたいToolStripMenuItem.Text = "動画再生プレイヤーを埋め込みたい";
+            // 
+            // toolStripMenuItem1
+            // 
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(132, 20);
+            this.toolStripMenuItem1.Text = "←ツールバー開発中です";
             // 
             // Home
             // 
@@ -1471,7 +1462,6 @@ namespace Reference
         private System.Windows.Forms.ToolStripMenuItem 印刷ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ダイアログToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem wPF相互運用機能ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem ポインタToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem プロパティToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem イベントToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem よくある質問ToolStripMenuItem;
@@ -1583,5 +1573,6 @@ namespace Reference
         private System.Windows.Forms.Panel panelAllForm;
         private System.Windows.Forms.LinkLabel linkLabel71;
         private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
     }
 }

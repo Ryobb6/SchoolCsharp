@@ -46,17 +46,59 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BackGroundWorker.cs">
+    <Compile Include="BaseCommonControle.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="BackGroundWorker.Designer.cs">
-      <DependentUpon>BackGroundWorker.cs</DependentUpon>
+    <Compile Include="BaseCommonControle.Designer.cs">
+      <DependentUpon>BaseCommonControle.cs</DependentUpon>
     </Compile>
-    <Compile Include="BaseExpForm.cs">
+    <Compile Include="BaseComponent.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="BaseExpForm.Designer.cs">
-      <DependentUpon>BaseExpForm.cs</DependentUpon>
+    <Compile Include="BaseComponent.Designer.cs">
+      <DependentUpon>BaseComponent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaseContainer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaseContainer.Designer.cs">
+      <DependentUpon>BaseContainer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaseCopy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaseCopy.Designer.cs">
+      <DependentUpon>BaseCopy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaseData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaseData.Designer.cs">
+      <DependentUpon>BaseData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaseDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaseDialog.Designer.cs">
+      <DependentUpon>BaseDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaseExpAllContorolForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaseExpAllContorolForm.Designer.cs">
+      <DependentUpon>BaseExpAllContorolForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaseForm.Designer.cs">
+      <DependentUpon>BaseForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaseMuneToolBar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaseMuneToolBar.Designer.cs">
+      <DependentUpon>BaseMuneToolBar.cs</DependentUpon>
     </Compile>
     <Compile Include="Button.cs">
       <SubType>Form</SubType>
@@ -88,29 +130,11 @@
     <Compile Include="DateTimePicker.Designer.cs">
       <DependentUpon>DateTimePicker.cs</DependentUpon>
     </Compile>
-    <Compile Include="DirectoryEntry.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="DirectoryEntry.Designer.cs">
-      <DependentUpon>DirectoryEntry.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FlowLayoutPanel.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FlowLayoutPanel.Designer.cs">
-      <DependentUpon>FlowLayoutPanel.cs</DependentUpon>
-    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GroupBox.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="GroupBox.Designer.cs">
-      <DependentUpon>GroupBox.cs</DependentUpon>
     </Compile>
     <Compile Include="Home.cs">
       <SubType>Form</SubType>
@@ -124,6 +148,12 @@
     <Compile Include="Label.Designer.cs">
       <DependentUpon>Label.cs</DependentUpon>
     </Compile>
+    <Compile Include="ListBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListBox.Designer.cs">
+      <DependentUpon>ListBox.cs</DependentUpon>
+    </Compile>
     <Compile Include="ListView.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -136,127 +166,46 @@
     <Compile Include="MaskedTextBox.Designer.cs">
       <DependentUpon>MaskedTextBox.cs</DependentUpon>
     </Compile>
-    <Compile Include="MonthCalendar.cs">
+    <Compile Include="MonthCalendarBox.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MonthCalendar.Designer.cs">
-      <DependentUpon>MonthCalendar.cs</DependentUpon>
-    </Compile>
-    <Compile Include="NotifyIcon.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="NotifyIcon.Designer.cs">
-      <DependentUpon>NotifyIcon.cs</DependentUpon>
-    </Compile>
-    <Compile Include="NumericUpDown.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="NumericUpDown.Designer.cs">
-      <DependentUpon>NumericUpDown.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Panel.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Panel.Designer.cs">
-      <DependentUpon>Panel.cs</DependentUpon>
-    </Compile>
-    <Compile Include="PictureBox.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="PictureBox.Designer.cs">
-      <DependentUpon>PictureBox.cs</DependentUpon>
+    <Compile Include="MonthCalendarBox.Designer.cs">
+      <DependentUpon>MonthCalendarBox.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
-    <Compile Include="ProgressBar.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ProgressBar.Designer.cs">
-      <DependentUpon>ProgressBar.cs</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RadioButton.cs">
+    <Compile Include="Properties\BaseExplainForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="RadioButton.Designer.cs">
-      <DependentUpon>RadioButton.cs</DependentUpon>
+    <Compile Include="Properties\BaseExplainForm.Designer.cs">
+      <DependentUpon>BaseExplainForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="SplitContainer.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="SplitContainer.Designer.cs">
-      <DependentUpon>SplitContainer.cs</DependentUpon>
-    </Compile>
-    <Compile Include="TabControl.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="TabControl.Designer.cs">
-      <DependentUpon>TabControl.cs</DependentUpon>
-    </Compile>
-    <Compile Include="TabLayoutPanel.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="TabLayoutPanel.Designer.cs">
-      <DependentUpon>TabLayoutPanel.cs</DependentUpon>
-    </Compile>
-    <Compile Include="TextBox.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="TextBox.Designer.cs">
-      <DependentUpon>TextBox.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ToolTip.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ToolTip.Designer.cs">
-      <DependentUpon>ToolTip.cs</DependentUpon>
-    </Compile>
-    <Compile Include="TreeView.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="TreeView.Designer.cs">
-      <DependentUpon>TreeView.cs</DependentUpon>
-    </Compile>
-    <Compile Include="WebBrowser.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="WebBrowser.Designer.cs">
-      <DependentUpon>WebBrowser.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Component.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Component.Designer.cs">
-      <DependentUpon>Component.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Dialog.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Dialog.Designer.cs">
-      <DependentUpon>Dialog.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Data.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Data.Designer.cs">
-      <DependentUpon>Data.cs</DependentUpon>
-    </Compile>
-    <Compile Include="MenuAndToolBar.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="MenuAndToolBar.Designer.cs">
-      <DependentUpon>MenuAndToolBar.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Copy.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Copy.Designer.cs">
-      <DependentUpon>Copy.cs</DependentUpon>
-    </Compile>
-    <EmbeddedResource Include="BackGroundWorker.resx">
-      <DependentUpon>BackGroundWorker.cs</DependentUpon>
+    <EmbeddedResource Include="BaseCommonControle.resx">
+      <DependentUpon>BaseCommonControle.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="BaseExpForm.resx">
-      <DependentUpon>BaseExpForm.cs</DependentUpon>
+    <EmbeddedResource Include="BaseComponent.resx">
+      <DependentUpon>BaseComponent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaseContainer.resx">
+      <DependentUpon>BaseContainer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaseCopy.resx">
+      <DependentUpon>BaseCopy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaseData.resx">
+      <DependentUpon>BaseData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaseDialog.resx">
+      <DependentUpon>BaseDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaseExpAllContorolForm.resx">
+      <DependentUpon>BaseExpAllContorolForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaseForm.resx">
+      <DependentUpon>BaseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaseMuneToolBar.resx">
+      <DependentUpon>BaseMuneToolBar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Button.resx">
       <DependentUpon>Button.cs</DependentUpon>
@@ -273,17 +222,8 @@
     <EmbeddedResource Include="DateTimePicker.resx">
       <DependentUpon>DateTimePicker.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DirectoryEntry.resx">
-      <DependentUpon>DirectoryEntry.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FlowLayoutPanel.resx">
-      <DependentUpon>FlowLayoutPanel.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="GroupBox.resx">
-      <DependentUpon>GroupBox.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
@@ -291,29 +231,20 @@
     <EmbeddedResource Include="Label.resx">
       <DependentUpon>Label.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ListBox.resx">
+      <DependentUpon>ListBox.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ListView.resx">
       <DependentUpon>ListView.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MaskedTextBox.resx">
       <DependentUpon>MaskedTextBox.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MonthCalendar.resx">
-      <DependentUpon>MonthCalendar.cs</DependentUpon>
+    <EmbeddedResource Include="MonthCalendarBox.resx">
+      <DependentUpon>MonthCalendarBox.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="NotifyIcon.resx">
-      <DependentUpon>NotifyIcon.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="NumericUpDown.resx">
-      <DependentUpon>NumericUpDown.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Panel.resx">
-      <DependentUpon>Panel.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="PictureBox.resx">
-      <DependentUpon>PictureBox.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ProgressBar.resx">
-      <DependentUpon>ProgressBar.cs</DependentUpon>
+    <EmbeddedResource Include="Properties\BaseExplainForm.resx">
+      <DependentUpon>BaseExplainForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -325,45 +256,6 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="RadioButton.resx">
-      <DependentUpon>RadioButton.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="SplitContainer.resx">
-      <DependentUpon>SplitContainer.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="TabControl.resx">
-      <DependentUpon>TabControl.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="TabLayoutPanel.resx">
-      <DependentUpon>TabLayoutPanel.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="TextBox.resx">
-      <DependentUpon>TextBox.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ToolTip.resx">
-      <DependentUpon>ToolTip.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="TreeView.resx">
-      <DependentUpon>TreeView.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="WebBrowser.resx">
-      <DependentUpon>WebBrowser.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Component.resx">
-      <DependentUpon>Component.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Dialog.resx">
-      <DependentUpon>Dialog.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Data.resx">
-      <DependentUpon>Data.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="MenuAndToolBar.resx">
-      <DependentUpon>MenuAndToolBar.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Copy.resx">
-      <DependentUpon>Copy.cs</DependentUpon>
-    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

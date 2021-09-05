@@ -6,11 +6,11 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 
-namespace Reference
+namespace Reference.Properties
 {
-    public partial class MaskedTextBox : Reference.BaseCommonControle
+    public partial class BaseExplainForm : Reference.BaseForm
     {
-        public MaskedTextBox()
+        public BaseExplainForm()
         {
             InitializeComponent();
         }
