@@ -46,3 +46,11 @@ C:\Users\rryyo\Documents\GitHub\SchoolCsharp\Reference\Reference\bin\Debug\Refer
 C:\Users\rryyo\Documents\GitHub\SchoolCsharp\Reference\Reference\obj\Debug\Reference.exe
 C:\Users\rryyo\Documents\GitHub\SchoolCsharp\Reference\Reference\obj\Debug\Reference.pdb
 C:\Users\rryyo\Documents\GitHub\SchoolCsharp\Reference\Reference\obj\Debug\Reference.MonthCalendar.resources
+C:\Users\rryyo\Documents\GitHub\SchoolCsharp\Reference\Reference\obj\Debug\Reference.csproj.AssemblyReference.cache
+C:\Users\rryyo\Documents\GitHub\SchoolCsharp\Reference\Reference\obj\Debug\Reference.NotifyIcon.resources
+C:\Users\rryyo\Documents\GitHub\SchoolCsharp\Reference\Reference\obj\Debug\Reference.NumericUpDown.resources
+C:\Users\rryyo\Documents\GitHub\SchoolCsharp\Reference\Reference\obj\Debug\Reference.PictureBox.resources
+C:\Users\rryyo\Documents\GitHub\SchoolCsharp\Reference\Reference\obj\Debug\Reference.ProgressBar.resources
+C:\Users\rryyo\Documents\GitHub\SchoolCsharp\Reference\Reference\obj\Debug\Reference.RadioButton.resources
+C:\Users\rryyo\Documents\GitHub\SchoolCsharp\Reference\Reference\obj\Debug\Reference.TextBox.resources
+C:\Users\rryyo\Documents\GitHub\SchoolCsharp\Reference\Reference\obj\Debug\Reference.ToolTip.resources
