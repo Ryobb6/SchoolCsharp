@@ -143,7 +143,7 @@ namespace Reference
 
         private void ExpMonthCalendarBox(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            MonthCalendarBox monthCalendarBox = new MonthCalendarBox();
+            MonthCalendar monthCalendarBox = new MonthCalendar();
             monthCalendarBox.Show();
 
         }

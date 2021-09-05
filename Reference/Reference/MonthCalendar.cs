@@ -6,11 +6,11 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 
-namespace Reference.Properties
+namespace Reference
 {
-    public partial class BaseExplainForm : Reference.BaseForm
+    public partial class MonthCalendar : Reference.BaseCommonControle
     {
-        public BaseExplainForm()
+        public MonthCalendar()
         {
             InitializeComponent();
         }

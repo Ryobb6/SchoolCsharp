@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace Reference
 {
-    public partial class MonthCalendarBox : Reference.BaseCommonControle
+    public partial class NumericUpDown : Reference.BaseCommonControle
     {
-        public MonthCalendarBox()
+        public NumericUpDown()
         {
             InitializeComponent();
         }

@@ -1,5 +1,5 @@
 ﻿
-namespace Reference.Properties
+namespace Reference
 {
     partial class BaseExplainForm
     {

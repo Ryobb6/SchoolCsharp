@@ -1,14 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Text;
 using System.Windows.Forms;
 
 namespace Reference
 {
-    public partial class BaseExpAllContorolForm : Reference.Properties.BaseExplainForm { 
+    public partial class BaseExpAllContorolForm : Reference.BaseExplainForm
+    {
 
         public BaseExpAllContorolForm()
         {
