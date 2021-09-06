@@ -129,11 +129,11 @@ namespace Reference
             // NormalLabel
             // 
             this.NormalLabel.AutoSize = true;
-            this.NormalLabel.Location = new System.Drawing.Point(133, 246);
+            this.NormalLabel.Location = new System.Drawing.Point(81, 244);
             this.NormalLabel.Name = "NormalLabel";
-            this.NormalLabel.Size = new System.Drawing.Size(82, 12);
+            this.NormalLabel.Size = new System.Drawing.Size(199, 12);
             this.NormalLabel.TabIndex = 73;
-            this.NormalLabel.Text = "これはラベルです";
+            this.NormalLabel.Text = "リンクラベル(上)を押すと文字が変わります";
             // 
             // linkLabel1
             // 

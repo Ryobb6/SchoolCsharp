@@ -18,6 +18,7 @@ namespace Reference
         private void QestClicked(object sender, EventArgs e)
         {
             this.ToolTipLabel.Text = "有料会員に登録されました";
+            this.questButton.Enabled = false;
         }
     }
 }

@@ -31,9 +31,14 @@ namespace Reference
         {
             this.components = new System.ComponentModel.Container();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
-            this.button1 = new System.Windows.Forms.Button();
+            this.questButton = new System.Windows.Forms.Button();
             this.ToolTipLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
+            // 
+            // eventText
+            // 
+            this.eventText.Text = "            this.ToolTipLabel.Text = \"有料会員に登録されました\";\r\n            this.questButto" +
+    "n.Enabled = false;";
             // 
             // label3
             // 
@@ -59,16 +64,16 @@ namespace Reference
             this.label1.Size = new System.Drawing.Size(70, 21);
             this.label1.Text = "ToolTip";
             // 
-            // button1
+            // questButton
             // 
-            this.button1.Location = new System.Drawing.Point(216, 156);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 74;
-            this.button1.Text = "???";
-            this.toolTip1.SetToolTip(this.button1, "押しちゃダメ");
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.QestClicked);
+            this.questButton.Location = new System.Drawing.Point(216, 156);
+            this.questButton.Name = "questButton";
+            this.questButton.Size = new System.Drawing.Size(75, 23);
+            this.questButton.TabIndex = 74;
+            this.questButton.Text = "???";
+            this.toolTip1.SetToolTip(this.questButton, "押しちゃダメだよ");
+            this.questButton.UseVisualStyleBackColor = true;
+            this.questButton.Click += new System.EventHandler(this.QestClicked);
             // 
             // ToolTipLabel
             // 
@@ -84,7 +89,7 @@ namespace Reference
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.ClientSize = new System.Drawing.Size(384, 461);
             this.Controls.Add(this.ToolTipLabel);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.questButton);
             this.Name = "ToolTip";
             this.Text = "コモンコントロール/ToolTip";
             this.Controls.SetChildIndex(this.label1, 0);
@@ -97,7 +102,7 @@ namespace Reference
             this.Controls.SetChildIndex(this.copyButton, 0);
             this.Controls.SetChildIndex(this.label8, 0);
             this.Controls.SetChildIndex(this.label10, 0);
-            this.Controls.SetChildIndex(this.button1, 0);
+            this.Controls.SetChildIndex(this.questButton, 0);
             this.Controls.SetChildIndex(this.ToolTipLabel, 0);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -107,7 +112,7 @@ namespace Reference
         #endregion
 
         private System.Windows.Forms.ToolTip toolTip1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button questButton;
         private System.Windows.Forms.Label ToolTipLabel;
     }
 }

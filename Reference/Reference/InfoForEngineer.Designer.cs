@@ -29,6 +29,7 @@ namespace Reference
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(InfoForEngineer));
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
@@ -55,6 +56,15 @@ namespace Reference
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.webBrowser1 = new System.Windows.Forms.WebBrowser();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.RefSiteLink = new System.Windows.Forms.Label();
+            this.GithubLink = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.copyButton = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.label11 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
@@ -234,13 +244,21 @@ namespace Reference
             // tabPage3
             // 
             this.tabPage3.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage3.Controls.Add(this.label11);
+            this.tabPage3.Controls.Add(this.button1);
+            this.tabPage3.Controls.Add(this.copyButton);
+            this.tabPage3.Controls.Add(this.label13);
+            this.tabPage3.Controls.Add(this.GithubLink);
+            this.tabPage3.Controls.Add(this.RefSiteLink);
+            this.tabPage3.Controls.Add(this.label10);
+            this.tabPage3.Controls.Add(this.label9);
             this.tabPage3.Controls.Add(this.webBrowser1);
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage3.Size = new System.Drawing.Size(703, 1125);
             this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "Gitによる管理";
+            this.tabPage3.Text = "Githubによる管理";
             // 
             // textBox3
             // 
@@ -327,7 +345,7 @@ namespace Reference
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("游明朝", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label5.Location = new System.Drawing.Point(19, 13);
+            this.label5.Location = new System.Drawing.Point(16, 13);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(130, 17);
             this.label5.TabIndex = 16;
@@ -366,12 +384,97 @@ namespace Reference
             // 
             // webBrowser1
             // 
-            this.webBrowser1.Location = new System.Drawing.Point(26, 189);
+            this.webBrowser1.Location = new System.Drawing.Point(26, 156);
             this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
             this.webBrowser1.Name = "webBrowser1";
-            this.webBrowser1.Size = new System.Drawing.Size(651, 896);
+            this.webBrowser1.Size = new System.Drawing.Size(651, 943);
             this.webBrowser1.TabIndex = 0;
-            this.webBrowser1.DocumentCompleted += new System.Windows.Forms.WebBrowserDocumentCompletedEventHandler(this.GithubSiteLoaded);
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("游明朝", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label9.Location = new System.Drawing.Point(16, 13);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(114, 17);
+            this.label9.TabIndex = 17;
+            this.label9.Text = "Githubによる管理";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("游明朝", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label10.Location = new System.Drawing.Point(48, 82);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(229, 17);
+            this.label10.TabIndex = 18;
+            this.label10.Text = "Github : Forkの方法(参考サイトURL)";
+            // 
+            // RefSiteLink
+            // 
+            this.RefSiteLink.AutoSize = true;
+            this.RefSiteLink.Font = new System.Drawing.Font("游明朝", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.RefSiteLink.Location = new System.Drawing.Point(324, 82);
+            this.RefSiteLink.Name = "RefSiteLink";
+            this.RefSiteLink.Size = new System.Drawing.Size(273, 17);
+            this.RefSiteLink.TabIndex = 19;
+            this.RefSiteLink.Text = "https://style.potepan.com/articles/31067.html";
+            // 
+            // GithubLink
+            // 
+            this.GithubLink.AutoSize = true;
+            this.GithubLink.Font = new System.Drawing.Font("游明朝", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.GithubLink.Location = new System.Drawing.Point(287, 50);
+            this.GithubLink.Name = "GithubLink";
+            this.GithubLink.Size = new System.Drawing.Size(374, 17);
+            this.GithubLink.TabIndex = 20;
+            this.GithubLink.Text = "https://github.com/Ryobb6/SchoolCsharp/tree/main/Reference";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("游明朝", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label13.Location = new System.Drawing.Point(46, 50);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(191, 17);
+            this.label13.TabIndex = 21;
+            this.label13.Text = "リポジトリ内ファイルへのURL";
+            // 
+            // copyButton
+            // 
+            this.copyButton.BackgroundImage = global::Reference.Properties.Resources._1757;
+            this.copyButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.copyButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.copyButton.Location = new System.Drawing.Point(261, 49);
+            this.copyButton.Name = "copyButton";
+            this.copyButton.Size = new System.Drawing.Size(20, 21);
+            this.copyButton.TabIndex = 70;
+            this.toolTip1.SetToolTip(this.copyButton, "リンクをコピー");
+            this.copyButton.UseVisualStyleBackColor = true;
+            this.copyButton.Click += new System.EventHandler(this.CopyClicked);
+            // 
+            // button1
+            // 
+            this.button1.BackgroundImage = global::Reference.Properties.Resources._1757;
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.Location = new System.Drawing.Point(298, 81);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(20, 21);
+            this.button1.TabIndex = 71;
+            this.toolTip1.SetToolTip(this.button1, "リンクをコピー");
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.CopyClicked2);
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("游明朝", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label11.Location = new System.Drawing.Point(23, 127);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(230, 17);
+            this.label11.TabIndex = 72;
+            this.label11.Text = "Github : Forkの方法(参考サイトView)";
             // 
             // InfoForEngineer
             // 
@@ -380,6 +483,7 @@ namespace Reference
             this.Controls.Add(this.tabControl1);
             this.Name = "InfoForEngineer";
             this.Text = "情報の追加及び修正(開発者向け)";
+            this.Load += new System.EventHandler(this.InfoForEngineer_Load);
             this.Controls.SetChildIndex(this.label1, 0);
             this.Controls.SetChildIndex(this.label14, 0);
             this.Controls.SetChildIndex(this.tabControl1, 0);
@@ -395,6 +499,7 @@ namespace Reference
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
             this.tabPage3.ResumeLayout(false);
+            this.tabPage3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             this.ResumeLayout(false);
@@ -429,5 +534,14 @@ namespace Reference
         private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.WebBrowser webBrowser1;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label RefSiteLink;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label GithubLink;
+        protected System.Windows.Forms.Button button1;
+        private System.Windows.Forms.ToolTip toolTip1;
+        protected System.Windows.Forms.Button copyButton;
+        private System.Windows.Forms.Label label11;
     }
 }

@@ -114,7 +114,7 @@ namespace Reference
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(137, 12);
             this.label4.TabIndex = 52;
-            this.label4.Text = "生年月日を入力してください";
+            this.label4.Text = "生年月日を選択してください";
             // 
             // label6
             // 

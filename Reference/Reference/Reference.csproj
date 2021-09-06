@@ -399,5 +399,8 @@
   <ItemGroup>
     <None Include="Properties\img\CheckBox.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\img\Bill.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
