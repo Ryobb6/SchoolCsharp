@@ -21,5 +21,11 @@ namespace Reference
             // 最大化の無効
             this.MaximizeBox = false;
         }
+
+        private void ForExpLinkLabel(object sender, LinkLabelLinkClickedEventArgs e)
+        {  
+            // LinkClickedイベントを実装
+            this.NormalLabel.Text = "LinkLabelをクリックしました";
+        }
     }
 }

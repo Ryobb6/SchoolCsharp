@@ -15,6 +15,12 @@ namespace Reference
         public BaseForm()
         {
             InitializeComponent();
+            // 共通処理
+            // FormBorderStyleの設定でサイズ固定にする
+            // FormBorderStyleは列挙型
+            this.FormBorderStyle = FormBorderStyle.FixedSingle;
+            // 最大化の無効
+            this.MaximizeBox = false;
         }
     }
 }

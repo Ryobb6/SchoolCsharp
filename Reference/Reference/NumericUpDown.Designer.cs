@@ -37,6 +37,16 @@ namespace Reference
             // 
             this.label3.Location = new System.Drawing.Point(18, 100);
             // 
+            // label8
+            // 
+            this.label8.Size = new System.Drawing.Size(66, 14);
+            this.label8.Text = "Ryota_Tsuji";
+            // 
+            // label10
+            // 
+            this.label10.Size = new System.Drawing.Size(65, 14);
+            this.label10.Text = "2021/09/06";
+            // 
             // label14
             // 
             this.label14.Size = new System.Drawing.Size(300, 33);

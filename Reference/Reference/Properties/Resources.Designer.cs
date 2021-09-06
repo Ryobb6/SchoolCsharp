@@ -83,6 +83,56 @@ namespace Reference.Properties {
         /// <summary>
         ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
         /// </summary>
+        internal static System.Drawing.Bitmap BaseCommonControle {
+            get {
+                object obj = ResourceManager.GetObject("BaseCommonControle", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap BaseExpAllControleForm {
+            get {
+                object obj = ResourceManager.GetObject("BaseExpAllControleForm", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap BaseExplainForm {
+            get {
+                object obj = ResourceManager.GetObject("BaseExplainForm", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap BaseForm {
+            get {
+                object obj = ResourceManager.GetObject("BaseForm", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap CheckBox {
+            get {
+                object obj = ResourceManager.GetObject("CheckBox", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
         internal static System.Drawing.Bitmap HIshiGata {
             get {
                 object obj = ResourceManager.GetObject("HIshiGata", resourceCulture);
@@ -113,9 +163,39 @@ namespace Reference.Properties {
         /// <summary>
         ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
         /// </summary>
+        internal static System.Drawing.Bitmap NotifyIconExpImg {
+            get {
+                object obj = ResourceManager.GetObject("NotifyIconExpImg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap NotifyIconRefImg {
+            get {
+                object obj = ResourceManager.GetObject("NotifyIconRefImg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
         internal static System.Drawing.Bitmap Purple {
             get {
                 object obj = ResourceManager.GetObject("Purple", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap Reference継承図 {
+            get {
+                object obj = ResourceManager.GetObject("Reference継承図", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

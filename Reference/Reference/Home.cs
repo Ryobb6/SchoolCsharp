@@ -121,7 +121,7 @@ namespace Reference
         }
 
         /// <summary>
-        /// ListViewの説明フォームをインスタンス化を初期化し、表示します
+        /// ListViewの説明フォームを初期化し、表示します
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -131,7 +131,7 @@ namespace Reference
             listView.Show();
         }
         /// <summary>
-        /// MaskedTextBoxの説明フォームをインスタンス化を初期化し、表示します
+        /// MaskedTextBoxの説明フォームを初期化し、表示します
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -141,11 +141,126 @@ namespace Reference
             maskedTextBox.Show();
         }
 
+        /// <summary>
+        /// MonthCalendarの説明フォームを初期化し、表示します
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void ExpMonthCalendarBox(object sender, LinkLabelLinkClickedEventArgs e)
         {
             MonthCalendar monthCalendarBox = new MonthCalendar();
             monthCalendarBox.Show();
 
+        }
+
+        /// <summary>
+        /// NotifyIconの説明フォームを初期化し、表示します
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void ExpNotifyIcon(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            NotifyIcon notifyIcon = new NotifyIcon();
+            notifyIcon.Show();
+        }
+
+        /// <summary>
+        /// NumericUpDownの説明フォームを初期化し、表示します
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void ExpNumericUpDown(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            NumericUpDown numericUpDown = new NumericUpDown();
+            numericUpDown.Show();
+        }
+
+        /// <summary>
+        /// PictureBoxの説明フォームを初期化し、表示します
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void ExpPictureBox(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            PictureBox pictureBox = new PictureBox();
+            pictureBox.Show();
+        }
+
+        /// <summary>
+        /// ProgressBarの説明フォームを初期化し、表示します
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void ExpProgressBar(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            ProgressBar progressBar = new ProgressBar();
+            progressBar.Show();
+        }
+
+        /// <summary>
+        /// RadioButtonの説明フォームを初期化し、表示します
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void ExpRadioButton(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            RadioButton radioButton = new RadioButton();
+            radioButton.Show();
+        }
+
+        /// <summary>
+        /// TextBoxの説明フォームを初期化し、表示します
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void ExpTextBox(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            TextBox textBox = new TextBox();
+            textBox.Show();
+        }
+
+        /// <summary>
+        /// ToolTipの説明フォームを初期化し、表示します
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void ExpToolTip(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            ToolTip toolTip = new ToolTip();
+            toolTip.Show();
+        }
+
+        /// <summary>
+        /// TreeView の説明フォームを初期化し、表示します
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void ExpTreeView(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            TreeView treeView = new TreeView();
+            treeView.Show();
+        }
+
+        /// <summary>
+        /// WebBrowserの説明フォームを初期化し、表示します
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void ExpWebBrowser(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            WebBrowser webBrowser = new WebBrowser();
+            webBrowser.Show();
+        }
+
+        /// <summary>
+        /// 開発者向けの説明情報をクリックした際に呼ばれます
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void InfoForEgrClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            InfoForEngineer infoForEngineer = new InfoForEngineer();
+            infoForEngineer.Show();
         }
     }   
 }

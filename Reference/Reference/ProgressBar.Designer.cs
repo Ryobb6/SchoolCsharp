@@ -32,6 +32,16 @@ namespace Reference
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.SuspendLayout();
             // 
+            // label8
+            // 
+            this.label8.Size = new System.Drawing.Size(66, 14);
+            this.label8.Text = "Ryota_Tsuji";
+            // 
+            // label10
+            // 
+            this.label10.Size = new System.Drawing.Size(65, 14);
+            this.label10.Text = "2021/09/06";
+            // 
             // label14
             // 
             this.label14.Text = "操作の現在の進行状況をユーザーに表示します。";

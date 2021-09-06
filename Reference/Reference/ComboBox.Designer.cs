@@ -40,6 +40,7 @@ namespace Reference
             this.label4 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.eventText = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label5
@@ -149,12 +150,23 @@ namespace Reference
             this.eventText.TabIndex = 50;
             this.eventText.Text = "   \r\n           ";
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("游明朝", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label6.Location = new System.Drawing.Point(255, 7);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(107, 28);
+            this.label6.TabIndex = 54;
+            this.label6.Text = "著者 : Ryota_Tsuji\r\n更新日 : 2021/09/06";
+            // 
             // ComboBox
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.AliceBlue;
             this.ClientSize = new System.Drawing.Size(384, 361);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label7);
@@ -185,5 +197,6 @@ namespace Reference
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox eventText;
+        private System.Windows.Forms.Label label6;
     }
 }

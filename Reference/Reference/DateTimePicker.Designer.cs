@@ -46,6 +46,7 @@ namespace Reference
             this.label9 = new System.Windows.Forms.Label();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.button2 = new System.Windows.Forms.Button();
+            this.label10 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label5
@@ -186,6 +187,16 @@ namespace Reference
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.CopyClicked);
             // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("游明朝", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label10.Location = new System.Drawing.Point(255, 7);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(107, 28);
+            this.label10.TabIndex = 60;
+            this.label10.Text = "著者 : Ryota_Tsuji\r\n更新日 : 2021/09/06";
+            // 
             // DateTimePicker
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -194,6 +205,7 @@ namespace Reference
             this.AutoScrollMargin = new System.Drawing.Size(0, 10);
             this.BackColor = System.Drawing.Color.AliceBlue;
             this.ClientSize = new System.Drawing.Size(384, 461);
+            this.Controls.Add(this.label10);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.eventText);
@@ -235,5 +247,6 @@ namespace Reference
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.ToolTip toolTip1;
+        private System.Windows.Forms.Label label10;
     }
 }

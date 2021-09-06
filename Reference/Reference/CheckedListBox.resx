@@ -117,6 +117,33 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="eventText.Text" xml:space="preserve">
+    <value>   　　// ボタンのClickイベントが呼ばれます
+            // もし、テキストが入っていれば、文字を消去します。
+            if(this.addTextBox.Text.Length != 0)
+            {
+                this.addTextBox.Clear();
+            }
+            // 追加する文字列を用意
+            string str = null;
+            // チェックされた項目のリストから文字列を取得
+            foreach(string language in this.checkedLikeLang.CheckedItems)
+            {
+                str += "、" + language;
+            }
+
+            // 文字列に追加する項目(チェックされた項目がない場合)
+            if(str == null)
+            {
+                str = "この中には無い";
+            }
+            this.addTextBox.Text += "私が興味を持っている言語は" 
+                + str + "です";
+         </value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

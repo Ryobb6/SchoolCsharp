@@ -30,7 +30,6 @@ namespace Reference
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Label));
-            this.button2 = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.eventText = new System.Windows.Forms.TextBox();
@@ -39,26 +38,16 @@ namespace Reference
             this.label2 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.NormalLabel = new System.Windows.Forms.Label();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
-            // 
-            // button2
-            // 
-            this.button2.BackgroundImage = global::Reference.Properties.Resources._1757;
-            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button2.Location = new System.Drawing.Point(339, 343);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(20, 21);
-            this.button2.TabIndex = 69;
-            this.button2.UseVisualStyleBackColor = true;
             // 
             // label7
             // 
             this.label7.BackColor = System.Drawing.Color.AliceBlue;
             this.label7.Font = new System.Drawing.Font("メイリオ", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label7.Location = new System.Drawing.Point(28, 495);
+            this.label7.Location = new System.Drawing.Point(28, 415);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(324, 23);
             this.label7.TabIndex = 68;
@@ -81,9 +70,10 @@ namespace Reference
             this.eventText.Multiline = true;
             this.eventText.Name = "eventText";
             this.eventText.ReadOnly = true;
-            this.eventText.Size = new System.Drawing.Size(330, 150);
+            this.eventText.Size = new System.Drawing.Size(330, 65);
             this.eventText.TabIndex = 66;
-            this.eventText.Text = "　　　　イベントハンドラ内の処理を記述します";
+            this.eventText.Text = "　　     // LinkLabelが持つ、LinkClickedイベントを実装\r\n            this.NormalLabel.Text \r\n　　" +
+    "　　　　　= \"LinkLabelをクリックしました\";";
             // 
             // label5
             // 
@@ -136,24 +126,36 @@ namespace Reference
             this.label1.TabIndex = 70;
             this.label1.Text = "Label,LinkLabel";
             // 
-            // label4
+            // NormalLabel
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(133, 246);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(82, 12);
-            this.label4.TabIndex = 73;
-            this.label4.Text = "これはラベルです";
+            this.NormalLabel.AutoSize = true;
+            this.NormalLabel.Location = new System.Drawing.Point(133, 246);
+            this.NormalLabel.Name = "NormalLabel";
+            this.NormalLabel.Size = new System.Drawing.Size(82, 12);
+            this.NormalLabel.TabIndex = 73;
+            this.NormalLabel.Text = "これはラベルです";
             // 
             // linkLabel1
             // 
             this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Location = new System.Drawing.Point(122, 212);
+            this.linkLabel1.Location = new System.Drawing.Point(123, 212);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(106, 12);
             this.linkLabel1.TabIndex = 74;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "これはリンクラベルです";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.ForExpLinkLabel);
+            // 
+            // button2
+            // 
+            this.button2.BackgroundImage = global::Reference.Properties.Resources._1757;
+            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button2.Location = new System.Drawing.Point(339, 343);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(20, 21);
+            this.button2.TabIndex = 69;
+            this.button2.UseVisualStyleBackColor = true;
             // 
             // Label
             // 
@@ -164,7 +166,7 @@ namespace Reference
             this.BackColor = System.Drawing.Color.AliceBlue;
             this.ClientSize = new System.Drawing.Size(384, 461);
             this.Controls.Add(this.linkLabel1);
-            this.Controls.Add(this.label4);
+            this.Controls.Add(this.NormalLabel);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.label1);
@@ -194,7 +196,7 @@ namespace Reference
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label NormalLabel;
         private System.Windows.Forms.LinkLabel linkLabel1;
     }
 }

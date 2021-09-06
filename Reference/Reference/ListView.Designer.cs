@@ -35,10 +35,11 @@ namespace Reference
             this.label2 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.eventText = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label6 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label5
@@ -87,20 +88,9 @@ namespace Reference
             this.label1.Font = new System.Drawing.Font("游明朝 Demibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label1.Location = new System.Drawing.Point(12, 10);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(82, 21);
+            this.label1.Size = new System.Drawing.Size(75, 21);
             this.label1.TabIndex = 40;
-            this.label1.Text = "CheckBox";
-            // 
-            // button1
-            // 
-            this.button1.BackgroundImage = global::Reference.Properties.Resources._1757;
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.Location = new System.Drawing.Point(335, 234);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(20, 21);
-            this.button1.TabIndex = 53;
-            this.button1.UseVisualStyleBackColor = true;
+            this.label1.Text = "ListView";
             // 
             // label4
             // 
@@ -133,6 +123,27 @@ namespace Reference
             this.eventText.TabIndex = 50;
             this.eventText.Text = "   \r\n     ";
             // 
+            // button1
+            // 
+            this.button1.BackgroundImage = global::Reference.Properties.Resources._1757;
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.Location = new System.Drawing.Point(335, 234);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(20, 21);
+            this.button1.TabIndex = 53;
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("游明朝", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label6.Location = new System.Drawing.Point(255, 7);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(107, 28);
+            this.label6.TabIndex = 54;
+            this.label6.Text = "著者 : Ryota_Tsuji\r\n更新日 : 2021/09/06";
+            // 
             // ListView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -141,6 +152,7 @@ namespace Reference
             this.AutoScrollMargin = new System.Drawing.Size(0, 10);
             this.BackColor = System.Drawing.Color.AliceBlue;
             this.ClientSize = new System.Drawing.Size(384, 360);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label7);
@@ -169,5 +181,6 @@ namespace Reference
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox eventText;
+        private System.Windows.Forms.Label label6;
     }
 }

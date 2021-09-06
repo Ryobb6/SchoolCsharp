@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Messaging" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -141,6 +142,12 @@
     </Compile>
     <Compile Include="Home.Designer.cs">
       <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InfoForEngineer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InfoForEngineer.Designer.cs">
+      <DependentUpon>InfoForEngineer.cs</DependentUpon>
     </Compile>
     <Compile Include="Label.cs">
       <SubType>Form</SubType>
@@ -282,6 +289,9 @@
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="InfoForEngineer.resx">
+      <DependentUpon>InfoForEngineer.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Label.resx">
       <DependentUpon>Label.cs</DependentUpon>
     </EmbeddedResource>
@@ -364,6 +374,30 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Properties\img\1757.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\img\NotifyIconRefImg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\img\NotifyIconExpImg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\img\Reference継承図.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\img\BaseForm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\img\BaseExplainForm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\img\BaseExpAllControleForm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\img\BaseCommonControle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\img\CheckBox.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
