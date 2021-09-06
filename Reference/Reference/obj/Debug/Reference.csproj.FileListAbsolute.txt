@@ -77,3 +77,6 @@ C:\Users\210525AM\Documents\GitHub\SchoolCsharp\Reference\Reference\obj\Debug\Re
 C:\Users\210525AM\Documents\GitHub\SchoolCsharp\Reference\Reference\obj\Debug\Reference.TreeView.resources
 C:\Users\210525AM\Documents\GitHub\SchoolCsharp\Reference\Reference\obj\Debug\Reference.WebBrowser.resources
 C:\Users\210525AM\Documents\GitHub\SchoolCsharp\Reference\Reference\obj\Debug\Reference.InfoForEngineer.resources
+C:\Users\rryyo\Documents\GitHub\SchoolCsharp\Reference\Reference\obj\Debug\Reference.InfoForEngineer.resources
+C:\Users\rryyo\Documents\GitHub\SchoolCsharp\Reference\Reference\obj\Debug\Reference.TreeView.resources
+C:\Users\rryyo\Documents\GitHub\SchoolCsharp\Reference\Reference\obj\Debug\Reference.WebBrowser.resources

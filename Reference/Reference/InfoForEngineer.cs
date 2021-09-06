@@ -16,5 +16,10 @@ namespace Reference
           
 
         }
+
+        private void GithubSiteLoaded(object sender, WebBrowserDocumentCompletedEventArgs e)
+        {
+            webBrowser1.Navigate("");
+        }
     }
 }
