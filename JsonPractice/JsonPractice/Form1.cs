@@ -20,10 +20,13 @@ namespace JsonPractice
 
         private void OnExecuteBtnClicked(object sender, EventArgs e)
         {
-            JToken jt = JToken.Parse(jsonDataTextBox.Text);
+            //JSONデータはJToken.Parseメソッドを使ってJTokenのインスタンスとすることができる
+            JToken jt = JToken.Parse(this.jsonDataTextBox.Text);
+            //JToken型のままでは値の取得ができないため、as演算子を使ってJValueにキャスト
             JValue jv = jt as JValue;
-            resultTextBox.Text = jv.Value.ToString();
-
+            //プロパティ「Value」で値を取得する。(プロパティ「Value」の型はObject型)
+            resultTextBox.Text = jv.Value.ToString();//テキストをセットする場合はToStringメソッドで文字列を取得する必要がある。
         }
     }
+
 }

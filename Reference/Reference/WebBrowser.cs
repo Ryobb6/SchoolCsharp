@@ -14,5 +14,12 @@ namespace Reference
         {
             InitializeComponent();
         }
+
+        private void ShowBrowser(object sender, EventArgs e)
+        {
+            Browser browser = new Browser();
+            browser.Show();
+
+        }
     }
 }

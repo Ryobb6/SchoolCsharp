@@ -29,28 +29,31 @@ namespace Reference
         /// </summary>
         private void InitializeComponent()
         {
-            this.webBrowser1 = new System.Windows.Forms.WebBrowser();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // copyButton
             // 
-            this.copyButton.Location = new System.Drawing.Point(336, 440);
+            this.copyButton.Location = new System.Drawing.Point(336, 275);
             // 
             // label7
             // 
-            this.label7.Location = new System.Drawing.Point(25, 592);
+            this.label7.Location = new System.Drawing.Point(25, 427);
             // 
             // label6
             // 
-            this.label6.Location = new System.Drawing.Point(25, 398);
+            this.label6.Location = new System.Drawing.Point(25, 233);
             // 
             // eventText
             // 
-            this.eventText.Location = new System.Drawing.Point(26, 439);
+            this.eventText.Location = new System.Drawing.Point(26, 274);
+            this.eventText.Text = "this.webBrowser1.ScriptErrorsSuppressed = true; //JavaScript ErrorMEssageのダイアログを出" +
+    "さない処理です\r\n            this.webBrowser1.Navigate(\"https://www.youtube.com/channel/" +
+    "UCXvs_p2ZD28_Pa67cyN4FzQ/featured\");";
             // 
             // label5
             // 
-            this.label5.Location = new System.Drawing.Point(18, 377);
+            this.label5.Location = new System.Drawing.Point(18, 212);
             // 
             // label3
             // 
@@ -76,19 +79,22 @@ namespace Reference
             this.label1.Size = new System.Drawing.Size(102, 21);
             this.label1.Text = "WebBrowser";
             // 
-            // webBrowser1
+            // button1
             // 
-            this.webBrowser1.Location = new System.Drawing.Point(63, 123);
-            this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
-            this.webBrowser1.Name = "webBrowser1";
-            this.webBrowser1.Size = new System.Drawing.Size(250, 233);
-            this.webBrowser1.TabIndex = 74;
+            this.button1.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.button1.Location = new System.Drawing.Point(129, 121);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(134, 65);
+            this.button1.TabIndex = 74;
+            this.button1.Text = "映画を見てみる";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.ShowBrowser);
             // 
             // WebBrowser
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
-            this.ClientSize = new System.Drawing.Size(384, 461);
-            this.Controls.Add(this.webBrowser1);
+            this.ClientSize = new System.Drawing.Size(401, 461);
+            this.Controls.Add(this.button1);
             this.Name = "WebBrowser";
             this.Text = "コモンコントロール/WebBrowser";
             this.Controls.SetChildIndex(this.label1, 0);
@@ -101,7 +107,7 @@ namespace Reference
             this.Controls.SetChildIndex(this.copyButton, 0);
             this.Controls.SetChildIndex(this.label8, 0);
             this.Controls.SetChildIndex(this.label10, 0);
-            this.Controls.SetChildIndex(this.webBrowser1, 0);
+            this.Controls.SetChildIndex(this.button1, 0);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -109,6 +115,6 @@ namespace Reference
 
         #endregion
 
-        private System.Windows.Forms.WebBrowser webBrowser1;
+        private System.Windows.Forms.Button button1;
     }
 }
