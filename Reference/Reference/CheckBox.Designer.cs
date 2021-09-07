@@ -148,8 +148,8 @@ namespace Reference
             this.eventText.ReadOnly = true;
             this.eventText.Size = new System.Drawing.Size(330, 85);
             this.eventText.TabIndex = 43;
-            this.eventText.Text = "   \r\n            this.register.Text = \"有料会員に登録されました\";\r\n　　　　// このチェックボックスを使用不可にします" +
-    "\r\n            this.checkBoxRgt.Enabled = false;";
+            this.eventText.Text = "                // CheckedChanged使用\r\n            this.register.Text = \"有料会員に登録されま" +
+    "した\";\r\n　　　　// このチェックボックスを使用不可にします\r\n            this.checkBoxRgt.Enabled = false;";
             // 
             // label4
             // 

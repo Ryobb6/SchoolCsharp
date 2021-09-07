@@ -33,6 +33,10 @@ namespace Reference
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(InfoForEngineer));
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
@@ -43,28 +47,26 @@ namespace Reference
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.webBrowser1 = new System.Windows.Forms.WebBrowser();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.RefSiteLink = new System.Windows.Forms.Label();
-            this.GithubLink = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.copyButton = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.tabPage3 = new System.Windows.Forms.TabPage();
             this.label11 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.copyButton = new System.Windows.Forms.Button();
+            this.label13 = new System.Windows.Forms.Label();
+            this.GithubLink = new System.Windows.Forms.Label();
+            this.RefSiteLink = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.webBrowser1 = new System.Windows.Forms.WebBrowser();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.label12 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
@@ -74,15 +76,16 @@ namespace Reference
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tabPage2.SuspendLayout();
-            this.tabPage3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            this.tabPage3.SuspendLayout();
             this.SuspendLayout();
             // 
             // label14
             // 
-            this.label14.Size = new System.Drawing.Size(380, 31);
-            this.label14.Text = "Reference内の情報の追加及び修正方法について記載しております。";
+            this.label14.Size = new System.Drawing.Size(569, 58);
+            this.label14.Text = "Reference内の情報の追加及び修正方法について記載しております。情報を追記していただける場合は、タブ\"Githubによる管理\"から、指定リポジトリをFork" +
+    "して開発を行って下さい。\r\n";
             // 
             // label1
             // 
@@ -91,10 +94,10 @@ namespace Reference
             // 
             // tabControl1
             // 
-            this.tabControl1.Controls.Add(this.tabPage1);
-            this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Controls.Add(this.tabPage3);
-            this.tabControl1.Location = new System.Drawing.Point(21, 71);
+            this.tabControl1.Controls.Add(this.tabPage2);
+            this.tabControl1.Controls.Add(this.tabPage1);
+            this.tabControl1.Location = new System.Drawing.Point(21, 108);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(711, 1151);
@@ -124,6 +127,55 @@ namespace Reference
             this.tabPage1.Size = new System.Drawing.Size(703, 1125);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Formの継承関係とフィールドのアクセス制限";
+            // 
+            // textBox5
+            // 
+            this.textBox5.BackColor = System.Drawing.SystemColors.Control;
+            this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox5.Font = new System.Drawing.Font("游明朝", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.textBox5.Location = new System.Drawing.Point(354, 1713);
+            this.textBox5.Multiline = true;
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(317, 108);
+            this.textBox5.TabIndex = 12;
+            this.textBox5.Text = "5.Class コントロール名 (継承 : Base(コントロール分類名)Form)\r\n説明の内容、実行例、イベントハンドラの処理を記述します。\r\n継承フォームの" +
+    "選択は、コントロールの分類名に対応させます。";
+            // 
+            // textBox4
+            // 
+            this.textBox4.BackColor = System.Drawing.SystemColors.Control;
+            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox4.Font = new System.Drawing.Font("游明朝", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.textBox4.Location = new System.Drawing.Point(354, 1211);
+            this.textBox4.Multiline = true;
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(317, 108);
+            this.textBox4.TabIndex = 11;
+            this.textBox4.Text = "4.Class Base(コントロール分類名)Form (継承 : BaseExpAllControleForm)\r\nFormのTitleを各分類名に分けてIni" +
+    "tialize()\r\n規則として、Title名は分類名/コントロール名である必要があります\r\nこの継承Formは、あくまでTitle変更の手間を省くためにあり、" +
+    "\r\n特に追加しているコントロールはありません\r\n\r\n";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("游明朝", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label4.Location = new System.Drawing.Point(16, 681);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(390, 34);
+            this.label4.TabIndex = 10;
+            this.label4.Text = "規定Formが持つコントロール要素のフィールドへのアクセス制限\r\n(参照 : 各クラスのDesigner.cs)";
+            // 
+            // textBox3
+            // 
+            this.textBox3.BackColor = System.Drawing.SystemColors.Control;
+            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox3.Font = new System.Drawing.Font("游明朝", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.textBox3.Location = new System.Drawing.Point(19, 1535);
+            this.textBox3.Multiline = true;
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(317, 229);
+            this.textBox3.TabIndex = 9;
+            this.textBox3.Text = resources.GetString("textBox3.Text");
             // 
             // textBox2
             // 
@@ -227,6 +279,8 @@ namespace Reference
             // 
             this.tabPage2.AutoScroll = true;
             this.tabPage2.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage2.Controls.Add(this.label15);
+            this.tabPage2.Controls.Add(this.label12);
             this.tabPage2.Controls.Add(this.label8);
             this.tabPage2.Controls.Add(this.label7);
             this.tabPage2.Controls.Add(this.label6);
@@ -239,7 +293,80 @@ namespace Reference
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage2.Size = new System.Drawing.Size(703, 1125);
             this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "規定Formの継承とForm内の記述";
+            this.tabPage2.Text = "(規則)規定Formの継承とForm内の記述";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("游明朝", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label8.Location = new System.Drawing.Point(29, 340);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(484, 238);
+            this.label8.TabIndex = 19;
+            this.label8.Text = resources.GetString("label8.Text");
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("游明朝", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label7.Location = new System.Drawing.Point(225, 285);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(220, 17);
+            this.label7.TabIndex = 18;
+            this.label7.Text = "ex)BaseCommonControleのデザイン";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("游明朝", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label6.Location = new System.Drawing.Point(29, 44);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(549, 34);
+            this.label6.TabIndex = 17;
+            this.label6.Text = "コントロールの分類に合わせて継承フォームを選択(クラス名: Baseコントロールの分類名.cs)\r\nex)コモンコントロールの場合、BaseCommonContr" +
+    "ole.csを継承";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("游明朝", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label5.Location = new System.Drawing.Point(29, 61);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(115, 17);
+            this.label5.TabIndex = 16;
+            this.label5.Text = "2.Form内記述規則";
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.Image = global::Reference.Properties.Resources.BaseCommonControle;
+            this.pictureBox8.Location = new System.Drawing.Point(32, 94);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(608, 188);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox8.TabIndex = 15;
+            this.pictureBox8.TabStop = false;
+            // 
+            // textBox6
+            // 
+            this.textBox6.BackColor = System.Drawing.SystemColors.Control;
+            this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox6.Font = new System.Drawing.Font("游明朝", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.textBox6.Location = new System.Drawing.Point(162, 1085);
+            this.textBox6.Multiline = true;
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(358, 29);
+            this.textBox6.TabIndex = 14;
+            this.textBox6.Text = "規定Formを継承して作成されたCheckBoxFormのデザイン\r\n";
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Image = global::Reference.Properties.Resources.CheckBox;
+            this.pictureBox7.Location = new System.Drawing.Point(32, 589);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(608, 634);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox7.TabIndex = 13;
+            this.pictureBox7.TabStop = false;
             // 
             // tabPage3
             // 
@@ -260,198 +387,15 @@ namespace Reference
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Githubによる管理";
             // 
-            // textBox3
+            // label11
             // 
-            this.textBox3.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox3.Font = new System.Drawing.Font("游明朝", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.textBox3.Location = new System.Drawing.Point(19, 1535);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(317, 229);
-            this.textBox3.TabIndex = 9;
-            this.textBox3.Text = resources.GetString("textBox3.Text");
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("游明朝", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label4.Location = new System.Drawing.Point(16, 681);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(390, 34);
-            this.label4.TabIndex = 10;
-            this.label4.Text = "規定Formが持つコントロール要素のフィールドへのアクセス制限\r\n(参照 : 各クラスのDesigner.cs)";
-            // 
-            // textBox4
-            // 
-            this.textBox4.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox4.Font = new System.Drawing.Font("游明朝", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.textBox4.Location = new System.Drawing.Point(354, 1211);
-            this.textBox4.Multiline = true;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(317, 108);
-            this.textBox4.TabIndex = 11;
-            this.textBox4.Text = "4.Class Base(コントロール分類名)Form (継承 : BaseExpAllControleForm)\r\nFormのTitleを各分類名に分けてIni" +
-    "tialize()\r\n規則として、Title名は分類名/コントロール名である必要があります\r\nこの継承Formは、あくまでTitle変更の手間を省くためにあり、" +
-    "\r\n特に追加しているコントロールはありません\r\n\r\n";
-            // 
-            // textBox5
-            // 
-            this.textBox5.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox5.Font = new System.Drawing.Font("游明朝", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.textBox5.Location = new System.Drawing.Point(354, 1713);
-            this.textBox5.Multiline = true;
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(317, 108);
-            this.textBox5.TabIndex = 12;
-            this.textBox5.Text = "5.Class コントロール名 (継承 : Base(コントロール分類名)Form)\r\n説明の内容、実行例、イベントハンドラの処理を記述します。\r\n継承フォームの" +
-    "選択は、コントロールの分類名に対応させます。";
-            // 
-            // textBox6
-            // 
-            this.textBox6.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox6.Font = new System.Drawing.Font("游明朝", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.textBox6.Location = new System.Drawing.Point(162, 1085);
-            this.textBox6.Multiline = true;
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(358, 29);
-            this.textBox6.TabIndex = 14;
-            this.textBox6.Text = "規定Formを継承して作成されたCheckBoxFormのデザイン\r\n";
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.Image = global::Reference.Properties.Resources.CheckBox;
-            this.pictureBox7.Location = new System.Drawing.Point(32, 445);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(608, 634);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox7.TabIndex = 13;
-            this.pictureBox7.TabStop = false;
-            // 
-            // pictureBox8
-            // 
-            this.pictureBox8.Image = global::Reference.Properties.Resources.BaseCommonControle;
-            this.pictureBox8.Location = new System.Drawing.Point(32, 94);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(608, 188);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox8.TabIndex = 15;
-            this.pictureBox8.TabStop = false;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("游明朝", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label5.Location = new System.Drawing.Point(16, 13);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(130, 17);
-            this.label5.TabIndex = 16;
-            this.label5.Text = "規定Formの継承規則";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("游明朝", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label6.Location = new System.Drawing.Point(29, 44);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(378, 34);
-            this.label6.TabIndex = 17;
-            this.label6.Text = "1.コントロールの分類に合わせて継承フォームを選択\r\nex)コモンコントロールの場合、BaseCommonControle.csを継承";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("游明朝", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label7.Location = new System.Drawing.Point(225, 285);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(220, 17);
-            this.label7.TabIndex = 18;
-            this.label7.Text = "ex)BaseCommonControleのデザイン";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("游明朝", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label8.Location = new System.Drawing.Point(29, 340);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(427, 102);
-            this.label8.TabIndex = 19;
-            this.label8.Text = "2.Formのタイトルと、見出しを変更し、著者名、更新日を記載します。\r\n説明の内容、実行例、イベントハンドラの処理を記述します。\r\nイベントハンドラを設定してい" +
-    "ない場合は空欄で問題ありません。\r\nその際、Formの高さ幅を調整してください。\r\n横幅は、400を設定していますが、必要な場合は変更可能です。\r\n\r\n";
-            // 
-            // webBrowser1
-            // 
-            this.webBrowser1.Location = new System.Drawing.Point(26, 156);
-            this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
-            this.webBrowser1.Name = "webBrowser1";
-            this.webBrowser1.Size = new System.Drawing.Size(651, 943);
-            this.webBrowser1.TabIndex = 0;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("游明朝", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label9.Location = new System.Drawing.Point(16, 13);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(114, 17);
-            this.label9.TabIndex = 17;
-            this.label9.Text = "Githubによる管理";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("游明朝", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label10.Location = new System.Drawing.Point(48, 82);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(229, 17);
-            this.label10.TabIndex = 18;
-            this.label10.Text = "Github : Forkの方法(参考サイトURL)";
-            // 
-            // RefSiteLink
-            // 
-            this.RefSiteLink.AutoSize = true;
-            this.RefSiteLink.Font = new System.Drawing.Font("游明朝", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.RefSiteLink.Location = new System.Drawing.Point(324, 82);
-            this.RefSiteLink.Name = "RefSiteLink";
-            this.RefSiteLink.Size = new System.Drawing.Size(273, 17);
-            this.RefSiteLink.TabIndex = 19;
-            this.RefSiteLink.Text = "https://style.potepan.com/articles/31067.html";
-            // 
-            // GithubLink
-            // 
-            this.GithubLink.AutoSize = true;
-            this.GithubLink.Font = new System.Drawing.Font("游明朝", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.GithubLink.Location = new System.Drawing.Point(287, 50);
-            this.GithubLink.Name = "GithubLink";
-            this.GithubLink.Size = new System.Drawing.Size(374, 17);
-            this.GithubLink.TabIndex = 20;
-            this.GithubLink.Text = "https://github.com/Ryobb6/SchoolCsharp/tree/main/Reference";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("游明朝", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label13.Location = new System.Drawing.Point(46, 50);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(191, 17);
-            this.label13.TabIndex = 21;
-            this.label13.Text = "リポジトリ内ファイルへのURL";
-            // 
-            // copyButton
-            // 
-            this.copyButton.BackgroundImage = global::Reference.Properties.Resources._1757;
-            this.copyButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.copyButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.copyButton.Location = new System.Drawing.Point(261, 49);
-            this.copyButton.Name = "copyButton";
-            this.copyButton.Size = new System.Drawing.Size(20, 21);
-            this.copyButton.TabIndex = 70;
-            this.toolTip1.SetToolTip(this.copyButton, "リンクをコピー");
-            this.copyButton.UseVisualStyleBackColor = true;
-            this.copyButton.Click += new System.EventHandler(this.CopyClicked);
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("游明朝", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label11.Location = new System.Drawing.Point(23, 127);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(230, 17);
+            this.label11.TabIndex = 72;
+            this.label11.Text = "Github : Forkの方法(参考サイトView)";
             // 
             // button1
             // 
@@ -466,15 +410,96 @@ namespace Reference
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.CopyClicked2);
             // 
-            // label11
+            // copyButton
             // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("游明朝", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label11.Location = new System.Drawing.Point(23, 127);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(230, 17);
-            this.label11.TabIndex = 72;
-            this.label11.Text = "Github : Forkの方法(参考サイトView)";
+            this.copyButton.BackgroundImage = global::Reference.Properties.Resources._1757;
+            this.copyButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.copyButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.copyButton.Location = new System.Drawing.Point(261, 49);
+            this.copyButton.Name = "copyButton";
+            this.copyButton.Size = new System.Drawing.Size(20, 21);
+            this.copyButton.TabIndex = 70;
+            this.toolTip1.SetToolTip(this.copyButton, "リンクをコピー");
+            this.copyButton.UseVisualStyleBackColor = true;
+            this.copyButton.Click += new System.EventHandler(this.CopyClicked);
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("游明朝", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label13.Location = new System.Drawing.Point(46, 50);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(191, 17);
+            this.label13.TabIndex = 21;
+            this.label13.Text = "リポジトリ内ファイルへのURL";
+            // 
+            // GithubLink
+            // 
+            this.GithubLink.AutoSize = true;
+            this.GithubLink.Font = new System.Drawing.Font("游明朝", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.GithubLink.Location = new System.Drawing.Point(287, 50);
+            this.GithubLink.Name = "GithubLink";
+            this.GithubLink.Size = new System.Drawing.Size(374, 17);
+            this.GithubLink.TabIndex = 20;
+            this.GithubLink.Text = "https://github.com/Ryobb6/SchoolCsharp/tree/main/Reference";
+            // 
+            // RefSiteLink
+            // 
+            this.RefSiteLink.AutoSize = true;
+            this.RefSiteLink.Font = new System.Drawing.Font("游明朝", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.RefSiteLink.Location = new System.Drawing.Point(324, 82);
+            this.RefSiteLink.Name = "RefSiteLink";
+            this.RefSiteLink.Size = new System.Drawing.Size(273, 17);
+            this.RefSiteLink.TabIndex = 19;
+            this.RefSiteLink.Text = "https://style.potepan.com/articles/31067.html";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("游明朝", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label10.Location = new System.Drawing.Point(48, 82);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(229, 17);
+            this.label10.TabIndex = 18;
+            this.label10.Text = "Github : Forkの方法(参考サイトURL)";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("游明朝", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label9.Location = new System.Drawing.Point(16, 13);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(114, 17);
+            this.label9.TabIndex = 17;
+            this.label9.Text = "Githubによる管理";
+            // 
+            // webBrowser1
+            // 
+            this.webBrowser1.Location = new System.Drawing.Point(26, 156);
+            this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
+            this.webBrowser1.Name = "webBrowser1";
+            this.webBrowser1.Size = new System.Drawing.Size(651, 943);
+            this.webBrowser1.TabIndex = 0;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("游明朝", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label12.Location = new System.Drawing.Point(19, 13);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(141, 17);
+            this.label12.TabIndex = 20;
+            this.label12.Text = "1.規定Formの継承規則";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("游明朝", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label15.Location = new System.Drawing.Point(19, 311);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(128, 17);
+            this.label15.TabIndex = 21;
+            this.label15.Text = "2.Form内記述の規則";
             // 
             // InfoForEngineer
             // 
@@ -498,10 +523,10 @@ namespace Reference
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -543,5 +568,7 @@ namespace Reference
         private System.Windows.Forms.ToolTip toolTip1;
         protected System.Windows.Forms.Button copyButton;
         private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label label15;
     }
 }

@@ -117,37 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="eventText.Text" xml:space="preserve">
-    <value>// *このコードは2つのイベントに分かれています
-// ひとつめ　ButtonのClickイベント
-　　　　// ボタンを押すと追加できるようにします
-            String str = this.siteBox.Text;
-            if(str.Length != 0)
-            {
-                this.siteListBox.Items.Add(str);
-            }
-
-// ふたつめ　　テキストボックスのKeyPressイベント
-
-// Enterを押すと、ボタンを押さなくても追加できます
-            string str = this.siteBox.Text;
-            if (str.Length != 0)
-            {// e.KeyCharはASCII文字を戻り値としてかえすので、
-             // 比較する際は、ASCII文字で比較
-             // Keysは列挙型
-                Keys a = Keys.Enter;
-                char ent = (char)Keys.Enter;
-                if (e.KeyChar  == ent)
-                {
-                    Console.WriteLine(a+" "+ent);
-                    this.siteListBox.Items.Add(str);
-                }
-            }</value>
-  </data>
-  <metadata name="toolTipForSiteBox.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <metadata name="toolTipForSiteBox.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
 </root>

@@ -117,9 +117,22 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
+  <data name="label8.Text" xml:space="preserve">
+    <value>2-1.  Formのタイトルと、見出しを変更し、著者名、更新日を記載します。
+2-2.  説明の内容、実行例、イベントハンドラの処理を記述します。
+2-3.  イベントハンドラを設定していない場合は空欄で問題ありません。
+         その際、Formの高さ幅を調整してください。
+2-4.  横幅は、400を設定していますが、必要な場合は変更可能です。
+
+**作成したFormと、Home画面の各項目LinkLabelとの紐づけ**
+作成頂いたForm自体はHome.cs内の所定の項目のLinkLabelがクリックされた際に
+発生する、"LinkClicked"イベントにてイベントハンドラを設定し、
+その処理にてShowメソッドにて表示を行うようにしてください
+ex)
+// LinkLabelのLinkClickedイベントハンドラ内処理
+CheckBox checkBox = new CheckBox();
+checkBox.Show();</value>
+  </data>
   <data name="textBox3.Text" xml:space="preserve">
     <value>3.Class BaseExpAllControleForm (継承 : BaseExplainForm)
 このFormのフィールドへ追加したコントロールクラスのアクセス制限
@@ -131,4 +144,10 @@ Button (コピー用 : 処理としてCopyClickedメソッド定義 : sealed)
  private : Label "著者", label "更新日"　
 </value>
   </data>
+  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
 </root>
