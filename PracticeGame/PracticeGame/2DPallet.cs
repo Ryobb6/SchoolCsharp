@@ -13,18 +13,29 @@ namespace PracticeGame
     public partial class PalletForm2D : Form
     {
        
+        // 描画タイプのプロパティ
         public int FigureType { get; set; }
+
+        public Color GetColor()
+        {
+            return this.colorSelect.BackColor;
+        }
 
         public PalletForm2D()
         {
             InitializeComponent();
             this.FigureType = 1;
         }
-
+        /// <summary>
+        /// 設定したカラーを保持します
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void PalletForm2D_FormClosing(object sender, FormClosingEventArgs e)
         {
             // フォームが閉じられ前に呼ばれるイベントです→まだインスタンス破棄されていない
             // このイベントをキャンセルします→インスタンスは破棄されないままである
+
             e.Cancel = true;
             this.Visible = false;　// このフォームを非表示にします
         }

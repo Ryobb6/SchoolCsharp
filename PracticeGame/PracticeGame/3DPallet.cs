@@ -12,9 +12,18 @@ namespace PracticeGame
 {
     public partial class PalletForm3D : Form
     {
+
+
         public PalletForm3D()
         {
             InitializeComponent();
+            this.FigureType = 1;
+        }
+        public int FigureType { get; set; }
+
+        public Color GetColor()
+        {
+            return this.colorSelect.BackColor;
         }
 
         private void PalletForm3D_FormClosing(object sender, FormClosingEventArgs e)
@@ -31,10 +40,20 @@ namespace PracticeGame
 
             if(colorDialog.ShowDialog() == DialogResult.OK)
             {
-                // 選択した色をボタンに設定する
+                // 選択した色をボタン背景に設定する
                 colorSelect.BackColor = colorDialog.Color;
             }
 
+        }
+
+        private void RectangleClicked(object sender, EventArgs e)
+        {
+            this.FigureType = 1;
+        }
+
+        private void LineClicked(object sender, EventArgs e)
+        {
+            this.FigureType = 2;
         }
     }
 }

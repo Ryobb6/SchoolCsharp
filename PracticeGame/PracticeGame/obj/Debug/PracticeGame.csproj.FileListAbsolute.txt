@@ -10,3 +10,15 @@ C:\Users\rryyo\Documents\GitHub\SchoolCsharp\PracticeGame\PracticeGame\obj\Debug
 C:\Users\rryyo\Documents\GitHub\SchoolCsharp\PracticeGame\PracticeGame\obj\Debug\PracticeGame.pdb
 C:\Users\rryyo\Documents\GitHub\SchoolCsharp\PracticeGame\PracticeGame\obj\Debug\PracticeGame.PalletForm3D.resources
 C:\Users\rryyo\Documents\GitHub\SchoolCsharp\PracticeGame\PracticeGame\obj\Debug\PracticeGame.PalletForm2D.resources
+C:\Users\210525AM\Documents\GitHub\SchoolCsharp\PracticeGame\PracticeGame\bin\Debug\PracticeGame.exe.config
+C:\Users\210525AM\Documents\GitHub\SchoolCsharp\PracticeGame\PracticeGame\bin\Debug\PracticeGame.exe
+C:\Users\210525AM\Documents\GitHub\SchoolCsharp\PracticeGame\PracticeGame\bin\Debug\PracticeGame.pdb
+C:\Users\210525AM\Documents\GitHub\SchoolCsharp\PracticeGame\PracticeGame\obj\Debug\PracticeGame.csproj.AssemblyReference.cache
+C:\Users\210525AM\Documents\GitHub\SchoolCsharp\PracticeGame\PracticeGame\obj\Debug\PracticeGame.PalletForm3D.resources
+C:\Users\210525AM\Documents\GitHub\SchoolCsharp\PracticeGame\PracticeGame\obj\Debug\PracticeGame.Form1.resources
+C:\Users\210525AM\Documents\GitHub\SchoolCsharp\PracticeGame\PracticeGame\obj\Debug\PracticeGame.PalletForm2D.resources
+C:\Users\210525AM\Documents\GitHub\SchoolCsharp\PracticeGame\PracticeGame\obj\Debug\PracticeGame.Properties.Resources.resources
+C:\Users\210525AM\Documents\GitHub\SchoolCsharp\PracticeGame\PracticeGame\obj\Debug\PracticeGame.csproj.GenerateResource.cache
+C:\Users\210525AM\Documents\GitHub\SchoolCsharp\PracticeGame\PracticeGame\obj\Debug\PracticeGame.csproj.CoreCompileInputs.cache
+C:\Users\210525AM\Documents\GitHub\SchoolCsharp\PracticeGame\PracticeGame\obj\Debug\PracticeGame.exe
+C:\Users\210525AM\Documents\GitHub\SchoolCsharp\PracticeGame\PracticeGame\obj\Debug\PracticeGame.pdb
