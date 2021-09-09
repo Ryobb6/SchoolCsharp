@@ -1,0 +1,14 @@
+C:\Users\rryyo\Documents\GitHub\SchoolCsharp\LIstAndLinQ\ConsoleApp03\bin\Debug\netcoreapp3.1\ConsoleApp03.exe
+C:\Users\rryyo\Documents\GitHub\SchoolCsharp\LIstAndLinQ\ConsoleApp03\bin\Debug\netcoreapp3.1\ConsoleApp03.deps.json
+C:\Users\rryyo\Documents\GitHub\SchoolCsharp\LIstAndLinQ\ConsoleApp03\bin\Debug\netcoreapp3.1\ConsoleApp03.runtimeconfig.json
+C:\Users\rryyo\Documents\GitHub\SchoolCsharp\LIstAndLinQ\ConsoleApp03\bin\Debug\netcoreapp3.1\ConsoleApp03.runtimeconfig.dev.json
+C:\Users\rryyo\Documents\GitHub\SchoolCsharp\LIstAndLinQ\ConsoleApp03\bin\Debug\netcoreapp3.1\ConsoleApp03.dll
+C:\Users\rryyo\Documents\GitHub\SchoolCsharp\LIstAndLinQ\ConsoleApp03\bin\Debug\netcoreapp3.1\ConsoleApp03.pdb
+C:\Users\rryyo\Documents\GitHub\SchoolCsharp\LIstAndLinQ\ConsoleApp03\obj\Debug\netcoreapp3.1\ConsoleApp03.csproj.AssemblyReference.cache
+C:\Users\rryyo\Documents\GitHub\SchoolCsharp\LIstAndLinQ\ConsoleApp03\obj\Debug\netcoreapp3.1\ConsoleApp03.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rryyo\Documents\GitHub\SchoolCsharp\LIstAndLinQ\ConsoleApp03\obj\Debug\netcoreapp3.1\ConsoleApp03.AssemblyInfoInputs.cache
+C:\Users\rryyo\Documents\GitHub\SchoolCsharp\LIstAndLinQ\ConsoleApp03\obj\Debug\netcoreapp3.1\ConsoleApp03.AssemblyInfo.cs
+C:\Users\rryyo\Documents\GitHub\SchoolCsharp\LIstAndLinQ\ConsoleApp03\obj\Debug\netcoreapp3.1\ConsoleApp03.csproj.CoreCompileInputs.cache
+C:\Users\rryyo\Documents\GitHub\SchoolCsharp\LIstAndLinQ\ConsoleApp03\obj\Debug\netcoreapp3.1\ConsoleApp03.dll
+C:\Users\rryyo\Documents\GitHub\SchoolCsharp\LIstAndLinQ\ConsoleApp03\obj\Debug\netcoreapp3.1\ConsoleApp03.pdb
+C:\Users\rryyo\Documents\GitHub\SchoolCsharp\LIstAndLinQ\ConsoleApp03\obj\Debug\netcoreapp3.1\ConsoleApp03.genruntimeconfig.cache

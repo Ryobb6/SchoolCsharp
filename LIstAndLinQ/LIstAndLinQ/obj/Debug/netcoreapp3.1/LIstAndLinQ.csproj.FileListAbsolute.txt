@@ -12,3 +12,17 @@ C:\Users\210525AM\Documents\GitHub\SchoolCsharp\LIstAndLinQ\LIstAndLinQ\obj\Debu
 C:\Users\210525AM\Documents\GitHub\SchoolCsharp\LIstAndLinQ\LIstAndLinQ\obj\Debug\netcoreapp3.1\LIstAndLinQ.dll
 C:\Users\210525AM\Documents\GitHub\SchoolCsharp\LIstAndLinQ\LIstAndLinQ\obj\Debug\netcoreapp3.1\LIstAndLinQ.pdb
 C:\Users\210525AM\Documents\GitHub\SchoolCsharp\LIstAndLinQ\LIstAndLinQ\obj\Debug\netcoreapp3.1\LIstAndLinQ.genruntimeconfig.cache
+C:\Users\rryyo\Documents\GitHub\SchoolCsharp\LIstAndLinQ\LIstAndLinQ\bin\Debug\netcoreapp3.1\LIstAndLinQ.exe
+C:\Users\rryyo\Documents\GitHub\SchoolCsharp\LIstAndLinQ\LIstAndLinQ\bin\Debug\netcoreapp3.1\LIstAndLinQ.deps.json
+C:\Users\rryyo\Documents\GitHub\SchoolCsharp\LIstAndLinQ\LIstAndLinQ\bin\Debug\netcoreapp3.1\LIstAndLinQ.runtimeconfig.json
+C:\Users\rryyo\Documents\GitHub\SchoolCsharp\LIstAndLinQ\LIstAndLinQ\bin\Debug\netcoreapp3.1\LIstAndLinQ.runtimeconfig.dev.json
+C:\Users\rryyo\Documents\GitHub\SchoolCsharp\LIstAndLinQ\LIstAndLinQ\bin\Debug\netcoreapp3.1\LIstAndLinQ.dll
+C:\Users\rryyo\Documents\GitHub\SchoolCsharp\LIstAndLinQ\LIstAndLinQ\bin\Debug\netcoreapp3.1\LIstAndLinQ.pdb
+C:\Users\rryyo\Documents\GitHub\SchoolCsharp\LIstAndLinQ\LIstAndLinQ\obj\Debug\netcoreapp3.1\LIstAndLinQ.csproj.AssemblyReference.cache
+C:\Users\rryyo\Documents\GitHub\SchoolCsharp\LIstAndLinQ\LIstAndLinQ\obj\Debug\netcoreapp3.1\LIstAndLinQ.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rryyo\Documents\GitHub\SchoolCsharp\LIstAndLinQ\LIstAndLinQ\obj\Debug\netcoreapp3.1\LIstAndLinQ.AssemblyInfoInputs.cache
+C:\Users\rryyo\Documents\GitHub\SchoolCsharp\LIstAndLinQ\LIstAndLinQ\obj\Debug\netcoreapp3.1\LIstAndLinQ.AssemblyInfo.cs
+C:\Users\rryyo\Documents\GitHub\SchoolCsharp\LIstAndLinQ\LIstAndLinQ\obj\Debug\netcoreapp3.1\LIstAndLinQ.csproj.CoreCompileInputs.cache
+C:\Users\rryyo\Documents\GitHub\SchoolCsharp\LIstAndLinQ\LIstAndLinQ\obj\Debug\netcoreapp3.1\LIstAndLinQ.dll
+C:\Users\rryyo\Documents\GitHub\SchoolCsharp\LIstAndLinQ\LIstAndLinQ\obj\Debug\netcoreapp3.1\LIstAndLinQ.pdb
+C:\Users\rryyo\Documents\GitHub\SchoolCsharp\LIstAndLinQ\LIstAndLinQ\obj\Debug\netcoreapp3.1\LIstAndLinQ.genruntimeconfig.cache

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rryyo\\Documents\\GitHub\\SchoolCsharp\\LIstAndLinQ\\LIstAndLinQ\\LIstAndLinQ.csproj": {}
+    "C:\\Users\\rryyo\\Documents\\GitHub\\SchoolCsharp\\LIstAndLinQ\\ConsoleApp03\\ConsoleApp03.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rryyo\\Documents\\GitHub\\SchoolCsharp\\LIstAndLinQ\\LIstAndLinQ\\LIstAndLinQ.csproj": {
+    "C:\\Users\\rryyo\\Documents\\GitHub\\SchoolCsharp\\LIstAndLinQ\\ConsoleApp03\\ConsoleApp03.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rryyo\\Documents\\GitHub\\SchoolCsharp\\LIstAndLinQ\\LIstAndLinQ\\LIstAndLinQ.csproj",
-        "projectName": "LIstAndLinQ",
-        "projectPath": "C:\\Users\\rryyo\\Documents\\GitHub\\SchoolCsharp\\LIstAndLinQ\\LIstAndLinQ\\LIstAndLinQ.csproj",
+        "projectUniqueName": "C:\\Users\\rryyo\\Documents\\GitHub\\SchoolCsharp\\LIstAndLinQ\\ConsoleApp03\\ConsoleApp03.csproj",
+        "projectName": "ConsoleApp03",
+        "projectPath": "C:\\Users\\rryyo\\Documents\\GitHub\\SchoolCsharp\\LIstAndLinQ\\ConsoleApp03\\ConsoleApp03.csproj",
         "packagesPath": "C:\\Users\\rryyo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rryyo\\Documents\\GitHub\\SchoolCsharp\\LIstAndLinQ\\LIstAndLinQ\\obj\\",
+        "outputPath": "C:\\Users\\rryyo\\Documents\\GitHub\\SchoolCsharp\\LIstAndLinQ\\ConsoleApp03\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
