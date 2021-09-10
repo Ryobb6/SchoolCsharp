@@ -1,0 +1,7 @@
+C:\Users\rryyo\Documents\GitHub\SchoolCsharp\LIstAndLinQ\ConsoleApp02\bin\Debug\ConsoleApp02.exe.config
+C:\Users\rryyo\Documents\GitHub\SchoolCsharp\LIstAndLinQ\ConsoleApp02\bin\Debug\ConsoleApp02.exe
+C:\Users\rryyo\Documents\GitHub\SchoolCsharp\LIstAndLinQ\ConsoleApp02\bin\Debug\ConsoleApp02.pdb
+C:\Users\rryyo\Documents\GitHub\SchoolCsharp\LIstAndLinQ\ConsoleApp02\obj\Debug\ConsoleApp02.csproj.AssemblyReference.cache
+C:\Users\rryyo\Documents\GitHub\SchoolCsharp\LIstAndLinQ\ConsoleApp02\obj\Debug\ConsoleApp02.csproj.CoreCompileInputs.cache
+C:\Users\rryyo\Documents\GitHub\SchoolCsharp\LIstAndLinQ\ConsoleApp02\obj\Debug\ConsoleApp02.exe
+C:\Users\rryyo\Documents\GitHub\SchoolCsharp\LIstAndLinQ\ConsoleApp02\obj\Debug\ConsoleApp02.pdb
