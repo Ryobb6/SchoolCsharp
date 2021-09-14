@@ -71,20 +71,24 @@ namespace Tsuji_CSharp
         /// <param name="e"></param>
         private void ViewUserInfo(object sender, EventArgs e)
         {
-            //selectBoxIdのTextプロパティとUser型Listの要素(インスタンス)のidの値が
-            //一緒のインスタンスを   取得する。LINQのメソッドWhereとFirstメソッドを用いれば、
-            //一つだけインスタンスを取得できる。
+            // selectBoxIdのTextプロパティとUser型Listの要素(インスタンス)のidの値が
+            // 一緒のインスタンスを   取得する。LINQのメソッドWhereとFirstメソッドを用いれば、
+            // 一つだけインスタンスを取得できる。
+            try
+            {
+            // Whereは条件を満たすコレクションを返す(ジェネリクス型のコネクション)
+            IEnumerable<User> usersList2 = userList.Where(n => n.Id == (string)this.selectIdBox.SelectedItem);
 
-            // Whereは条件を満たすコレクションを返す
-            var usersList2 = userList.Where(n => n.Id == (string)this.selectIdBox.SelectedItem);
-           
             // 復習用コメント : First()について
             // そのコレクション(List)の中の先頭の要素(User型 インスタンス)を取得
             // (同じIDをもつユーザーがいないので、今回は先頭の要素しかないが...
             // 例えば、同じIDを持つユーザーが2人以上いた場合、
             // そのリストの中で、先頭の要素が返される
-
-            User usersInfo = usersList2.First(); // 復習用コメント : 本来はエラー処理必要(...らしい) 
+          
+            User usersInfo = usersList2.First(); 
+           
+            // 復習用コメント : 本来はエラー処理必要(...らしい) 
+            // Firstは要素が1つもなかった時に例外になる
 
             //取得したインスタンスの値を対応したTextBoxのTextプロパティに代入する。
             this.nameText.Text = usersInfo.Name;
@@ -93,6 +97,12 @@ namespace Tsuji_CSharp
             this.telText.Text = usersInfo.PhoneNumber;
             this.mailText.Text = usersInfo.MailAddress;
 
+            }
+            catch (InvalidOperationException ioe)
+            {
+                string errorMessage = ioe.Message;
+                Console.WriteLine(errorMessage);
+            }
         }
     }
 }
